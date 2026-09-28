@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-API_KEY = "e487a418fd484c9fae5cec36d1806c9c"
+API_KEY = os.environ.get("GNEWS_API_KEY", "e487a418fd484c9fae5cec36d1806c9c")
 BASE_URL = "https://gnews.io/api/v4/search"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -58,6 +58,78 @@ COMPANIES = {
 
 MAX_ARTICLES_PER_COMPANY = 10   # GNews free tier max per request
 DELAY_BETWEEN_REQUESTS   = 2    # seconds — stay well within rate limits
+
+# ── Part A: Alias-based company validation ────────────────────────────────────
+# Each company maps to a list of keywords that MUST appear in the headline
+# (case-insensitive) for it to be a genuine match.
+# If none of the keywords appear, the headline is rejected — even if GNews
+# returned it for that company's search query.
+# This permanently fixes mismatches like Apple Pay stories tagged as ICICI Bank.
+COMPANY_ALIASES = {
+    "TCS":         ["tcs", "tata consultancy"],
+    "Infosys":     ["infosys"],
+    "Wipro":       ["wipro"],
+    "HDFC Bank":   ["hdfc"],
+    "ICICI Bank":  ["icici"],
+    "Axis Bank":   ["axis bank"],
+    "SBI":         ["sbi", "state bank"],
+    "Reliance":    ["reliance", "jio"],
+    "ONGC":        ["ongc"],
+    "HUL":         ["hul", "hindustan unilever", "unilever"],
+    "ITC":         ["itc"],
+    "Maruti":      ["maruti", "suzuki"],
+    "Tata Motors": ["tata motors", "tata curvv", "tata punch", "tata.cars",
+                    "tata.ev", "tmcv"],
+    "Sun Pharma":  ["sun pharma", "sun pharmaceutical"],
+    "Dr Reddys":   ["dr. reddy", "dr reddy", "drreddy"],
+    "Tata Steel":  ["tata steel"],
+    "L&T":         ["l&t", "larsen", "larsen & toubro"],
+    "Airtel":      ["airtel", "bharti"],
+}
+
+def passes_alias_check(headline: str, company: str) -> bool:
+    """
+    Return True if the headline contains at least one alias keyword
+    for the given company. Headlines that don't mention the company
+    are rejected, even if GNews returned them for that search query.
+    """
+    aliases = COMPANY_ALIASES.get(company, [])
+    if not aliases:
+        return True   # no aliases defined — let it through
+    h = headline.lower()
+    return any(alias in h for alias in aliases)
+
+
+# ── Part B: Near-duplicate removal ───────────────────────────────────────────
+# The same story from 5 different outlets counts 5 times without this.
+# We use fuzzy token matching — two headlines are duplicates if they share
+# 90%+ of the same words regardless of order.
+DEDUP_THRESHOLD = 90   # similarity score 0–100
+
+def remove_near_duplicates(df: pd.DataFrame, threshold: int = DEDUP_THRESHOLD) -> pd.DataFrame:
+    """
+    Remove near-duplicate headlines within the same company using fuzzy matching.
+    Keeps the first occurrence; drops subsequent ones that are too similar.
+    """
+    from rapidfuzz import fuzz
+
+    keep = []
+    # Process per company so a Reliance headline can't be a dup of a TCS headline
+    for company, group in df.groupby("Company"):
+        seen_headlines: list[str] = []
+        for _, row in group.iterrows():
+            h = row["Headline"]
+            is_dup = any(
+                fuzz.token_set_ratio(h, seen) >= threshold
+                for seen in seen_headlines
+            )
+            if not is_dup:
+                seen_headlines.append(h)
+                keep.append(row)
+
+    if not keep:
+        return pd.DataFrame(columns=df.columns)
+    return pd.DataFrame(keep).reset_index(drop=True)
 
 # ── Junk filter ───────────────────────────────────────────────────────────────
 # Keywords that flag a headline as off-topic (case-insensitive substring match).
@@ -125,7 +197,13 @@ def fetch_headlines(company_name: str, query: str) -> list[dict]:
     clean = [r for r in rows if not is_junk(r["Headline"])]
     if len(clean) < len(rows):
         print(f"(filtered {len(rows) - len(clean)} junk)", end=" ", flush=True)
-    return clean
+
+    # Filter alias mismatches — headline must actually mention the company
+    validated = [r for r in clean if passes_alias_check(r["Headline"], r["Company"])]
+    if len(validated) < len(clean):
+        print(f"(rejected {len(clean) - len(validated)} mismatches)", end=" ", flush=True)
+
+    return validated
 
 
 def fetch_all_companies() -> pd.DataFrame:
@@ -251,6 +329,51 @@ if __name__ == "__main__":
         else:
             combined = new_df
             added    = len(combined)
+
+        combined.to_csv(OUTPUT_PATH, index=False)
+
+        # ── Near-duplicate removal across the full CSV ─────────────────────
+        before_dedup = len(combined)
+        combined = remove_near_duplicates(combined)
+        dupes_removed = before_dedup - len(combined)
+        if dupes_removed:
+            print(f"Removed {dupes_removed} near-duplicate headlines")
+
+        # ── Score new headlines with FinBERT ──────────────────────────────
+        # Only score rows that don't already have a Sentiment_Score.
+        # Skipped silently on the GitHub Actions runner where torch/transformers
+        # are not installed (requirements-fetch.txt excludes them to keep the
+        # runner fast). Scoring happens locally when you run this script
+        # with a full environment.
+        needs_scoring = (
+            "Sentiment_Score" not in combined.columns
+            or combined["Sentiment_Score"].isna().any()
+        )
+        if needs_scoring:
+            try:
+                import sys as _sys
+                _sys.path.insert(0, BASE_DIR)
+                from src.sentiment import analyze_sentiment as _score
+                print("\nScoring headlines with FinBERT...")
+                scored    = _score()
+                score_map = scored.set_index("Headline")[["Sentiment", "Sentiment_Score"]]
+                combined  = combined.copy()
+                if "Sentiment" not in combined.columns:
+                    combined["Sentiment"] = None
+                if "Sentiment_Score" not in combined.columns:
+                    combined["Sentiment_Score"] = None
+                for idx, row in combined.iterrows():
+                    if pd.isna(combined.at[idx, "Sentiment_Score"]):
+                        hl = row["Headline"]
+                        if hl in score_map.index:
+                            combined.at[idx, "Sentiment"]       = score_map.at[hl, "Sentiment"]
+                            combined.at[idx, "Sentiment_Score"] = score_map.at[hl, "Sentiment_Score"]
+                print(f"Scored {combined['Sentiment_Score'].notna().sum()} / {len(combined)} headlines")
+            except ImportError:
+                print("FinBERT not available in this environment — skipping scoring.")
+                print("Run fetch_news.py locally (with full requirements.txt) to score new headlines.")
+        else:
+            print("All headlines already scored — skipping FinBERT.")
 
         combined.to_csv(OUTPUT_PATH, index=False)
 

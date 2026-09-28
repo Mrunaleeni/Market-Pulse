@@ -1,0 +1,12 @@
+# Dependencies for fetch_news.py only.
+# Used by the GitHub Actions daily fetch workflow.
+# Intentionally excludes torch, transformers, streamlit, plotly — keeps the
+# runner fast and avoids the 440 MB FinBERT download on every CI run.
+# Sentiment scoring happens separately (scores are saved into news.csv).
+
+pandas==2.2.3
+requests==2.32.3
+yfinance==1.7.0
+rapidfuzz==3.10.1
+nltk==3.10.3
+numpy==2.4.2

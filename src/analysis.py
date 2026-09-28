@@ -48,6 +48,28 @@ TICKER_TO_COMPANY = {
     "AIRTEL":    "Airtel",
 }
 
+# ── Sector mapping ────────────────────────────────────────────────────────────
+# Used for sector-level pooled views on the dashboard.
+TICKER_SECTOR = {
+    "TCS":        "Technology",
+    "INFOSYS":    "Technology",
+    "RELIANCE":   "Energy",
+    "ONGC":       "Energy",
+    "HDFC":       "Banking",
+    "ICICI":      "Banking",
+    "AXISBANK":   "Banking",
+    "SBI":        "Banking",
+    "HUL":        "FMCG",
+    "ITC":        "FMCG",
+    "MARUTI":     "Auto",
+    "TATAMOTORS": "Auto",
+    "SUNPHARMA":  "Pharma",
+    "DRREDDY":    "Pharma",
+    "TATASTEEL":  "Metals & Infra",
+    "LT":         "Metals & Infra",
+    "AIRTEL":     "Telecom",
+}
+
 # Thin wrapper kept for backwards compatibility with ml_model.py
 from nltk.sentiment import SentimentIntensityAnalyzer as _SIA
 _sia = _SIA()
@@ -86,10 +108,15 @@ def load_stock_data() -> pd.DataFrame:
             continue
 
         df = df[["Date", close_col]].rename(columns={close_col: "Close"})
-        df["Date"]   = pd.to_datetime(df["Date"], errors="coerce")
-        df["Close"]  = pd.to_numeric(df["Close"], errors="coerce")
-        df["Return"] = df["Close"].pct_change(fill_method=None)
-        df["Ticker"] = ticker
+        df["Date"]      = pd.to_datetime(df["Date"], errors="coerce")
+        df["Close"]     = pd.to_numeric(df["Close"], errors="coerce")
+        df["Return"]    = df["Close"].pct_change(fill_method=None)
+        # Lagged returns — how much did the price move AFTER today's news?
+        # shift(-1) means "tomorrow's return" — the value from the next row
+        # shift(-3) means "3 days later" — captures slower market reactions
+        df["ret_next_day"] = df["Return"].shift(-1)
+        df["ret_3day"]     = df["Close"].pct_change(3).shift(-3)
+        df["Ticker"]    = ticker
         frames.append(df)
 
     if not frames:
@@ -101,24 +128,58 @@ def load_stock_data() -> pd.DataFrame:
     return combined
 
 
-# ── Weekend / holiday forward-fill ────────────────────────────────────────────
+# ── Weekend / holiday + after-hours forward-fill ─────────────────────────────
+NSE_CLOSE_UTC = 10   # NSE closes 15:30 IST = 10:00 UTC
+
 def forward_fill_to_trading_day(news_df: pd.DataFrame,
                                 trading_dates: pd.Series) -> pd.DataFrame:
     """
-    Advance each headline's date to the next available trading day so that
-    weekend and holiday news is matched to the Monday open rather than dropped.
+    Advance each headline's Merge_Date to the next available trading day when:
+      - The publication date falls on a weekend or market holiday, OR
+      - The headline was published after NSE close (10:00 UTC = 15:30 IST),
+        because post-close news cannot move today's price.
 
-    Adds a 'Merge_Date' column; the original 'Date' (publication date) is kept.
+    The original 'Date' (actual publication timestamp) is always preserved.
     Headlines with no subsequent trading day in the stock data are dropped.
     """
     trading_set = pd.DatetimeIndex(sorted(trading_dates.unique()))
 
     def next_trading_day(pub_date):
+        """Return the next trading day >= pub_date (same day counts if it's a trading day)."""
         future = trading_set[trading_set >= pub_date]
         return future[0] if len(future) else pd.NaT
 
+    def effective_trading_date(pub_date):
+        """
+        If we have a timezone-aware timestamp and the headline came out after
+        NSE close, push it to the NEXT trading day. Otherwise use the normal
+        next-trading-day logic (handles weekends/holidays).
+        """
+        try:
+            # pub_date is timezone-aware (has UTC offset)
+            if pub_date.tzinfo is not None and pub_date.hour >= NSE_CLOSE_UTC:
+                # Published after market close — affects next day's open
+                next_day = pub_date.normalize() + pd.Timedelta(days=1)
+                future = trading_set[trading_set >= next_day.tz_localize(None)]
+            else:
+                future = trading_set[trading_set >= pub_date.tz_localize(None)
+                                     if pub_date.tzinfo else trading_set[trading_set >= pub_date]]
+        except Exception:
+            future = trading_set[trading_set >= pub_date.replace(tzinfo=None)
+                                 if hasattr(pub_date, 'tzinfo') else trading_set[trading_set >= pub_date]]
+        return future[0] if len(future) else pd.NaT
+
     df = news_df.copy()
-    df["Merge_Date"] = df["Date"].apply(next_trading_day)
+
+    # Use after-hours logic only if timestamps are timezone-aware
+    # (GNews gives ISO timestamps with timezone; date-only strings are tz-naive)
+    sample = df["Date"].dropna().iloc[0] if not df["Date"].dropna().empty else None
+    if sample is not None and hasattr(sample, 'tzinfo') and sample.tzinfo is not None:
+        df["Merge_Date"] = df["Date"].apply(effective_trading_date)
+        log.debug("Using after-hours cutoff (timestamps are tz-aware).")
+    else:
+        df["Merge_Date"] = df["Date"].apply(next_trading_day)
+        log.debug("Using date-only forward-fill (timestamps are tz-naive).")
 
     dropped = df["Merge_Date"].isna().sum()
     if dropped:
@@ -141,6 +202,75 @@ def get_available_tickers() -> list[str]:
         os.path.basename(f).replace("_2026.csv", "").replace(".csv", "")
         for f in files
     )
+
+
+# ── Pooled pipeline ───────────────────────────────────────────────────────────
+def analyze_all_companies(pre_scored_news: pd.DataFrame | None = None,
+                          sector: str | None = None) -> pd.DataFrame:
+    """
+    Run analyze_data() for every ticker that has both stock data and headlines,
+    then concatenate the results into one DataFrame.
+
+    This is the pooled view — each company's news is still matched only to its
+    own stock prices, but all rows are combined so you get a much larger n for
+    correlation.
+
+    Parameters
+    ----------
+    pre_scored_news : DataFrame or None
+        Pre-scored headlines from FinBERT — passed through to analyze_data()
+        so the model doesn't re-run for each ticker.
+    sector : str or None
+        If given (e.g. "Banking"), only include tickers from that sector.
+        If None, include all available tickers.
+
+    Returns
+    -------
+    Same column structure as analyze_data(), plus a 'Sector' column.
+    """
+    tickers = get_available_tickers()
+
+    # Filter by sector if requested
+    if sector:
+        tickers = [t for t in tickers if TICKER_SECTOR.get(t) == sector]
+
+    frames = []
+    for t in tickers:
+        company_label = TICKER_TO_COMPANY.get(t)
+        if not company_label:
+            continue
+        # Check this company actually has headlines — skip silently if not
+        if pre_scored_news is not None:
+            has_news = (pre_scored_news.get("Company", pd.Series(dtype=str)) == company_label).any()
+        else:
+            import pandas as _pd
+            _news = _pd.read_csv(NEWS_PATH)
+            has_news = (company_label in _news.get("Company", _pd.Series(dtype=str)).values)
+        if not has_news:
+            continue
+
+        try:
+            df = analyze_data(ticker=t, pre_scored_news=pre_scored_news)
+        except Exception as e:
+            log.warning("Skipping %s in pooled view: %s", t, e)
+            continue
+
+        if df.empty:
+            continue
+
+        df["Ticker"] = t
+        df["Sector"] = TICKER_SECTOR.get(t, "Other")
+        frames.append(df)
+
+    if not frames:
+        return pd.DataFrame()
+
+    pooled = pd.concat(frames, ignore_index=True)
+    log.debug(
+        "analyze_all_companies(sector=%s): %d rows across %d tickers.",
+        sector, len(pooled), len(frames)
+    )
+    return pooled
 
 
 # ── Main pipeline ─────────────────────────────────────────────────────────────
@@ -166,14 +296,18 @@ def analyze_data(ticker: str | None = None,
                             Sentiment_Score, Close, Return
     (plus Published_Date when any headlines were forward-filled)
     """
-    # --- News + sentiment scores (one FinBERT pass for the whole file) ---
-    # If pre-scored news is supplied (e.g. cached by the dashboard), use it
-    # directly instead of re-running FinBERT. This means switching companies
-    # only re-filters and re-merges — it never re-runs the model.
+    # --- News + sentiment scores ---
+    # Prefer pre-scored news if supplied (backwards compatibility).
+    # Otherwise read directly from news.csv — scores are saved there by
+    # fetch_news.py at fetch time, so the dashboard never needs to run FinBERT.
     if pre_scored_news is not None:
         news_df = pre_scored_news.copy()
     else:
-        news_df = _analyze_sentiment()
+        news_df = pd.read_csv(NEWS_PATH)
+        # If scores are missing (e.g. CSV predates Step 5), fall back to FinBERT
+        if "Sentiment_Score" not in news_df.columns or news_df["Sentiment_Score"].isna().all():
+            log.warning("Sentiment scores missing from news.csv — running FinBERT now.")
+            news_df = _analyze_sentiment()
     news_df["Date"] = pd.to_datetime(news_df["Date"], errors="coerce")
 
     # --- Stock prices ---
@@ -186,7 +320,7 @@ def analyze_data(ticker: str | None = None,
                 f"Ticker '{ticker}' not found. "
                 f"Available: {stock_df['Ticker'].unique().tolist()}"
             )
-        daily_stock = ticker_df[["Date", "Close", "Return"]]
+        daily_stock = ticker_df[["Date", "Close", "Return", "ret_next_day", "ret_3day"]]
 
         # Filter news to only this company's headlines
         company_label = TICKER_TO_COMPANY.get(ticker)
@@ -204,16 +338,44 @@ def analyze_data(ticker: str | None = None,
         daily_stock = (
             stock_df
             .groupby("Date", as_index=False)
-            .agg(Close=("Close", "mean"), Return=("Return", "mean"))
+            .agg(
+                Close=("Close", "mean"),
+                Return=("Return", "mean"),
+                ret_next_day=("ret_next_day", "mean"),
+                ret_3day=("ret_3day", "mean"),
+            )
         )
         filtered_news = news_df
 
     # --- Forward-fill weekends/holidays to next trading day ---
     filtered_news = forward_fill_to_trading_day(filtered_news, daily_stock["Date"])
 
+    # --- Part C: Aggregate to one row per company per trading day -----------
+    # If 4 HUL headlines land on the same day, average their sentiment scores
+    # into one number before merging. Otherwise one busy news day gets 4x the
+    # weight of a quiet day in the correlation, which is not meaningful.
+    agg_news = (
+        filtered_news
+        .groupby("Merge_Date", as_index=False)
+        .agg(
+            Sentiment_Score=("Sentiment_Score", "mean"),
+            Headline=("Headline", lambda x: " | ".join(x)),   # join for display
+            Sentiment=("Sentiment", lambda x: x.mode()[0]),   # most common label
+            n_headlines=("Headline", "count"),
+        )
+    )
+    # Preserve Company column if present
+    if "Company" in filtered_news.columns:
+        company_per_date = (
+            filtered_news.groupby("Merge_Date")["Company"].first().reset_index()
+        )
+        agg_news = agg_news.merge(company_per_date, on="Merge_Date", how="left")
+
+    log.debug("After daily aggregation: %d rows (was %d)", len(agg_news), len(filtered_news))
+
     # --- Merge on Merge_Date ---
     merged_df = pd.merge(
-        filtered_news,
+        agg_news,
         daily_stock,
         left_on="Merge_Date",
         right_on="Date",
