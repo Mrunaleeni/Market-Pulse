@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-API_KEY = os.environ.get("GNEWS_API_KEY", "e487a418fd484c9fae5cec36d1806c9c")
+API_KEY = os.environ.get("GNEWS_API_KEY", "")  # set GNEWS_API_KEY env var
 BASE_URL = "https://gnews.io/api/v4/search"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,14 +38,14 @@ COMPANIES = {
     "Axis Bank":    "Axis Bank India",
     "SBI":          "SBI State Bank India",
     # Energy & Conglomerates
-    "Reliance":     "Reliance Industries India",
+    "Reliance":     "\"Reliance Industries\" OR \"RIL\" OR \"Jio Platforms\" India stock",
     "ONGC":         "ONGC Oil Natural Gas India",
     # FMCG & Consumer
     "HUL":          "Hindustan Unilever India",
-    "ITC":          "ITC India FMCG cigarettes",
+    "ITC":          "\"ITC Limited\" OR \"ITC Ltd\" India FMCG stock",
     # Auto
     "Maruti":       "Maruti Suzuki India",
-    "Tata Motors":  "Tata Motors India EV",
+    "Tata Motors":  "\"Tata Motors\" India EV passenger commercial vehicle",
     # Pharma
     "Sun Pharma":   "Sun Pharmaceutical India",
     "Dr Reddys":    "Dr Reddy Laboratories India",
@@ -71,20 +71,27 @@ COMPANY_ALIASES = {
     "Wipro":       ["wipro"],
     "HDFC Bank":   ["hdfc"],
     "ICICI Bank":  ["icici"],
-    "Axis Bank":   ["axis bank"],
+    "Axis Bank":   ["axis bank", "axis"],
     "SBI":         ["sbi", "state bank"],
-    "Reliance":    ["reliance", "jio"],
+    # "Reliance" alone is too generic (matches Reliance Entertainment, Reliance Infra etc.)
+    # Require either "Reliance Industries", "Reliance Ltd", "RIL", or "Jio"
+    "Reliance":    ["reliance industries", "reliance ltd", " ril ", "jio", "reliance-bp",
+                    "reliance's", "relianceindustries"],
     "ONGC":        ["ongc"],
     "HUL":         ["hul", "hindustan unilever", "unilever"],
     "ITC":         ["itc"],
     "Maruti":      ["maruti", "suzuki"],
-    "Tata Motors": ["tata motors", "tata curvv", "tata punch", "tata.cars",
-                    "tata.ev", "tmcv"],
+    # "Tata" alone matches dozens of unrelated Tata group companies
+    # Accept "Tata Motors" or major product names, plus "Tata EV" / "Tata.ev"
+    "Tata Motors": ["tata motors", "tata curvv", "tata punch", "tata nexon",
+                    "tata harrier", "tata safari", "tata sierra", "tata.cars",
+                    "tata.ev", "tata ev", "tmcv", "tata passenger"],
     "Sun Pharma":  ["sun pharma", "sun pharmaceutical"],
-    "Dr Reddys":   ["dr. reddy", "dr reddy", "drreddy"],
+    "Dr Reddys":   ["dr. reddy", "dr reddy", "drreddy", "dr.reddy"],
     "Tata Steel":  ["tata steel"],
-    "L&T":         ["l&t", "larsen", "larsen & toubro"],
-    "Airtel":      ["airtel", "bharti"],
+    "L&T":         ["l&t", "larsen", "larsen & toubro", "larsen and toubro"],
+    "Airtel":      ["airtel", "bharti airtel", "bharti"],
+    "ITC":         ["itc limited", "itc ltd", " itc ", "itc's", "itc-"],
 }
 
 def passes_alias_check(headline: str, company: str) -> bool:
@@ -146,6 +153,51 @@ JUNK_KEYWORDS = [
     "satcom",
     "trai chairman",
     "chief human resources officer",  # HR appointments at unrelated companies
+    # Market roundup articles — no single event, not useful for event study
+    "stocks in news",
+    "stocks to watch",
+    "stocks in focus",
+    "stocks to hog",
+    "buzzing stocks",
+    "5 stocks",
+    "10 stocks",
+    "12 stocks",
+    "top stocks",
+    "52-week low",
+    "52-week high",
+    "week lows",
+    "week highs",
+    "hit 52-week",
+    # Bank FD / festive offers — not company events
+    "bank fd rates",
+    "fixed deposit rates",
+    "festive bonanza",
+    "festive offers",
+    "festive season",
+    "credit card purchases",
+    # F&O / technical analysis roundups
+    "rsi trending",
+    "marubozu pattern",
+    "vwap",
+    "open interest",
+    "f&o stocks",
+    "futures open interest",
+    # Share price movement roundups
+    "what's up with",
+    "market wrap",
+    "top gainers and loser",
+    "gap-up fades",
+    "nifty holds",
+    "shares defy weak",
+    "shares bounce back",
+    "shares shed early gains",
+    # Bank holiday / branch notices
+    "bank holiday",
+    "branch closing",
+    "branch shifting",
+    # Mutual fund / index composition roundups
+    "sip top perf",
+    "could replace",
 ]
 
 def is_junk(headline: str) -> bool:
@@ -224,6 +276,7 @@ def fetch_all_companies() -> pd.DataFrame:
 
     df = pd.DataFrame(all_rows)
     df["Date"] = pd.to_datetime(df["Date"])
+    df["Source"] = "gnews"
     df = df.sort_values("Date").drop_duplicates(subset=["Headline"]).reset_index(drop=True)
     return df
 
@@ -332,6 +385,16 @@ if __name__ == "__main__":
 
         combined.to_csv(OUTPUT_PATH, index=False)
 
+        # ── Migrate Source column ─────────────────────────────────────────
+        # Ensures all rows have a Source value. Existing rows that were
+        # collected before the Source column existed get 'gnews'. New rows
+        # fetched by this script also get 'gnews'. Rows from backfill scripts
+        # already carry their own Source value and are not overwritten.
+        if "Source" not in combined.columns:
+            combined["Source"] = "gnews"
+        else:
+            combined["Source"] = combined["Source"].fillna("gnews")
+
         # ── Near-duplicate removal across the full CSV ─────────────────────
         before_dedup = len(combined)
         combined = remove_near_duplicates(combined)
@@ -374,6 +437,37 @@ if __name__ == "__main__":
                 print("Run fetch_news.py locally (with full requirements.txt) to score new headlines.")
         else:
             print("All headlines already scored — skipping FinBERT.")
+
+        # ── Tag headlines with event type ─────────────────────────────────
+        # Tags each headline with one of 8 event categories (company_results,
+        # corporate_action, management, analyst_action, regulatory_legal,
+        # business_news, sector_policy, macro, unclassified).
+        # Only rows missing Event_Type are re-tagged; existing tags are kept.
+        # Uses keyword/regex rules (fast, no GPU). Zero-shot BART fallback is
+        # opt-in via USE_ZERO_SHOT=true env var — not used in CI.
+        needs_tagging = (
+            "Event_Type" not in combined.columns
+            or combined["Event_Type"].isna().any()
+            or (combined["Event_Type"] == "").any()
+        )
+        if needs_tagging:
+            try:
+                from src.events import tag_events_batch
+                print("\nTagging headlines with event types...")
+                if "Event_Type" not in combined.columns:
+                    combined["Event_Type"] = None
+                # Only re-tag rows that don't have a tag yet
+                mask = combined["Event_Type"].isna() | (combined["Event_Type"] == "")
+                untagged_headlines = combined.loc[mask, "Headline"].tolist()
+                if untagged_headlines:
+                    tags = tag_events_batch(untagged_headlines)
+                    combined.loc[mask, "Event_Type"] = tags
+                coverage = (combined["Event_Type"] != "unclassified").sum()
+                print(f"Tagged {coverage} / {len(combined)} headlines (non-unclassified)")
+            except ImportError as e:
+                print(f"Event tagger not available: {e} — skipping.")
+        else:
+            print("All headlines already tagged — skipping event tagger.")
 
         combined.to_csv(OUTPUT_PATH, index=False)
 

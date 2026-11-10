@@ -1,73 +1,1075 @@
-Date,Headline,Company,Sentiment,Sentiment_Score
-2026-08-28,Airtel Gains More Users Than Jio In July; Vi Is Left Behind,Airtel,Positive,0.8982436656951904
-2026-08-28,"Airtel gains 26.8 lakh mobile users in July, Jio's wireless net adds at 24.4 lakh",Airtel,Positive,0.8873748183250427
-2026-09-14,"Trai Probes Vodafone Idea Over Airtel, Jio Allegations Of Mobile Number Portability Violations",Airtel,Negative,-0.888898491859436
-2026-09-22,"Google Trend: Bharti to Jio, telecom stocks that dominated search interest this month",Airtel,Neutral,0.0
-2026-09-18,Apple Pay may finally come to India next month; Axis bank tie up reported,Axis Bank,Neutral,0.0
-2026-09-18,Apple Pay To Be Launched in India Next Month With Axis Bank Credit Cards: Report,Axis Bank,Neutral,0.0
-2026-09-21,Apple Pay to launch in India next month with Axis Bank credit cards: Report,Axis Bank,Neutral,0.0
-2026-09-24,Axis Bank readies major customer-connect initiative to mark World Tourism Day,Axis Bank,Positive,0.5884040594100952
-2026-09-15,Dr. Reddy’s Laboratories launches Nivorz in India,Dr Reddys,Neutral,0.0
-2026-09-15,Dr. Reddy's launches nivolumab biosimilar in India,Dr Reddys,Neutral,0.0
-2026-09-18,Takeda and Dr. Reddy’s Laboratories enter into exclusive collaboration to promote and distribute QDENGA® in India’s pediatric and adult private market,Dr Reddys,Positive,0.8373416662216187
-2026-09-18,QDENGA dengue vaccine to hit India market in 2027; Dr Reddy’s to sell it,Dr Reddys,Neutral,0.0
-2026-09-21,Takeda and Dr. Reddy''s Laboratories Enter Into Exclusive Collaboration to Promote and Distribute QDENGA® in India''s Pediatric and Adult Private Market,Dr Reddys,Positive,0.8659769892692566
-2026-09-21,"RBI weighs Anup Bagchi for HDFC top job; seeks feedback from Irda, ICICI Bank on his candidature due to 3-year gap from mainstream banking",HDFC Bank,Neutral,0.0
-2026-09-21,"Bank Strike Sept 28-30: What consumers should know about UPI, ATM transaction, cash withdrawal from SBI, HDFC Banks",HDFC Bank,Neutral,0.0
-2026-09-21,RBI Weighs Bagchi for HDFC Top Job,HDFC Bank,Neutral,0.0
-2026-09-21,Calcutta HC extends interim order on AITC's three HDFC Bank accounts till January 29,HDFC Bank,Negative,-0.5285608768463135
-2026-09-22,"Google Trends: HDFC Bank, Gold among most searched financial market themes in last 1 month",HDFC Bank,Neutral,0.0
-2026-09-24,"Bank holidays in October 2026: SBI, HDFC, and other lenders to remain shut for up to 11 days - Check RBI calendar",HDFC Bank,Neutral,0.0
-2026-09-04,HUL plans capex boost; eyes entry into new areas,HUL,Positive,0.8777052164077759
-2026-09-07,From $63-a-head FMCG spending to a bigger consumption economy: HUL’s ‘Winning in New India’ plan,HUL,Positive,0.8200469613075256
-2026-09-07,HUL stock outlook: Brokerages see up to 26% upside as FMCG major sharpens ‘New India’ growth strategy,HUL,Positive,0.9469936490058899
-2026-09-09,"Hindustan Unilever unveils New India growth strategy, targets 22-24% EBITDA margin",HUL,Positive,0.8694642782211304
-2026-09-09,India is a blueprint for Unilever's emerging markets: global CEO Fernando Fernandez,HUL,Neutral,0.0
-2026-09-11,"Buy or sell Granules, HAL, HUL shares? Ajit Mishra of Religare Broking suggests trading strategies for these stocks",HUL,Neutral,0.0
-2026-09-11,"Where there’s a will, there’s a whey: HUL bets Horlicks can catch up in protein race",HUL,Neutral,0.0
-2026-09-16,"RIL, HUL, Nestle, Tata Consumer, Hyundai shares on the rise today",HUL,Positive,0.8493466377258301
-2026-09-09,"Indian IT stocks led by Infosys, TCS, lose over ₹1 lakh crore in market cap this week so far",Infosys,Negative,-0.9722665548324585
-2026-09-23,"NSE may pip Infosys, Titan, Kotak Bank on D St debut; 5% premium could secure top 10 spot",Infosys,Positive,0.8875343203544617
-2026-09-25,"Infosys nears July lows, Wipro hits fresh 52-week low",Infosys,Negative,-0.9499410390853882
-2026-09-09,"L&T wins Rs 2,500-5,000 crore ONGC offshore order for three well-head platforms",L&T,Positive,0.9251291751861572
-2026-09-09,L&T Secures Major Offshore Order from ONGC to Boost India's Energy Infrastructure,L&T,Positive,0.9458503723144531
-2026-09-23,Maruti Suzuki targets 30% women students at Haryana’s Uncha Majra JIM by 2028-29,Maruti,Neutral,0.0
-2026-09-24,Maruti Suzuki India commissions green hydrogen plant at Manesar to support low,Maruti,Positive,0.8345848917961121
-2026-09-24,Maruti Suzuki commissions first 300 kW green hydrogen plant at Manesar,Maruti,Neutral,0.0
-2026-09-24,Maruti Suzuki India commissions 300 kW Green Hydrogen (GH2) electrolyzer plant,Maruti,Neutral,0.0
-2026-09-25,Suzuki to cut vehicle development time by half by 2030; India capacity target at 4 million,Maruti,Negative,-0.4093090891838074
-2026-09-25,Maruti Suzuki plans 4 million unit production capacity in India by FY30,Maruti,Neutral,0.0
-2026-09-25,"Suzuki targets half-time vehicle development; small EVs, REEVs on cards",Maruti,Neutral,0.0
-2026-09-25,Tata Motors Takes on Maruti Suzuki’s Dzire With New Aeris Sedan,Maruti,Neutral,0.0
-2026-09-25,Suzuki Targets 4 Million Vehicles of Annual Production in India by FY30,Maruti,Neutral,0.0
-2026-09-09,"5,000 crore ONGC order to develop offshore assets, boost production",ONGC,Positive,0.8860092759132385
-2026-09-21,ONGC strikes gas in deepwater well off Odisha coast,ONGC,Negative,-0.8064280152320862
-2026-09-21,"ONGC strikes gas in deep waters of Mahanadi Basin,  Hardeep Puri says major milestone for India’s offshore energy exploration",ONGC,Positive,0.6851230263710022
-2026-09-22,"In major milestone for India’s offshore energy exploration, ONGC strikes gas in Mahanadi Basin, 43 km off Odisha coast; proximity could enable faster monetisation if commercially viable",ONGC,Positive,0.8564064502716064
-2026-09-23,"Deep beneath Odisha’s waters, ONGC finds gas: How Mission Samudra Manthan’s latest discovery could open a new chapter for India’s energy hunt",ONGC,Neutral,0.0
-2026-09-24,ONGC to continue drilling after gas discovery in Mahanadi basin; India to retain 20% ethanol blending: Hardeep Puri,ONGC,Positive,0.7640449404716492
-2026-09-08,Jio Platforms to begin investor outreach for IPO next week,Reliance,Neutral,0.0
-2026-09-10,"Stocks in news: Reliance Industries, Wipro, ICICI Bank, Coal India and Hindustan Zinc",Reliance,Neutral,0.0
-2026-09-11,Reliance Industries to host investors at Jefferies India Forum on Sep 17,Reliance,Neutral,0.0
-2026-09-24,"Reliance to raise Rs 10,000 crore next week as companies rush to tap surplus bank liquidity",Reliance,Positive,0.8710450530052185
-2026-09-23,"MDR to help SBI recoup costs, generate modest profits says senior official",SBI,Positive,0.8861687183380127
-2026-09-23,"SBI expects surplus from new UPI MDR as issuing, acquiring bank",SBI,Positive,0.8031541705131531
-2026-09-25,"SBI Waives ATM Charges During Nationwide Bank Strike From Sep 28 To 30, Digital Services To Remain Operational",SBI,Neutral,0.0
-2026-09-25,Nationwide bank strike: SBI waives ATM charges for 3 days,SBI,Negative,-0.937188982963562
-2026-09-25,"SBI offers free online courses on AI, banking, finance, marketing and more: Check details",SBI,Neutral,0.0
-2026-09-25,"Bank strike from Sept 28-30: SBI waives ATM charges for 3 days, UPI, NEFT, RTGS to work",SBI,Neutral,0.0
-2026-09-25,"State Bank of India offers free online courses on AI, Marketing, Personal Branding, Finance and more",SBI,Neutral,0.0
-2026-08-31,Trump announces drug pricing deals with India's Sun Pharma and 8 more drug companies,Sun Pharma,Neutral,0.0
-2026-09-01,Sun Pharma Agrees to MFN Drug Pricing In US To Delay Tariffs On Innovative Medicines,Sun Pharma,Positive,0.569897472858429
-2026-09-09,TCS launches fully automated facility in Pune to advance AI-led manufacturing,TCS,Positive,0.6493467688560486
-2026-09-15,Tata Consultancy Services signs AI transformation deal with Aareal Bank,TCS,Positive,0.6985814571380615
-2026-09-15,Tata Consultancy Services signs deal with DGCX to upgrade derivatives infrastructure,TCS,Positive,0.837898313999176
-2026-09-15,"TCS, Infosys, HCLTech, Tech Mahindra, Wipro shares jump; Nifty IT rises 5% in early trade. Here's why",TCS,Neutral,0.0
-2026-09-15,TCS partners with Dubai Gold & Commodities Exchange to upgrade derivatives market infrastructure,TCS,Positive,0.8456726670265198
-2026-09-15,TCS shares jumps 5% as DGCX partnership lift stocks,TCS,Positive,0.9278797507286072
-2026-09-17,TCS expands semiconductor push: Enters custom chip design services for next-gen auto OEMs,TCS,Neutral,0.0
-2026-09-17,"TCS rolls out custom chip design services for automotive, semiconductor sectors",TCS,Neutral,0.0
-2026-08-28,"Tata Motors launches Tata.Cars brand for passenger vehicles, Tata.ev to continue for EVs",Tata Motors,Neutral,0.0
-2026-09-04,"Tata Curvv launched in India: Check on-road price for EV, petrol variants, mileage, and all you need to know",Tata Motors,Neutral,0.0
-2026-09-14,Tata Punch becomes more expensive: Here’s by how much,Tata Motors,Neutral,0.0
-2026-09-25,One fourth of cars sold by Tata Motors Passenger Vehicles are now EVs,Tata Motors,Neutral,0.0
+Date,Headline,Company,Sentiment,Sentiment_Score,Event_Type,Source
+2026-08-28,Airtel Gains More Users Than Jio In July; Vi Is Left Behind,Airtel,Positive,0.8982436656951904,unclassified,gnews
+2026-08-28,"Airtel gains 26.8 lakh mobile users in July, Jio's wireless net adds at 24.4 lakh",Airtel,Positive,0.8873748183250427,unclassified,gnews
+2026-09-14,"Trai Probes Vodafone Idea Over Airtel, Jio Allegations Of Mobile Number Portability Violations",Airtel,Negative,-0.888898491859436,unclassified,gnews
+2026-09-22,Airtel enhances Rs 999 postpaid plans with Apple’s expanded iCloud+ bundle,Airtel,Neutral,0.0,business_news,newsapi
+2026-09-22,"Airtel adds Apple TV, Apple Arcade to ₹999+ family postpaid plans",Airtel,Neutral,0.0,business_news,newsapi
+2026-09-22,Airtel to offer complementary iCloud service to iPhone users,Airtel,Neutral,0.0,business_news,newsapi
+2026-09-22,Airtel adds Apple perks to Rs 999 and higher postpaid plans,Airtel,Neutral,0.0,business_news,newsapi
+2026-09-22,"Bharti Airtel adds Apple's iCloud+, Apple TV and Apple Arcade to its Rs 999 family postpaid plan",Airtel,Neutral,0.0,business_news,newsapi
+2026-09-22,"Google Trend: Bharti to Jio, telecom stocks that dominated search interest this month",Airtel,Neutral,0.0,unclassified,gnews
+2026-09-22,"Airtel bundles Apple iCloud+, Apple TV with ₹999 postpaid plans without hiking tariffs",Airtel,Neutral,0.0,business_news,newsapi
+2026-09-23,Airtel Money files for potential London IPO of at least $800 million,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-23,Airtel Africa's mobile money arm to file for London IPO,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-23,"Trai mandates voice, SMS-only tariff plans despite Jio, Airtel, Vi opposition",Airtel,Neutral,0.0,company_results,newsapi
+2026-09-23,Airtel Money Plans London Listing,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-23,Airtel Money files for London IPO through offer for sale by shareholders,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,"Airtel Money plans to list on LSE, looks to raise $800mn",Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,Does Airtel Money mark the end of London’s listing drought? Not yet | Nils Pratley,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,Airtel Money IPO signals a route back for London’s market,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,Airtel Money eyes London listing via secondary OFS,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,Airtel Money plans biggest London listing since 2021,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,Airtel Money to list on LSE with final offer price by mid-October,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-09-24,"What’s up with… Telefónica España, AI glasses, Airtel Money",Airtel,Neutral,0.0,unclassified,newsapi
+2026-09-26,Detected 98.4B spam calls with AI-powered system over 2 years: Airtel,Airtel,Negative,-0.3612,business_news,newsapi
+2026-09-29,"Jio leads India’s August mobile subscriber additions, Airtel close behind: TRAI",Airtel,Neutral,0.0,company_results,newsapi
+2026-09-29,"India adds 5.5 million mobile users in August; Jio, Airtel drive bulk of gains: TRAI",Airtel,Positive,0.34,company_results,newsapi
+2026-09-29,"Jio gains 2.4 million mobile users in August, Airtel 2.1 million: TRAI data",Airtel,Positive,0.34,company_results,newsapi
+2026-09-29,"Bharti Airtel, Vi shares rise up to 2% after telcos add 26 lakh mobile subscribers in Aug. Which is Nomura’s top pick?",Airtel,Positive,0.6135160326957703,unclassified,gnews
+2026-09-30,"Airtel an institution; next gen can decide on other biz, says Mittal",Airtel,Neutral,0.0,unclassified,newsapi
+2026-10-01,Airtel Money prices IPO at £1.96 per share,Airtel,Positive,0.296,corporate_action,newsapi
+2026-10-01,Airtel Money bets on payment growth as $800M London IPO takes shape,Airtel,Positive,0.3818,corporate_action,newsapi
+2026-10-02,"Airtel Money targets $7 billion valuation, plans $703 million London IPO",Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-02,Airtel Money to raise £529 million in LSE IPO at £5.3 billion valuation,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-06,"What’s up with… Deutsche Telekom, European satellite operators, Airtel Business",Airtel,Neutral,0.0,unclassified,newsapi
+2026-10-06,Airtel launches unified business messaging platform to tackle enterprise fraud and fragmented communications,Airtel,Negative,-0.296,regulatory_legal,newsapi
+2026-10-07,"Bharti Airtel shares rise over 2% after postpaid tariff hike, Motilal Oswal retains buy",Airtel,Positive,0.296,analyst_action,newsapi
+2026-10-07,"Mobile bills may rise again: 12–15% telecom tariff hike likely in 4–5 months. What it means for Jio, Airtel, Vi users",Airtel,Neutral,0.0,sector_policy,newsapi
+2026-10-07,"Airtel launches free international roaming, hikes postpaid tariffs by ₹50",Airtel,Positive,0.5106,business_news,newsapi
+2026-10-07,"Not just RIL, Jio's ₹11 trn IPO could benefit Airtel investors; here's why",Airtel,Positive,0.4588,corporate_action,newsapi
+2026-10-07,"Bharti Airtel hikes postpaid tariffs by ₹50, adds free international roaming",Airtel,Positive,0.5106,business_news,newsapi
+2026-10-07,"Airtel Nigeria wins innovation, CSR awards",Airtel,Positive,0.8519,unclassified,newsapi
+2026-10-08,'OneWeb is waiting too': Bharti Airtel chairman Sunil Bharti Mittal responds to Musk’s allegations of bias in satellite service approvals,Airtel,Negative,-0.1027,management,newsapi
+2026-10-08,Airtel raises postpaid tariff by ₹50 in a bundle of one free international roaming,Airtel,Positive,0.5106,business_news,newsapi
+2026-10-08,"Airtel hikes postpaid tariffs, others may follow",Airtel,Neutral,0.0,business_news,newsapi
+2026-10-08,"Airtel showcases sovereign cloud, AI security, quantum telecom research to Scindia at IMC 2026",Airtel,Neutral,0.0,unclassified,gnews
+2026-10-08,"Airtel hikes postpaid tariffs after over two years, sets the tone for peers",Airtel,Neutral,0.0,business_news,newsapi
+2026-10-09,Airtel Money kicks off £5.3 billion London IPO,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-09,Airtel Money to debut after London’s biggest IPO in five years,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-09,Airtel Money lists on London Stock Exchange at $7 billion valuation,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-09,Airtel Money Shares Open Higher on First Trading Day But $7 Billion Valuation Misses Mark,Airtel,Negative,-0.1901,unclassified,newsapi
+2026-10-09,Airtel Money to debut on London Stock Exchange; biggest listing in 5 yrs,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-09,OpenAI Sees $70B Revenue; Airtel Money Seeks Biggest UK IPO Since 2021,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-10,Airtel Money lists on LSE at £5.3bn valuation,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-10,We have grown faster than industry in our data center business: Airtel Business CEO,Airtel,Neutral,0.0,management,newsapi
+2026-10-10,Airtel Money debuts on LSE in biggest listing in 5 years,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-10,"Airtel ARPU will cross Rs 300 very soon, need to upgrade customers, says CEO Shashwat Sharma",Airtel,Neutral,0.0,management,newsapi
+2026-10-10,Must have tariff hikes at the right time: Airtel MD & CEO Shashwat Sharma,Airtel,Neutral,0.0,management,newsapi
+2026-10-10,Airtel Money makes London Stock Exchange debut,Airtel,Neutral,0.0,corporate_action,newsapi
+2026-10-11,Guardrails key to unlocking AI gains for enterprises: Airtel Business CEO,Airtel,Positive,0.34,management,newsapi
+2026-10-11,"Airtel Business CEO backs AI regulation, says guardrails can unlock productivity gains",Airtel,Positive,0.296,management,newsapi
+2026-10-12,Why Nomura prefers Airtel in telecom sector even as Jio gears up to list,Airtel,Neutral,0.0,analyst_action,newsapi
+2026-10-12,Airtel’s Sunil Mittal to be conferred with France’s highest civilian award,Airtel,Positive,0.5731094479560852,unclassified,gnews
+2026-10-13,Airtel Money makes weak London market debut,Airtel,Negative,-0.4404,corporate_action,newsapi
+2026-10-14,‘We’ll be very happy to get it at least a few days before him’: Sunil Bharti Mittal on Musk’s Starlink satellite internet approval in India,Airtel,Positive,0.796,unclassified,et
+2026-10-15,Bharti Airtel vs Vodafone Idea: Top 5 mutual funds by exposure - could Reliance Jio's listing reshuffle portfolios?,Airtel,Neutral,0.0,unclassified,gnews
+2026-10-18,Bharti Airtel launches voice-only prepaid plans starting at Rs 185 after TRAI's mandate,Airtel,Neutral,0.0,company_results,gnews
+2026-10-27,"India adds 6.57 million mobile subscribers in September, Jio and Airtel account for over 5.3 million additions: TRAI",Airtel,Neutral,0.0,company_results,gnews
+2026-10-27,"Jio, Airtel lead India's 7.2M telecom subscriber additions",Airtel,Neutral,0.0,business_news,gnews
+2026-10-28,Jio Platforms shares listing: Telecom major lists at 21% premium; surpasses Bharti Airtel in mcap,Airtel,Positive,0.941262662410736,unclassified,gnews
+2026-10-29,Jio adds 1.9 million users in September as Airtel’s additions hit a recent low,Airtel,Positive,0.9395914077758788,business_news,gnews
+2026-10-29,Jio adds nearly 10 times more mobile subscribers than Airtel in September: Brokerage reports,Airtel,Neutral,0.0,analyst_action,gnews
+2026-11-02,"Your mobile bill may rise again. Ambit Capital sees 15% tariff hike in December, picks Bharti Airtel as top bet",Airtel,Positive,0.914550244808197,sector_policy,gnews
+2026-11-05,"Bharti Airtel Q2 net profit rises 31% to Rs 8,888 crore; ARPU climbs to Rs 271",Airtel,Positive,0.9411685466766356,company_results,gnews
+2026-11-06,Bharti Airtel shares: Citi remains bullish after strong Q2 despite elevated churn; Rs 299 plan restored,Airtel,Positive,0.8997848629951477,unclassified,gnews
+2026-11-06,Bharti Airtel overtakes Jio Platforms to become India's second most valuable listed company after RIL,Airtel,Positive,0.900321900844574,unclassified,gnews
+2026-11-06,"Airtel shares rally 3% after Q2 profit jumps 31%; 4 brokerages bullish on telecom major, check share price targets",Airtel,Positive,0.8288936018943787,company_results,gnews
+2026-09-16,Fortis Healthcare moves Supreme Court against Delhi HC forensic audit order; Axis Bank may follow,Axis Bank,Positive,0.5574,regulatory_legal,newsapi
+2026-09-17,Rupee may need to weaken further as fundamentals shift: Axis Bank,Axis Bank,Negative,-0.4215,macro,newsapi
+2026-09-17,Axis Bank and Cognizant Collaborate to Strengthen Application Management with AMS 2.0,Axis Bank,Positive,0.3182,business_news,newsapi
+2026-09-17,"Axis Bank allots 68,291 equity shares under ESOP",Axis Bank,Positive,0.296,corporate_action,newsapi
+2026-09-18,"Apple Pay eyes India rollout, starting with Axis Bank credit cards",Axis Bank,Positive,0.296,business_news,newsapi
+2026-09-18,Apple Pay To Be Launched in India Next Month With Axis Bank Credit Cards: Report,Axis Bank,Neutral,0.0,unclassified,gnews
+2026-09-18,Apple Pay may finally come to India next month; Axis bank tie up reported,Axis Bank,Neutral,0.0,unclassified,gnews
+2026-09-18,"Apple Pay is heading to India next month with Axis Bank first, Reuters reports",Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-18,Rupee may need to fall further: Axis Bank,Axis Bank,Neutral,0.0,macro,newsapi
+2026-09-18,"Apple Pay eyes India rollout with Axis Bank, sources say",Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-19,Apple Pay to come to India soon with Axis Bank? How will it work for iPhone users? Here's what we know,Axis Bank,Negative,-0.1926,business_news,newsapi
+2026-09-19,Apple Teams With Axis Bank for Long-Awaited Apple Pay Debut in India,Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-19,"Apple Pay India launch likely next month with Axis Bank card: How it will differ from UPI, charges and limits explained",Axis Bank,Negative,-0.3612,business_news,newsapi
+2026-09-21,Apple Pay to launch in India next month with Axis Bank credit cards: Report,Axis Bank,Neutral,0.0,unclassified,gnews
+2026-09-22,"LIC, Axis Bank: Kotak Securities explains why they prefer these 2 stocks",Axis Bank,Positive,0.296,analyst_action,newsapi
+2026-09-24,Axis Bank readies major customer-connect initiative to mark World Tourism Day,Axis Bank,Positive,0.5884040594100952,unclassified,gnews
+2026-09-24,Who is Arvind Subramanian? Axis Bank appoints IIT and IIM alumnus as additional independent director for four years,Axis Bank,Neutral,0.0,management,newsapi
+2026-09-27,"Axis Bank plans 12,500 campus hires, redeploys staff amid AI push",Axis Bank,Neutral,0.0,business_news,newsapi
+2026-09-30,"Apple Pay comes to India with Axis Bank Visa, Mastercard credit cards",Axis Bank,Positive,0.296,business_news,newsapi
+2026-09-30,"Axis Bank brings Apple Pay to Visa, Mastercard credit card customers",Axis Bank,Positive,0.296,business_news,newsapi
+2026-09-30,Apple Pay launches in India with Axis Bank partnership,Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-30,Apple Pay Now Available in India With Axis Bank Cards,Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-30,"Apple Pay launched in India with Axis Bank Visa, Mastercard support",Axis Bank,Positive,0.4215,business_news,newsapi
+2026-09-30,Apple Pay India launch in collaboration with Axis Bank: How to set it up on your iPhone? Check step-by-step guide,Axis Bank,Neutral,0.0,unclassified,gnews
+2026-09-30,"Apple Pay debuts in India, partnering with Axis Bank",Axis Bank,Positive,0.849612832069397,unclassified,gnews
+2026-09-30,Apple Pay launches in India with Axis Bank as first card partner: Check where you can use it and how to make payments,Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-30,Apple Pay now rolling out to Axis Bank customers in India,Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-09-30,"Apple Pay set to launch in India with Axis Bank today, sources say",Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-10-01,"Apple Pay Debuts in India for Axis Bank Cardholders, Boosting Digital Payments",Axis Bank,Positive,0.25,business_news,newsapi
+2026-10-01,Apple Pay Now Available in India to Axis Bank Customers,Axis Bank,Negative,-0.1027,business_news,newsapi
+2026-10-01,"Axis Bank wants to double its Rs 8,688 crore data centre exposure",Axis Bank,Positive,0.6707922220230103,unclassified,gnews
+2026-10-01,Apple Pay In India: Why Only Axis Bank Cards Are Supported At Launch? What Is The ‘Fee’ Involved,Axis Bank,Neutral,0.0,unclassified,gnews
+2026-10-01,"Apple Pay launches in India: The Axis Bank cards, older iPhones and setup steps you should check before paying",Axis Bank,Neutral,0.0,unclassified,gnews
+2026-10-02,"Apple Pay enters India with Axis Bank, more lenders set to join by year-end",Axis Bank,Positive,0.2023,business_news,newsapi
+2026-10-06,Axis Bank shares in focus after Q2 biz update shows 23% rise in gross advances to Rs 13.8 lakh crore,Axis Bank,Negative,-0.2263,company_results,newsapi
+2026-10-06,Who is Sanjeev Moghe? Axis Bank Group Head resigns after 8 years; read his resignation letter: ‘I leave with a...’,Axis Bank,Negative,-0.5719,management,newsapi
+2026-10-06,"GIFT Nifty up 15 points; Axis Bank, Trent, KMB, Vedanta, Rentomojo, SRIT among stocks in focus",Axis Bank,Positive,0.9309267401695251,unclassified,gnews
+2026-10-07,"Businessman’s bank account put on hold after a Rs 2,253 transaction was flagged, requests to use the remaining balance went unanswered; High Court orders Axis Bank to release the money",Axis Bank,Neutral,0.0,unclassified,newsapi
+2026-10-07,"Kotak, IndusInd, Axis Bank shares jump on strong Q2 business updates",Axis Bank,Positive,0.6705,unclassified,newsapi
+2026-10-07,"RBI MPC 25 bps rate hike: Banks stocks vs NBFCs - Why Jefferies India picked SBI, ICICI Bank, Axis Bank shares",Axis Bank,Positive,0.4918742179870605,macro,gnews
+2026-10-07,"Axis, AU Bank, PNB: Brokerages identify 5 bank stocks after RBI hikes rate",Axis Bank,Neutral,0.0,business_news,newsapi
+2026-10-12,"UP Government Employees to Get Rs 1 Crore Accident Insurance, Rs 30 Lakh Health Cover from Axis Bank",Axis Bank,Negative,-0.4767,unclassified,newsapi
+2026-10-17,"Q2 Results Today: Axis Bank, HDFC Bank, ICICI Bank Among 18 Firms To Report Earnings On Oct. 17",Axis Bank,Neutral,0.0,company_results,gnews
+2026-10-17,Axis Bank's Freecharge gets in-principle RBI nod to operate as payment aggregator,Axis Bank,Neutral,0.0,macro,gnews
+2026-10-19,"Nifty 500: PNB jumps up to 7%; Urban Co plunges 7%, Axis Bank falls upto 5% on Q2 result; Check others",Axis Bank,Positive,0.590122401714325,company_results,gnews
+2026-10-21,Axis Bank & Lakshya Shooting Club Proudly Inaugurate High Performance Centre For Shooting At Navi Mumbai To Bolster India's Olympic Shooting Ambitions,Axis Bank,Positive,0.8332977890968323,unclassified,gnews
+2026-10-25,India isn't facing capital constraints; asset shortage is the issue: Axis Bank's Tanay Dalal - Banking & Finance News,Axis Bank,Neutral,0.0,unclassified,gnews
+2026-10-28,8%? Axis Bank Whispers A Number India's Bond Market Hasn't Seen In Years,Axis Bank,Positive,0.8280823230743408,unclassified,gnews
+2026-11-02,"Festive loan offers: Bank of India, Axis Bank announce fee waivers, interest rate discounts",Axis Bank,Neutral,0.0,unclassified,gnews
+2026-11-02,"India's consumption growth may lose steam as household credit, government support reach limits: Axis Bank",Axis Bank,Negative,-0.8931733965873718,unclassified,gnews
+2026-09-15,Dr. Reddy’s Laboratories launches Nivorz in India,Dr Reddys,Neutral,0.0,unclassified,gnews
+2026-09-15,Dr. Reddy's launches nivolumab biosimilar in India,Dr Reddys,Neutral,0.0,unclassified,gnews
+2026-09-18,Takeda and Dr. Reddy’s Laboratories enter into exclusive collaboration to promote and distribute QDENGA® in India’s pediatric and adult private market,Dr Reddys,Positive,0.8373416662216187,unclassified,gnews
+2026-09-18,QDENGA dengue vaccine to hit India market in 2027; Dr Reddy’s to sell it,Dr Reddys,Neutral,0.0,unclassified,gnews
+2026-09-21,Takeda and Dr. Reddy''s Laboratories Enter Into Exclusive Collaboration to Promote and Distribute QDENGA® in India''s Pediatric and Adult Private Market,Dr Reddys,Positive,0.8659769892692566,unclassified,gnews
+2026-10-21,Dr Reddy's gets DCGI nod for Zytorvi in advanced esophageal cancer,Dr Reddys,Positive,0.722787082195282,unclassified,gnews
+2026-10-21,Dr Reddy's gets DGCI clearance for Zytorvi; Here's how company shares reacted,Dr Reddys,Neutral,0.0,unclassified,gnews
+2026-10-23,"Dr Reddy’s Q2 Results: Net profit falls 36% YoY to Rs 913 crore, revenue declines marginally",Dr Reddys,Negative,-0.9722288250923156,company_results,gnews
+2026-10-26,"Dr Reddy's Laboratories, Asahi India Glass, Ajanta Pharma, Sai Life Sciences, BSE",Dr Reddys,Neutral,0.0,unclassified,gnews
+2026-11-02,India's Dr Reddy's gets US nod for $40 generic HIV prevention shot for 120 poorer countries,Dr Reddys,Positive,0.8761166334152222,unclassified,gnews
+2026-09-21,RBI Weighs Bagchi for HDFC Top Job,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-09-21,"RBI weighs Anup Bagchi for HDFC top job; seeks feedback from Irda, ICICI Bank on his candidature due to 3-year gap from mainstream banking",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-09-21,"Bank Strike Sept 28-30: What consumers should know about UPI, ATM transaction, cash withdrawal from SBI, HDFC Banks",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-09-21,Calcutta HC extends interim order on AITC's three HDFC Bank accounts till January 29,HDFC Bank,Negative,-0.5285608768463135,unclassified,gnews
+2026-09-22,"Google Trends: HDFC Bank, Gold among most searched financial market themes in last 1 month",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-09-24,"Bank holidays in October 2026: SBI, HDFC, and other lenders to remain shut for up to 11 days - Check RBI calendar",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-09-25,"HDFC Bank shares trade flat, Q2 results in focus",HDFC Bank,Positive,0.296,company_results,newsapi
+2026-09-26,"HDFC Bank Limited Securities Fraud Class Action Result of Deceptive Interest Payments and Approximately 4% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",HDFC Bank,Negative,-0.128,regulatory_legal,newsapi
+2026-09-26,"HDB ALERT: Hagens Berman, National Trial Attorneys, Encourages HDFC Bank Limited (NYSE: HDB) Investors to Contact its Legal Team Regarding Securities Fraud Class Action Lawsuit",HDFC Bank,Positive,0.2342,regulatory_legal,newsapi
+2026-09-26,HDC Deadline: HDB Investors Have Opportunity to Lead HDFC Bank Limited Securities Fraud Lawsuit,HDFC Bank,Negative,-0.3818,regulatory_legal,newsapi
+2026-09-28,"3-day bank strike deferred: What happened during union body meet? Will SBI, HDFC Bank now remain open 5 days a week?",HDFC Bank,Negative,-0.2168,business_news,newsapi
+2026-09-28,"3-day bank strike deferred after bank union body meet: Will SBI, HDFC Bank remain open on Monday, 28 September?",HDFC Bank,Negative,-0.128,business_news,newsapi
+2026-09-28,"HDFC Bank CEO transition nears; Jefferies sees rerating scope, sets target at Rs 880",HDFC Bank,Neutral,0.0,management,newsapi
+2026-09-28,"Bank strike tomorrow: Full list of banks facing work disruption; will HDFC Bank, Axis Bank, SBI, PNB & ICICI Bank remain closed?",HDFC Bank,Negative,-0.4588,business_news,newsapi
+2026-09-28,"HDFC Bank CEO's to-do list in coming weeks: Growth, Casa, investor trust",HDFC Bank,Positive,0.7096,management,newsapi
+2026-09-28,HDFC Bank shares fall 2% as banking stocks decline amid market slump,HDFC Bank,Positive,0.296,unclassified,newsapi
+2026-09-29,"HDFC Bank shares dip, Q2 results due October 17",HDFC Bank,Positive,0.296,company_results,newsapi
+2026-09-30,"HDB 2-WEEK DEADLINE ALERT: HDFC Bank Limited Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit Before October 13, 2026 Lead Plaintiff Deadline",HDFC Bank,Positive,0.2577,regulatory_legal,newsapi
+2026-10-01,HDFC Bank Group General Counsel Sudhir Kumar Jha retires after 22 years,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-01,Anup Bagchi: The ICICI veteran chosen by HDFC Bank for the top job,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-01,"HDFC Capital, Shalimar create Rs 750 crore platform for UP real estate",HDFC Bank,Positive,0.2732,unclassified,newsapi
+2026-10-01,HDFC Bank appoints Anup Bagchi as MD & CEO for three years; RBI gives approval,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-01,RBI clears Anup Bagchi’s appointment as HDFC Bank CEO in flat 20 days,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-01,"AMC stocks face rough waters; Kotak sees selective opportunities in SBI, HDFC AMC",HDFC Bank,Positive,0.3818,unclassified,newsapi
+2026-10-01,HDFC Bank names ICICI Bank's V N Srivatsan as chief compliance officer,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-01,HDFC Bank appoints VN Srivatsan as Chief Compliance Officer for 3-year term: Who is he?,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-01,HDFC Bank names veteran ICICI banker V.N. Srivatsan as Chief Compliance Officer,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-01,HDFC Bank Gets RBI Nod For Anup Bagchi As Next CEO,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-01,HDFC Bank shares rise over 1% as lender announces leadership changes,HDFC Bank,Positive,0.296,unclassified,newsapi
+2026-10-02,"'ICICI is CEO-making factory' trends on internet as Anup Saha, Anup Bagchi named MD-CEO of Kotak Mahindra, HDFC Bank",HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,"Why HDFC, Kotak Turned To ICICI Veterans For Their Top Jobs",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-02,HDFC Bank names ICICI veteran Anup Bagchi as MD & CEO,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,ICICI Group veteran Anup Bagchi to head HDFC Bank,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,How Anup Bagchi got the HDFC Bank MD-CEO job: Timeline of developments,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,Anup Bagchi appointed HDFC bank CEO,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,Anup Bagchi: ICICI pro who'll steer HDFC Bank,HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-02,RBI appoints ICICI veteran Anup Bagchi as chief executive of HDFC Bank,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,Anup Bagchi takes charge as HDFC Bank MD and CEO: Tracing the banking veteran’s career and achievements at ICICI,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,"Meet Anup Bagchi, HDFC Bank's new MD & CEO - ICICI veteran to take charge from October 27",HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,HDFC Bank CEO salary per month: Check renumeration of FY 2026,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,"Who is Anup Bagchi, HDFC Bank's new CEO?",HDFC Bank,Neutral,0.0,management,gnews
+2026-10-02,"Books, coffee and banking: Anup Bagchi the ICICI lifer set to lead HDFC Bank",HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-02,Day of Anups at HDFC and Kotak with much in common in banking,HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-02,"Apple Pay in India: Why Axis Bank made the cut before HDFC, ICICI and SBI Card",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-02,"HDFC Bank, Kotak Mahindra Bank put two Anups atop banking’s big succession puzzle",HDFC Bank,Positive,0.2023,management,newsapi
+2026-10-02,HDFC Bank appoints ICICI Pru's Anup Bagchi as MD and CEO,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-02,Bagchi’s appointment as HDFC Bank’s MD reflects RBI’s preference for external candidates,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-03,Anup Bagchi's big test at HDFC Bank is winning back investor trust,HDFC Bank,Positive,0.7717,unclassified,newsapi
+2026-10-03,"Bank holiday today, October 13: Are SBI, HDFC Bank, and other banks closed on Saturday?",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-03,"HDFC Bank Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against HDFC Bank Limited - HDB",HDFC Bank,Negative,-0.5106,regulatory_legal,newsapi
+2026-10-03,HDFC Bank succession settled; execution test awaits new CEO Anup Bagchi,HDFC Bank,Positive,0.2732,management,newsapi
+2026-10-03,HDFC Bank Limited (HDB) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit,HDFC Bank,Negative,-0.5994,regulatory_legal,newsapi
+2026-10-04,HDFC Bank gets new MD-CEO; stock is Jefferies India's top pick — 22% upside despite 27% dip in YTD,HDFC Bank,Positive,0.8905671238899231,management,gnews
+2026-10-05,HDFC Bank shares rise 2% as Street cheers Anup Bagchi's appointment as CEO,HDFC Bank,Positive,0.6486,management,newsapi
+2026-10-05,HDFC Bank: Anup Bagchi at helm lifts overhang; brokerages share outlook,HDFC Bank,Positive,0.296,management,newsapi
+2026-10-05,"HDFC Bank shares rise nearly 2% after Bagchi appointment, Q2 business update",HDFC Bank,Positive,0.296,company_results,newsapi
+2026-10-05,"Buy, Sell Or Hold: HDFC Bank, Sun Pharma, Rallis India, Trent | Ask Profit",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-05,How to trade HDFC Bank shares after new CEO appointment? Technical indicators still signal weakness,HDFC Bank,Negative,-0.1531,management,newsapi
+2026-10-05,"HDFC Bank shares rise 2% after appointing Anup Bagchi as new CEO, Q2 biz update. Buy, sell or hold?",HDFC Bank,Positive,0.296,company_results,newsapi
+2026-10-05,HDFC Bank's 90-Day Reset: How India’s Largest Private Lender Turned Uncertainty Into Clarity,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-05,HDFC Bank gets new CEO: Stock down 25% thus far in 2026; what charts say?,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-05,HDFC Bank mobilises over ₹1.5 trillion in deposits in September quarter,HDFC Bank,Neutral,0.0,company_results,newsapi
+2026-10-05,$11.5 billion FCNR (B) deposit mop up: HDFC Bank’s deposits grow faster than advances in Q2FY27,HDFC Bank,Neutral,0.0,company_results,newsapi
+2026-10-05,"HDFC Bank shares rise, m cap swells Rs 12,027 crore as Anup Bagchi named MD & CEO",HDFC Bank,Positive,0.5017209053039551,management,gnews
+2026-10-05,HDFC Bank Limited Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - HDB,HDFC Bank,Negative,-0.4767,regulatory_legal,newsapi
+2026-10-05,Nifty’s ailing warhorse HDFC Bank gets an all-rounder CEO. Can Anup Bagchi make the elephant dance?,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-05,Anup Bagchi's Act 1: Set HDFC house in order,HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-06,"HDFC Bank shares flat, Bernstein maintains outperform rating with ₹1,150 target",HDFC Bank,Positive,0.296,analyst_action,newsapi
+2026-10-06,Robbins LLP Reminds Investors of the Lead Plaintiff Deadline in the HDFC Bank Limited Securities Fraud Class Action,HDFC Bank,Negative,-0.5423,regulatory_legal,newsapi
+2026-10-06,Brokerages see 25-74% upside for HDFC Bank after Anup Bagchi appointment,HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-06,"RBI MPC meeting October 2026: Why HDFC Bank, ICICI Lombard, Coal India, TCS likely to gain if bank announces rate hike?",HDFC Bank,Positive,0.4644812643527984,macro,gnews
+2026-10-06,"Tilaknagar Inds: HDFC Sec keeps 'buy', bets on Imperial Blue's growth story",HDFC Bank,Positive,0.3818,unclassified,newsapi
+2026-10-06,"HDFC Bank slips despite Nifty Bank recovery, analysts retain buy ratings",HDFC Bank,Negative,-0.3089,analyst_action,newsapi
+2026-10-07,Good news for HDFC Bank borrowers: Bank cuts lending rates across tenures by up to 15 bps; check latest list,HDFC Bank,Positive,0.1779,business_news,newsapi
+2026-10-07,"HDFC Bank Limited (HDB) Investors: Securities Fraud Class Action Pending, Contact Hagens Berman Before October 13, 2026 Lead Plaintiff Deadline",HDFC Bank,Negative,-0.5423,regulatory_legal,newsapi
+2026-10-07,Vinay Rajani of HDFC Securities bullish on Shipping Corp & one other stock,HDFC Bank,Positive,0.296,analyst_action,newsapi
+2026-10-07,HDFC Bank shares drop 15% in 3 months since Q1 results. Will Q2 earnings bring redemption as leadership cloud clears?,HDFC Bank,Positive,0.1027,company_results,newsapi
+2026-10-07,"HDFC Bank shares in focus after RBI repo rate hike, loan growth at 16%",HDFC Bank,Positive,0.9371138215065002,macro,gnews
+2026-10-08,HDFC Bank’s Anup Bagchi set to become India’s highest,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-08,HDFC's Bagchi to become India's highest-paid bank CEO at ₹35.9cr,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-08,"HDFC Bank shares dip, falls 4% in October so far",HDFC Bank,Positive,0.296,unclassified,newsapi
+2026-10-08,"With Rs 43-Crore Pay Package, HDFC's Anup Bagchi Set To Become India's Highest-Paid Bank CEO",HDFC Bank,Positive,0.8531986474990845,management,gnews
+2026-10-08,"HDFC Capital, Godwitt Group to develop 100,000-bed workforce housing platform",HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-08,HDFC Bank cuts MCLR rates by up to 15 bps: Check impact on your loans,HDFC Bank,Negative,-0.296,business_news,newsapi
+2026-10-08,"At Rs 35.9 crore, HDFC Bank's incoming boss Anup Bagchi set to be India's highest-paid bank CEO",HDFC Bank,Neutral,0.0,management,gnews
+2026-10-08,HDFC Bank Has Done The Merger. Can Bagchi Monetise It?,HDFC Bank,Neutral,0.0,corporate_action,gnews
+2026-10-09,Anup Bagchi set to earn ₹43 crore in first year as HDFC Bank CEO,HDFC Bank,Neutral,0.0,management,newsapi
+2026-10-09,HDFC Bank's New CEO Anup Bagchi Set To Become India's Highest-Paid Bank Chief With ₹35.9 Crore Annual Package,HDFC Bank,Positive,0.5572760701179504,management,gnews
+2026-10-09,"As HDFC Bank CEO, Anup Bagchi set for 36 crore target pay",HDFC Bank,Negative,-0.1027,management,newsapi
+2026-10-09,"HDFC Bank, SBI, Federal, Canara Bank up 2%; what's driving banking stocks?",HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-10,AMFI Rejig: Vedanta and HDFC AMC among 7 largecaps stocks that may slip into midcap category in H1 CY27,HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-10,HDFC Bank's WTD expansion may set succession template for large banks,HDFC Bank,Positive,0.2023,management,newsapi
+2026-10-11,HDFC Flexi Cap Fund: Can its winning formula survive the scale test?,HDFC Bank,Positive,0.5267,unclassified,newsapi
+2026-10-11,"Earnings Tracker: HDFC Bank, HCL Tech, Wipro among 129 companies set to report Q2 results this week",HDFC Bank,Neutral,0.0,company_results,gnews
+2026-10-12,HDFC Bank dips ahead of Q2 results; selling pressure dominates at 70%,HDFC Bank,Negative,-0.25,company_results,newsapi
+2026-10-12,Sensex today | Stock Market Live Updates: Stock to buy today: HDFC Life Insurance Company (₹555),HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-12,"Will RBI’s CRR hike to 99% hit HDFC, SBI and other bank stocks? Here’s what Jefferies says",HDFC Bank,Neutral,0.0,macro,newsapi
+2026-10-13,"5-year FD vs NSC calculator: Check maturity senior citizens can get on Rs 2.5 lakh investment in NSC and FDs from SBI, HDFC Bank, PNB, ICICI Bank and others",HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-13,HDFC Bank launches festival offer with host of benefits,HDFC Bank,Positive,0.7003,unclassified,newsapi
+2026-10-13,"Private banks’ inoperative Jan Dhan accounts rise led by HDFC Bank, Kotak Mahindra Bank",HDFC Bank,Neutral,0.0,unclassified,newsapi
+2026-10-13,HDFC Bank climbs 0.84% as Q2 results loom; sellers still dominate,HDFC Bank,Negative,-0.34,company_results,newsapi
+2026-10-13,HDB DEADLINE ALERT: HDFC Bank Limited Investors Alerted to Today's Lead Plaintiff Deadline in Securities Class Action,HDFC Bank,Positive,0.4995,regulatory_legal,newsapi
+2026-10-14,"Which bank stock should you buy ahead of Q2 results - HDFC Bank, ICICI Bank, Yes Bank or Axis Bank?",HDFC Bank,Positive,0.4019,company_results,newsapi
+2026-10-14,"JioBlackRock Flexi Cap Fund exits Eternal, Ashok Leyland and 16 more, trims stake in RIL, HDFC Bank and 32 others",HDFC Bank,Neutral,0.0,unclassified,et
+2026-10-15,"HDFC Defence Fund increase stake in HAL, Mazagon Dock, Bharat Electronics and 7 others in September",HDFC Bank,Positive,0.4019,unclassified,et
+2026-10-15,"Q2 Results Highlights, 15th Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps 32.7%; Nestlé shares tank after Q2 results; IIFL Finance, IRFC, Polycab, KVB and HDFC AMC report higher PAT",HDFC Bank,Positive,0.9411635994911194,company_results,gnews
+2026-10-15,"Jio IPO listing to make it India’s 4th most valued firm after RIL, Airtel, HDFC Bank",HDFC Bank,Positive,0.9041048884391784,corporate_action,gnews
+2026-10-15,HDFC Small Cap Fund is the only scheme with negative YTD returns in 2026: What sets it apart?,HDFC Bank,Negative,-0.5814709663391113,unclassified,gnews
+2026-10-17,"HDFC Bank Q2 net profit grows 4.7% to ₹19,510 crore",HDFC Bank,Positive,0.9488701224327089,company_results,gnews
+2026-10-17,HDFC Bank Deputy MD Kaizad Bharucha resigns; RBI approval sought for December 31 exit,HDFC Bank,Negative,-0.792719304561615,management,gnews
+2026-10-17,HDFC Bank's Kaizad Bharucha's Three-Decade Run Inside India's Largest Private Bank,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-17,HDFC Bank Deputy MD Kaizad Bharucha to step down at year,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-18,Kaizad Bharucha resignation HDFC Bank,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-18,"Jio IPO draws interest from LIC, SBI MF, HDFC MF and India's top insurers ahead of October 21 opening",HDFC Bank,Positive,0.7744984030723572,corporate_action,gnews
+2026-10-18,"ICICI Bank vs HDFC Bank vs Axis Bank: Which stock to buy, sell or hold after Q2 results?",HDFC Bank,Neutral,0.0,company_results,gnews
+2026-10-19,"Buy, Sell Or Hold: HDFC Bank, Laurus Labs, BEL, Havells India, Cummins India And Hindustan Copper - Ask Profit",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-21,HDFC Bank executives under heat for leaking market-sensitive info amid Anup Bagchi takeover,HDFC Bank,Negative,-0.9058483839035034,corporate_action,gnews
+2026-10-21,"HDFC Bank's internal probe finds two senior executives leaked confidential business strategies, market data",HDFC Bank,Negative,-0.5533508658409119,unclassified,gnews
+2026-10-21,"Check HDFC Securities' Latest Q2 Ratings, Target Prices, Outlook",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-22,Internal review underway on potential violations: HDFC Bank,HDFC Bank,Negative,-0.6445383429527283,unclassified,gnews
+2026-10-22,A turbulent year at HDFC Bank: Controversies that kept India’s biggest private lender in the headlines,HDFC Bank,Negative,-0.941646933555603,unclassified,gnews
+2026-10-22,HDFC Bank shares down 30% in 2026: FPI love for India’s largest bank wanes; what’s ahead?,HDFC Bank,Negative,-0.9626584053039552,unclassified,gnews
+2026-10-25,"Mcap of 8 of top-10 firms erodes by Rs 1.55 lakh cr; HDFC Bank, Bajaj Fin biggest laggards",HDFC Bank,Negative,-0.9382580518722534,unclassified,gnews
+2026-10-25,"Market recap: Eight of top 10 firms lose Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance take biggest hit",HDFC Bank,Negative,-0.959761679172516,unclassified,gnews
+2026-10-25,"Top 10 Firms Lose ₹1.55 Lakh Crore In Market Value, HDFC Bank And Bajaj Finance Emerge As Biggest Laggards",HDFC Bank,Negative,-0.961983561515808,unclassified,gnews
+2026-10-26,"Latest FD interest rates after recent rate changes: ICICI Bank, Indian Bank, SBI and HDFC Bank",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-27,HDFC Bank's New CEO: Anup Bagchi Takes Charge As MD And CEO,HDFC Bank,Neutral,0.0,management,gnews
+2026-10-27,Anup Bagchi has an unenviable task at the top of HDFC Bank,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-10-30,"HDFC securities Launches SKY Direct, Enabling Instant Trading With Smart Bank",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-11-04,"Diwali stock picks, Samvat 2083: Park Medi, HDFC, Paytm, Meesho, Ather among Ventura picks- Which offers highest upside?",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-11-04,"HDFC Bank, Ather, Paytm, LG India, Meesho among top Diwali picks for up to 75% upside",HDFC Bank,Positive,0.6749045848846436,unclassified,gnews
+2026-11-05,"HDFC Bank, ICICI Bank, Axis Bank are BNP Paribas top three banking picks; here's why",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-11-06,Japan’s SuMiTB makes first Indian realty fund investment with HDFC Capital,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-11-07,Japan's SuMiTB makes first investment in Indian real estate fund through HDFC Capital,HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-11-07,"PNB, HDFC, IDFC First Bank, Utkarsh SFB, And Other Banks Revised FD Rates; Senior Citizens Can Get Up To 8.50 Per Cent",HDFC Bank,Neutral,0.0,unclassified,gnews
+2026-11-08,How SBI is steadily catching up with HDFC Bank in the margin race,HDFC Bank,Positive,0.9116183519363404,unclassified,gnews
+2026-09-04,HUL plans capex boost; eyes entry into new areas,HUL,Positive,0.8777052164077759,business_news,gnews
+2026-09-07,From $63-a-head FMCG spending to a bigger consumption economy: HUL’s ‘Winning in New India’ plan,HUL,Positive,0.8200469613075256,unclassified,gnews
+2026-09-07,HUL stock outlook: Brokerages see up to 26% upside as FMCG major sharpens ‘New India’ growth strategy,HUL,Positive,0.94699364900589,unclassified,gnews
+2026-09-09,India is a blueprint for Unilever's emerging markets: global CEO Fernando Fernandez,HUL,Neutral,0.0,management,gnews
+2026-09-09,"Hindustan Unilever unveils New India growth strategy, targets 22-24% EBITDA margin",HUL,Positive,0.8694642782211304,company_results,gnews
+2026-09-11,"Where there’s a will, there’s a whey: HUL bets Horlicks can catch up in protein race",HUL,Neutral,0.0,unclassified,gnews
+2026-09-11,"Buy or sell Granules, HAL, HUL shares? Ajit Mishra of Religare Broking suggests trading strategies for these stocks",HUL,Neutral,0.0,unclassified,gnews
+2026-09-16,"RIL, HUL, Nestle, Tata Consumer, Hyundai shares on the rise today",HUL,Positive,0.8493466377258301,unclassified,gnews
+2026-09-23,"HUL, Dabur India trade near Covid lows: Reasons, strategy decoded",HUL,Negative,-0.2023,unclassified,newsapi
+2026-09-24,"NSE breaks into top 10 BSE market-cap league on debut; beats HUL, Titan",HUL,Positive,0.2023,unclassified,newsapi
+2026-09-29,"ITC, Swiggy, Eternal, HUL, Dabur, Marico shares: BNP Paribas sees up to 47% upside; target prices",HUL,Positive,0.9306016564369202,unclassified,gnews
+2026-09-30,HUL Share Price Live Updates: HUL Stock Details,HUL,Positive,0.296,unclassified,newsapi
+2026-10-08,"Hindustan Unilever detergent price hike: Surf Excel Easy Wash, Rin and Wheel prices revised; check new rates here",HUL,Positive,0.7096,unclassified,newsapi
+2026-10-12,"TaMo, Unilever's ex-veteran Siddharth Kapur launches InsynQ to help Indian businesses",HUL,Positive,0.4019,unclassified,et
+2026-10-12,"FMCG dividend giants: Colgate, Hindustan Unilever, ITC, Britannia: Which stock offers highest yield?",HUL,Neutral,0.0,company_results,gnews
+2026-10-14,'Congress Ki Firse Lagatar Chauthi Bar Haar Hone Wali Hai': Amit Shah’s message to Rahul Gandhi,HUL,Neutral,0.0,unclassified,et
+2026-10-14,'Don't want to spoil the surprise': Rahul Gandhi hints at bigger INDIA bloc plan on CEC-SIR row,HUL,Negative,-0.0572,unclassified,et
+2026-10-14,"Rahul Gandhi says Jantar Mantar will be reclaimed, slams government after CJP's Saurav Das, Ashutosh Ranka sent to Tihar jail",HUL,Neutral,0.0,unclassified,et
+2026-10-14,"Plea filed in SC over Rahul Gandhi, INDIA bloc leaders gathering in premises",HUL,Neutral,0.0,unclassified,et
+2026-10-14,"'One voice, the voice of India, don't stand against it': Rahul Gandhi tells Amit Shah, PM Modi as he backs NSUI protesters",HUL,Negative,-0.2732,unclassified,et
+2026-10-14,"From Gujarat to bypolls, Amit Shah uses BJP wins to hit back at Rahul on SIR",HUL,Positive,0.5719,unclassified,et
+2026-10-14,'Commander-in-thief' remark: SC stays trial against Rahul Gandhi,HUL,Neutral,0.0,unclassified,et
+2026-10-14,"Delhi Police refutes claims of attack at Rahul Gandhi's residence, says viral video 'fake'",HUL,Negative,-0.4767,unclassified,et
+2026-10-14,"Over tea at Rahul Gandhi's home, opposition plots next move in ‘vote chori’ battle",HUL,Negative,-0.3818,unclassified,et
+2026-10-15,"Latest OTT releases of the week: The Diplomat to Tenzing, new shows and movies to watch on Netflix, Hulu, Prime Video, Apple TV, and more",HUL,Neutral,0.0,unclassified,et
+2026-10-15,SC issues notice to EC on Rahul Gandhi’s plea over alleged voter deletions,HUL,Neutral,0.0,unclassified,et
+2026-10-15,"‘BJP is enemy of Indian democracy’: Neha Bora says CEC Gyanesh Kumar must go, backs Rahul Gandhi",HUL,Negative,-0.5719,unclassified,et
+2026-10-15,"Rahul Gandhi, Priyanka meet Ankita Bhandari’s parents at India Gate protest",HUL,Negative,-0.25,unclassified,et
+2026-10-15,"Rahul Gandhi, Priyanka Gandhi meet Ankita Bhandari's parents at India Gate amid protests over Dushyant Kumar Gautam's appointment as Sikkim Governor",HUL,Negative,-0.2263,unclassified,et
+2026-10-15,CJP members jailed; Rahul Gandhi joins allies to condemn custody,HUL,Negative,-0.7003,unclassified,et
+2026-10-15,"SC likely to hear Rahul Gandhi, INDIA bloc leader’s plea against ECI’s SIR decisions tomorrow",HUL,Neutral,0.0,unclassified,et
+2026-10-15,"Ensure protests don't affect businesses: Traders' bodies write to PM, CJI, Rahul Gandhi",HUL,Positive,0.1779,unclassified,et
+2026-10-15,"Rahul Gandhi, his 'ecosystem' trying to create anarchy in India for 'regime change', says BJP",HUL,Positive,0.2732,unclassified,et
+2026-10-15,"SC issues notice to Rahul Gandhi, Akhilesh Yadav over SIR march",HUL,Neutral,0.0,unclassified,et
+2026-10-15,"Supreme Court issues notice to Election Commission over Rahul Gandhi's plea alleging SIR irregularities, voter deletions",HUL,Positive,0.5574,unclassified,et
+2026-10-16,'Kisi bhrasht officer ne...': Amitabh Bachchan explains how dead man’s name stayed on voter list as Smriti Irani attacks Rahul Gandhi with AI-edited Bhoothnath video,HUL,Negative,-0.802,unclassified,et
+2026-10-17,"FSSAI issues notices to Nestle India, Hindustan Unilever for misleading claims",HUL,Negative,-0.8059199452400208,unclassified,gnews
+2026-10-17,"Nestlé India & Hindustan Unilever face FSSAI notices over misleading claims, non-compliance; what regulator flagged in Resource Renal and Horlicks Mother's Plus",HUL,Negative,-0.9500999450683594,unclassified,gnews
+2026-10-17,"FSSAI issues notices to Nestlé India, HUL over misleading products and non-compliances; What are the claims?",HUL,Negative,-0.656488299369812,unclassified,gnews
+2026-10-18,"FSSAI flags HUL’s ‘happy birth weight’ claim, Nestlé’s nutrition supplement over labelling concerns",HUL,Negative,-0.5130618810653687,unclassified,gnews
+2026-10-28,"Hindustan Unilever to take calibrated price hikes as commodity inflation stays high, says CEO Priya Nair",HUL,Positive,0.8520385026931763,management,gnews
+2026-10-28,"Hindustan Unilever Limited backs FSSAI labelling norms for food products high in fat, salt and sugar",HUL,Neutral,0.0,unclassified,gnews
+2026-10-28,Hindustan Unilever to continue calibrated price hikes to offset input cost inflation: CEO,HUL,Positive,0.7613651156425476,management,gnews
+2026-10-29,"Q2 October dividend champions: Infosys, Colgate, HUL, CPCL, Coal India",HUL,Neutral,0.0,company_results,gnews
+2026-10-30,"PL Capital upgrades HUL to Buy, sees value in consumer stocks",HUL,Positive,0.7927225232124329,analyst_action,gnews
+2026-11-01,"Dividend stocks, bonus shares, split, buyback issues in Nov 2026: Coal India, HUL, Infosys, Power Grid, others",HUL,Neutral,0.0,company_results,gnews
+2026-11-08,"Corporate Actions This Week: HUL, Dabur, Balrampur Chini, Aurobindo Pharma, ONGC, Jyothy Labs, And Many More In Focus",HUL,Neutral,0.0,unclassified,gnews
+2026-09-15,ICICI Bank Ltd eases for fifth straight session,ICICI Bank,Positive,0.4939,unclassified,newsapi
+2026-09-15,"Personal loan interest rates September 2026: Axis Bank, HDFC, ICICI and 5 others start at 8.90%",ICICI Bank,Positive,0.4588,unclassified,newsapi
+2026-09-16,Nephrocare Health Services is a large scale dialysis player with global aspirations. Target price is ₹900 (18% upside): ICICI Direct,ICICI Bank,Neutral,0.0,analyst_action,newsapi
+2026-09-16,"ICICI Prudential MF, Kotak MF top buyers in SS Retail's Rs 146 crore anchor round before IPO",ICICI Bank,Positive,0.2023,corporate_action,newsapi
+2026-09-16,"HSBC, ICICI emerge as top GIFT City lenders with FX loans for diaspora",ICICI Bank,Positive,0.6633,unclassified,newsapi
+2026-09-17,ICICI Prudential Life reports 99.31% claim settlement ratio in Q1FY27,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-17,"ICICI Pru MF, SBI MF corner 54% of LIC's ₹31,552 crore OFS in August",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-17,HDFC Bank is winning the mutual fund vote over ICICI Bank. Can the shift last?,ICICI Bank,Positive,0.5267,unclassified,newsapi
+2026-09-18,"ICICI Pru MF, SBI MF corner more than half of LIC's ₹31,552 crore OFS",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-18,Long-term insurance policies need tax incentives: ICICI Pru's Anup Bagchi,ICICI Bank,Positive,0.3182,unclassified,newsapi
+2026-09-19,ICICI Bank changes website and net banking domain addresses: Do you also need to reset your user ID and password?,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-20,"ICICI Bank changes net banking URL: New .bank.in address, CAPTCHA feature - what customers need to know",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-21,Gilt mutual funds: ICICI Prudential tops 5-year returns at over 6%; all 23 schemes remain in the green,ICICI Bank,Positive,0.5106,unclassified,newsapi
+2026-09-22,"ICICI Bank's Pune lease: ₹30 lakh annual rent, 10% escalation every 3 yrs",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-22,Income plus arbitrage mutual funds: ICICI Pru tops 1-year returns at over 6%; know the portfolio mix,ICICI Bank,Positive,0.5106,unclassified,newsapi
+2026-09-23,ICICI Prudential Life sees 69% growth in retail protection business in Keralam,ICICI Bank,Positive,0.3818,unclassified,newsapi
+2026-09-26,"Gold may rise to $5,000/oz in H1 2027 after near-term consolidation: ICICI Bank",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-27,"Bank holidays this week: Strike, national holiday - SBI, HDFC, ICICI, PNB closed for at least 1 day from Sept 28-Oct 4",ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-09-29,"Exports, rising power demand to support manufacturing growth despite rural weakness: ICICI Bank",ICICI Bank,Positive,0.7960482835769653,unclassified,gnews
+2026-09-30,ICICI Lombard launches ‘VIBE’ health insurance plan targeting Gen Z,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-09-30,ICICI Prudential Life leads with Claim Settlement Ratio of 99.31% in Q1-FY2027,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-01,Anup Bagchi's Road To HDFC Bank Runs Through 34 Years Of ICICI,ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-01,Broker’s Call: ICICI Lombard GIC (Add),ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-01,"JP Morgan bets on India capex: ICICI Bank, L&T, Dixon among top picks in new growth cycle",ICICI Bank,Positive,0.7439625859260559,business_news,gnews
+2026-10-01,"Meet Anup Bagchi, the ICICI veteran taking HDFC Bank’s top job",ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-01,Catch them young: ICICI Lombard eyes 18-35-year-olds with digital health cover,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-02,"One day, two Anups; one Saha, one Bagchi at helm of two big banks | Meet ex-ICICI and IIT, IIM alumni banks banked upon",ICICI Bank,Neutral,0.0,management,newsapi
+2026-10-02,ICICI Bank receives Rs 229 crore GST demand over minimum balance services,ICICI Bank,Negative,-0.128,regulatory_legal,newsapi
+2026-10-03,ICICI Life's Q2 results to mark Anup Bagchi's swansong at ICICI Group,ICICI Bank,Neutral,0.0,company_results,newsapi
+2026-10-03,ICICI Prudential Life appoints Sidharatha Mishra as new MD & CEO,ICICI Bank,Neutral,0.0,management,newsapi
+2026-10-03,Sidharatha Mishra to take charge as ICICI Life Insurance Ltd’s chief,ICICI Bank,Neutral,0.0,management,newsapi
+2026-10-03,From Bhubaneswar classrooms to ICICI Life’s corner office: Who is Sidharatha Mishra,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-05,"The CEO factory: How ICICI, SBI, Axis shaping financial services leadership",ICICI Bank,Neutral,0.0,management,newsapi
+2026-10-07,ICICI Prudential AMC buys over 0.5 million sq ft office space in Bengaluru for Rs 626 crore,ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-08,"JM Financial, ICICI Securities top IPO deals in H1FY27",ICICI Bank,Positive,0.4588,corporate_action,newsapi
+2026-10-09,₹3 cr per month salary? Meet India's 'highest-paid' bank CEO - ICICI veteran and HDFC's Anup Bagchi,ICICI Bank,Positive,0.8527578711509705,management,gnews
+2026-10-10,"Saturday bank holiday: Are SBI, HDFC Bank, ICICI Bank and others open or closed today on October 10, 2026?",ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-10,"Quant Small Cap Fund exits ICICI Bank and 5 others, reduce stake in Zydus Wellness and 5 more in September",ICICI Bank,Positive,0.4404,unclassified,newsapi
+2026-10-12,"Q2 Results 12th Oct Highlights: HCLTech shares slip, ICICI Pru AMC falls 1.4%; RBL Bank, Swan Defence gain ahead of earnings",ICICI Bank,Negative,-0.972208559513092,company_results,gnews
+2026-10-12,"Q2 Results Today Live: HCL Technologies, ICICI Pru AMC, RBL Bank, Swan Defence, Adroit Industries to announce Q2 results",ICICI Bank,Positive,0.1027,company_results,newsapi
+2026-10-12,"Q2 results today: HCLTech, ICICI Pru among 18 firms to report earnings",ICICI Bank,Neutral,0.0,company_results,newsapi
+2026-10-12,"Stocks to watch: HCLTech, DMart, M&M, Adani Green, KEC Int'l, ICICI Pru",ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-13,ICICI Life Insurance share price drops 4% from day's high post Q2 results,ICICI Bank,Positive,0.296,company_results,newsapi
+2026-10-13,"ICICI Prudential AMC gains 2% after steady Q2 nos, positive analyst views",ICICI Bank,Positive,0.7184,unclassified,newsapi
+2026-10-13,ICICI Prudential AMC net profit up 6% on rise in AUM,ICICI Bank,Positive,0.4404,company_results,newsapi
+2026-10-13,ICICI Prudential AMC Q2 Results: Profit rises 6% YoY to Rs 889 crore; co declares Rs 30/share dividend,ICICI Bank,Positive,0.4404,company_results,newsapi
+2026-10-13,"GIFT Nifty up 33 points; HCL Tech, ICICI AMC, Ola Electric, RBL Bank, Ircon among stocks in focus",ICICI Bank,Positive,0.909425675868988,unclassified,gnews
+2026-10-13,"ICICI Prudential AMC shares rise 2% as Jefferies, other brokerages revise target prices after Q2 results. Should you buy?",ICICI Bank,Positive,0.296,company_results,newsapi
+2026-10-13,"Q2 Results Today Live: Hero Motors, ICICI Pru, Tata Elxsi, SS Retail, Anand Rathi Share to announce Q2 results",ICICI Bank,Positive,0.7003,company_results,newsapi
+2026-10-14,ICICI Life Q2 net profit rises 25% on better product mix,ICICI Bank,Positive,0.7003,company_results,newsapi
+2026-10-14,"Buy, Sell Or Hold: ICICI Life Insurance, HDFC Bank, Nestle India, HDFC Bank And Kalyan Jewellers",ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-14,ICICI Life Insurance Q2 net profit rises 25% to ₹374 crore on premiums,ICICI Bank,Positive,0.4404,company_results,newsapi
+2026-10-14,ICICI Life defends credit cover as Irdai weighs steep commission cut,ICICI Bank,Positive,0.128,unclassified,newsapi
+2026-10-14,"After three decades in the ICICI fold, Anup Bagchi readies for his next act",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-14,"Q2 Results Today Highlights: Q2 Results Today Live: Tata Elxsi, ICICI Pru Life, Hero Motors shares trade mixed; PNB Gilts jumps 8%",ICICI Bank,Positive,0.7003,company_results,newsapi
+2026-10-14,"ICICI Life Insurance Q2 net jumps 25% at ₹374 crore, net premium income rises 16.5%",ICICI Bank,Neutral,0.0,unclassified,newsapi
+2026-10-15,Stock Radar: Breakout from multi-month falling trendline resistance makes ICICI Lombard stock an attractive buy,ICICI Bank,Positive,0.3182,unclassified,et
+2026-10-15,"ICICI Life bets on women advisors, plans 20,000 hires by FY27",ICICI Bank,Neutral,0.0,unclassified,et
+2026-10-15,ICICI Lombard Q2 net profit growth 15.5%; Rs 7 dividend announced,ICICI Bank,Positive,0.6705,company_results,et
+2026-10-15,'IDBI was once bigger than ICICI': Kotak's Nilesh Shah explains why he backs bank's privatisation,ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-16,India's BoP set to turn positive but below expectations amid oil import costs and widening trade deficit: ICICI Bank,ICICI Bank,Negative,-0.8897415399551392,unclassified,gnews
+2026-10-17,"Q2FY27 Results Highlights: Yes Bank Profit Surges, ICICI Margin Dips; HDFC Bank PAT Below Estimates",ICICI Bank,Negative,-0.8607121109962463,company_results,gnews
+2026-10-17,"Q2 results today: HDFC Bank, ICICI Bank, Axis Bank among 18 firms on Oct 17",ICICI Bank,Neutral,0.0,company_results,gnews
+2026-10-17,"Q2 Results LIVE Updates: HDFC, Axis, ICICI, Yes Bank highlight Super Saturday for earnings",ICICI Bank,Neutral,0.0,company_results,gnews
+2026-10-17,"ICICI Bank Q2 profit surges 20 pc to Rs 14,843 crore",ICICI Bank,Positive,0.904142677783966,company_results,gnews
+2026-10-18,India's services trade cushion faces pressure as imports outpace exports: ICICI Bank,ICICI Bank,Negative,-0.9084801077842712,unclassified,gnews
+2026-10-21,Buy Union Bank of India; target of Rs 230: ICICI Securities,ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-10-28,ICICI Lombard acquires ₹1.72 bn worth of State Bank of India shares,ICICI Bank,Neutral,0.0,corporate_action,gnews
+2026-10-29,"Buy, Sell Or Hold: ICICI Bank, Hyundai Motor, Trent, Tata Steel, Schaeffler India And L&T Finance - Ask Profit",ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-11-04,Buy State Bank of India; target of Rs 1300: ICICI Securities,ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-11-04,Former ICICI Bank Executive Kapil Makhija Builds MinEMI to Fix What Most Indians Overpay Every Month: Their EMIs,ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-11-09,ICICI Bank schedules seven investor meets for Nov 16,ICICI Bank,Neutral,0.0,unclassified,gnews
+2026-09-30,From cigarettes to protein bars: ITC's ₹900 cr Yoga Bar bet as FMCG giant taps India's health-food boom,ITC,Positive,0.8241851329803467,unclassified,gnews
+2026-09-09,"Indian IT stocks led by Infosys, TCS, lose over ₹1 lakh crore in market cap this week so far",Infosys,Negative,-0.9722665548324584,unclassified,gnews
+2026-09-15,"Infosys, HCLTech, TCS, other IT stocks soar up to 6%; Nifty IT rallies 5% as global AI slowdown calls boost sentiment",Infosys,Positive,0.6597,unclassified,newsapi
+2026-09-15,"Infosys, TCS to HCL Tech: AI slowdown calls send Nifty IT pack 5% higher",Infosys,Positive,0.4019,unclassified,newsapi
+2026-09-15,Infosys Ltd gains for third consecutive session,Infosys,Positive,0.34,unclassified,newsapi
+2026-09-17,Ex-Infosys CEO Vishal Sikka’s startup Hang Ten Systems raises $53 million,Infosys,Neutral,0.0,corporate_action,newsapi
+2026-09-17,Ex-Infosys chief Vishal Sikka’s Hang Ten raises another $53M for enterprise AI services,Infosys,Neutral,0.0,unclassified,newsapi
+2026-09-17,Infosys expands Indore facility with new 3.3-lakh sq ft software development block,Infosys,Negative,-0.3612,unclassified,newsapi
+2026-09-17,"Stock Alert: Tempsens Instruments India, Infosys, Highway Infra, Alembic Pharma",Infosys,Positive,0.296,unclassified,newsapi
+2026-09-17,"Infosys expands Indore Development Center with new 330,000-sq. ft. block",Infosys,Negative,-0.3612,unclassified,newsapi
+2026-09-17,Former Infosys chief’s AI startup nabs another $53M,Infosys,Neutral,0.0,unclassified,newsapi
+2026-09-17,Infosys expands Indore centre,Infosys,Positive,0.1027,unclassified,newsapi
+2026-09-18,India can move from ‘engineered in India’ to ‘invent in India’ in semiconductors: Infosys,Infosys,Neutral,0.0,unclassified,newsapi
+2026-09-18,India has a once-in-a-generation semiconductor demand window: Infosys SVP,Infosys,Negative,-0.128,unclassified,newsapi
+2026-09-18,"India must move beyond semiconductor engineering to own products, capture innovation value: Infosys' Vikram Meghal",Infosys,Positive,0.6124,unclassified,newsapi
+2026-09-20,Infosys (INFY) Lands a Brake Maker as Growth Stays in Low Gear,Infosys,Positive,0.128,unclassified,newsapi
+2026-09-21,"OFSS shares tumble 7%; Wipro, Coforge, Infosys shares down up to 2%. Why are IT stocks under pressure today?",Infosys,Positive,0.296,unclassified,newsapi
+2026-09-21,Mitrankur Majumdar takes over Infosys CEO designate's old shoes,Infosys,Neutral,0.0,management,newsapi
+2026-09-22,Infosys Ltd drops for fifth straight session,Infosys,Positive,0.2263,unclassified,newsapi
+2026-09-23,Infosys partners with Chainlink to bring onchain finance to 1.7 billion bank accounts,Infosys,Neutral,0.0,unclassified,newsapi
+2026-09-23,"NSE may pip Infosys, Titan, Kotak Bank on D St debut; 5% premium could secure top 10 spot",Infosys,Positive,0.8875343203544617,unclassified,gnews
+2026-09-25,"Chainlink’s Infosys Deal: 1.7 Billion Bank Accounts, But Why Did LINK Drop 4%?",Infosys,Negative,-0.3919,unclassified,newsapi
+2026-09-25,"Infosys nears July lows, Wipro hits fresh 52-week low",Infosys,Negative,-0.9499410390853882,unclassified,gnews
+2026-09-29,"Infosys plans to shift up to one-third of 320,000 employees into specialist roles, build a team of 6,000 frontier engineers as AI reshapes IT jobs",Infosys,Neutral,0.0,unclassified,newsapi
+2026-09-29,Infosys America’s Confluence 2026: An AI Transformation Trip Report,Infosys,Neutral,0.0,unclassified,newsapi
+2026-09-30,"IT Q2 Preview: AI deflation likely to curb revenues; TCS, Infosys set for subdued quarter",Infosys,Negative,-0.9622778296470642,unclassified,gnews
+2026-09-30,Infosys' nearly 1 lakh employees to move into specialist roles as AI reshapes tech industry,Infosys,Neutral,0.0,unclassified,newsapi
+2026-10-01,Infosys and ABN Amro Extend Strategic Collaboration to Simplify IT Landscape and Accelerate AI-Driven Transformation,Infosys,Positive,0.1779,business_news,newsapi
+2026-10-01,Ideas and Enterprise Can Create Jobs in India to Make it a Developed Country: Infosys Founder N.R. Narayana Murthy at JGU’s 17th University Day,Infosys,Positive,0.5359412431716919,unclassified,gnews
+2026-10-02,"Wipro breaks ranks with IT peers, gives junior staff 180 days on bench: Where do TCS, Cognizant, Infosys stand?",Infosys,Neutral,0.0,unclassified,gnews
+2026-10-02,"Infosys, Wipro ADRs soar up to 8% as strong Accenture earnings forecast lifts mood",Infosys,Positive,0.5106,company_results,newsapi
+2026-10-02,"Immigration experts concerned over delays in H-1B extension for Microsoft, Cognizant, Infosys: 'There has been no clarification'",Infosys,Negative,-0.296,unclassified,newsapi
+2026-10-02,Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value,Infosys,Positive,0.6124,business_news,newsapi
+2026-10-02,"Accenture Soars 23% as Record Bookings Dispel AI Demand Fears; Infosys Jumps 8%, IBM Climbs 5%",Infosys,Negative,-0.5106,unclassified,newsapi
+2026-10-02,Why Did Infosys Stock Pop on Thursday?,Infosys,Neutral,0.0,unclassified,newsapi
+2026-10-08,"TRUMP's BIG CRACKDOWN On India's IT Giants, Microsoft, Infosys, Wipro & Tata Targeted",Infosys,Negative,-0.8064796924591064,unclassified,gnews
+2026-10-08,"Are H-1Bs in trouble? Immigration experts on why Cognizant, Infosys, Microsoft are not getting timely approvals on job visas",Infosys,Negative,-0.4019,unclassified,newsapi
+2026-10-09,"US freezes Microsoft, Adobe, Infosys green-card applications over alleged fraud",Infosys,Negative,-0.5994,regulatory_legal,newsapi
+2026-10-09,"GST Council Eases Export Rules For IT Firms, GCCs; TCS, Infosys, Wipro To Benefit From Faster Tax Refunds",Infosys,Positive,0.930759608745575,unclassified,gnews
+2026-10-09,"US suspends Permanent labour certification program for Infosys, Wipro, Tata, Microsoft and others, cites abuse of H1B program",Infosys,Negative,-0.6369,unclassified,newsapi
+2026-10-10,India's Infosys does not expect material impact from US PERM suspension,Infosys,Neutral,0.0,unclassified,gnews
+2026-10-10,"Tech giants Microsoft, Adobe, Infosys and 5 others lose ability to sponsor African and other foreign workers for US green cards - Business Insider Africa",Infosys,Negative,-0.1027,unclassified,newsapi
+2026-10-11,"Why Infosys Can Shrug Off the US Green-Card Suspension, For Now",Infosys,Neutral,0.0,unclassified,newsapi
+2026-10-11,Infosys sees no material impact from US suspension of PERM green card applications,Infosys,Negative,-0.296,unclassified,newsapi
+2026-10-12,PERM suspension unlikely to have material impact: Infosys,Infosys,Neutral,0.0,unclassified,newsapi
+2026-10-12,"As US suspends Green card programme for Infosys, TCS, Wipro and HCL; Shark Tank India judge Anupam Mittal remembers 'Full Emotional Atyachar' he faced when he went to return his Green Card years ago",Infosys,Negative,-0.9411866068840028,unclassified,gnews
+2026-10-12,Infosys plays down impact of PERM suspension,Infosys,Positive,0.25,unclassified,newsapi
+2026-10-13,"AI job-loss fears are ‘hogwash’, says Infosys chairman Nandan Nilekani",Infosys,Negative,-0.9427881836891174,management,gnews
+2026-10-13,"Nandan Nilekani, NEET reform panel head, wants to end ‘question papers’: Infosys co-founder has an unusual plan to prevent paper leaks",Infosys,Neutral,0.0258,unclassified,newsapi
+2026-10-13,"AI job-loss fears are 'hogwash', says Infosys Chairman Nandan Nilekani",Infosys,Negative,-0.4215,management,newsapi
+2026-10-14,"High data centre, chip costs and cheaper AI models pose risks to capacity usage: Infosys CEO",Infosys,Negative,-0.2732,management,newsapi
+2026-10-14,Infosys Bets On Trust As AI Reprices IT Services,Infosys,Positive,0.5106,unclassified,newsapi
+2026-10-14,AI helps Infosys' Finacle suite reduce friction in its sales process,Infosys,Positive,0.3818,unclassified,newsapi
+2026-10-14,AI services may account for almost half of Infosys' work in 2-3 years: CEO Salil Parekh,Infosys,Neutral,0.0,management,newsapi
+2026-10-15,Will AI Replace Software Engineers. True or False? Infosys CTO Rafee Tarafdar Reveals,Infosys,Positive,0.4215,unclassified,et
+2026-10-21,"Infosys, TCS to HCL Tech: Tectonic rally in Indian IT stocks but experts recommend JUST one IT stock to buy",Infosys,Neutral,0.0,unclassified,gnews
+2026-10-23,"TCS Vs Infosys Vs HCLTech Vs Wipro: Who Leads In AI, Deal Wins And Hiring After Q2?",Infosys,Neutral,0.0,unclassified,gnews
+2026-10-23,Infosys Q2 results: IT major's ADR falls 6% after it lowers annual revenue growth guidance,Infosys,Negative,-0.9741072058677672,company_results,gnews
+2026-10-24,"IT stocks Q2 results analysis: Infosys vs TCS vs Wipro vs HCL vs TechM: Who wins profit, revenue, dividend, AI race?",Infosys,Neutral,0.0,company_results,gnews
+2026-09-09,"L&T wins Rs 2,500-5,000 crore ONGC offshore order for three well-head platforms",L&T,Positive,0.9251291751861572,business_news,gnews
+2026-09-09,L&T Secures Major Offshore Order from ONGC to Boost India's Energy Infrastructure,L&T,Positive,0.9458503723144532,business_news,gnews
+2026-09-15,L&T shares slip 3.6% in a month; analysts see up to 16% upside on record order book,L&T,Positive,0.296,analyst_action,newsapi
+2026-09-18,L&T Semiconductor Technologies showcases 40 products at SEMICON India 2026,L&T,Neutral,0.0,unclassified,newsapi
+2026-09-19,L&T expects more modular infra business after Australian project success,L&T,Positive,0.5719,unclassified,newsapi
+2026-09-19,L&T sees $150-billion global modularisation opportunity,L&T,Positive,0.4215,unclassified,newsapi
+2026-09-19,"L&T Semiconductor unveils 40 products, including first SiC platform",L&T,Neutral,0.0,unclassified,newsapi
+2026-09-19,L&T looks to scale up modularisation to boost project execution,L&T,Positive,0.4019,unclassified,newsapi
+2026-09-19,"Tata Electronics, L&T Semiconductor partner to manufacture chips in India",L&T,Neutral,0.0,unclassified,newsapi
+2026-09-20,Next-gen workforce makes India a global investment destination: L&T director,L&T,Neutral,0.0,unclassified,newsapi
+2026-09-20,India is a global investment destination: L&T President,L&T,Neutral,0.0,unclassified,newsapi
+2026-09-25,"Can IRDAI’s insurance reforms impact NBFCs? Jefferies warns L&T Finance, Piramal Finance, others are most exposed",L&T,Negative,-0.2484,unclassified,newsapi
+2026-09-25,L&T Technology Services Partners with Cognite to Advance Engineering Intelligence with Industrial AI,L&T,Positive,0.4767,unclassified,newsapi
+2026-09-26,RCFL bags Rs 797-cr order from Larsen & Toubro,L&T,Neutral,0.0,unclassified,newsapi
+2026-09-30,L&T arm executes twin contracts to develop Latifa Bint Hamdan Corridor in Dubai,L&T,Neutral,0.0,unclassified,newsapi
+2026-09-30,"L&T Transportation Infra vertical secures ₹3,500 cr contracts in Dubai",L&T,Positive,0.3182,unclassified,newsapi
+2026-10-01,L&T extends Hyderabad Metro stake sale deadline to Dec 31,L&T,Positive,0.128,corporate_action,newsapi
+2026-10-03,L&T in talks to sell minority stake in clean energy arm to Japan's Itochu; eyes Kandla as green ammonia export hub,L&T,Positive,0.5859,unclassified,newsapi
+2026-10-03,HC upholds rejection of L&T bid for Jewar link,L&T,Negative,-0.5423,unclassified,newsapi
+2026-10-03,"L&T pushes Metro exit to Dec 31 as T hunts for Rs 13,600 cr loan",L&T,Neutral,0.0,unclassified,newsapi
+2026-10-05,L&T wins ₹10K-cr orders for power transmission & distribution business,L&T,Positive,0.5719,business_news,newsapi
+2026-10-05,"L&T wins power transmission orders worth up to ₹15k cr in India, West Asia",L&T,Positive,0.6808,business_news,newsapi
+2026-10-05,"L&T wins ₹10,000-15,000 crore power transmission orders in India, Middle East",L&T,Positive,0.5719,unclassified,newsapi
+2026-10-06,L&T CMD bats for longer tenures for heads of public sector companies,L&T,Neutral,0.0,unclassified,newsapi
+2026-10-07,"L&T gets initial nod to build main part of 1,600 MW thermal power plant in Jharkhand",L&T,Neutral,0.0,unclassified,newsapi
+2026-10-07,L&T Realty targets 150 million sq ft portfolio by 2031 with focus on luxury housing,L&T,Neutral,0.0,unclassified,newsapi
+2026-10-07,"L&T Realty eyes ₹25,000 crore launches across three cities in H2FY27",L&T,Neutral,0.0,unclassified,newsapi
+2026-10-08,"L&T arm bags order worth over ₹5,000 crore for Jharkhand power project",L&T,Positive,0.2263,unclassified,newsapi
+2026-10-15,"L&T, IIT Madras-incubated TuTr Hyperloop join hands for advanced transport technology",L&T,Positive,0.4939,unclassified,newsapi
+2026-10-15,"Indian Navy to get another indigenous multipurpose ship built by L&T: What are its capabilities, role",L&T,Neutral,0.0,unclassified,et
+2026-09-15,"Maruti Baleno facelift vs Hyundai i20: Price, specs, features compared",Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-15,Maruti Suzuki India Ltd continues to decline,Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-16,Maruti Suzuki exports one lakh made-in-India cars to Japan: Details,Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-18,"Maruti Suzuki records 1 million vehicle dispatches through in-plant railway sidings in Gujarat, Haryana",Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-19,Maruti Suzuki Baleno: A new face with the same comfort,Maruti,Positive,0.3612,unclassified,newsapi
+2026-09-19,"Maruti Suzuki aims to sell 1 mn green vehicles in FY27, debuts S-CNG range",Maruti,Neutral,0.0,business_news,newsapi
+2026-09-19,"Maruti Swift, Dzire, Baleno CNG get automatic transmission: Prices, details",Maruti,Positive,0.2023,unclassified,newsapi
+2026-09-19,"Maruti Suzuki launches automatic S-CNG models of Swift, Dzire and Baleno",Maruti,Positive,0.2023,business_news,newsapi
+2026-09-21,"Tata Aeris launch on September 25: Tata's new sedan expected with CNG option rivaling Maruti Suzuki Dzire, Hyundai Aura; may replace Tigor",Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-22,Maruti Suzuki targets 30% female intake at Manesar manufacturing institute by FY29,Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-22,"Bengaluru fitness trainers bring the first-ever mobile gym to your doorstep. How they transformed a Maruti van into a mobile workout with dumbbells, kettlebells and other exercise equipment",Maruti,Positive,0.2263,unclassified,newsapi
+2026-09-22,"From Maruti to Mahindra, top industry execs say GST 2.0 changed the demand equation",Maruti,Positive,0.0772,unclassified,newsapi
+2026-09-22,GST 2.0 demand boost prompts Maruti Suzuki to accelerate capex plans,Maruti,Positive,0.296,business_news,newsapi
+2026-09-23,Maruti Suzuki targets 30% women students at Haryana’s Uncha Majra JIM by 2028-29,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-24,Maruti Suzuki India commissions green hydrogen plant at Manesar to support low,Maruti,Positive,0.8345848917961121,unclassified,gnews
+2026-09-24,Maruti Suzuki India commissions 300 kW Green Hydrogen (GH2) electrolyzer plant,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-24,Maruti Suzuki commissions first 300 kW green hydrogen plant at Manesar,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-25,Suzuki Targets 4 Million Vehicles of Annual Production in India by FY30,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-25,Suzuki to cut vehicle development time by half by 2030; India capacity target at 4 million,Maruti,Negative,-0.4093090891838074,unclassified,gnews
+2026-09-25,"Suzuki targets half-time vehicle development; small EVs, REEVs on cards",Maruti,Neutral,0.0,unclassified,gnews
+2026-09-25,Maruti Suzuki plans 4 million unit production capacity in India by FY30,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-25,Tata Motors Takes on Maruti Suzuki’s Dzire With New Aeris Sedan,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-26,Tata Aeris Launched at Rs 5.29 Lakh: Maruti Dzire’s new rival,Maruti,Positive,0.128,unclassified,newsapi
+2026-09-26,"Tata Aeris vs Maruti Dzire: Mileage, price, engine, dimensions, fuel options and transmission comparison",Maruti,Neutral,0.0,unclassified,newsapi
+2026-09-28,Tata Aeris Gets These Features Over The Maruti Suzuki Dzire,Maruti,Neutral,0.0,unclassified,gnews
+2026-09-30,Maruti Suzuki's Production Director resigns; new head appointed,Maruti,Negative,-0.3182,management,newsapi
+2026-10-01,"Market wrap: Infosys, HDFC Bank, Bajaj Auto, Maruti Suzuki among top gainers and losers on Nifty and Sensex on Thursday",Maruti,Negative,-0.8426710367202759,unclassified,gnews
+2026-10-01,Maruti Suzuki India total sales rise 24% to 2.36 lakh units in September,Maruti,Neutral,0.0,company_results,newsapi
+2026-10-02,Suzuki Tells India Suppliers To Adopt 6-Day Production Week Amid Quality Push: Report,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-02,Tata Aeris vs Honda Amaze vs Maruti Dzire: Which sedan offers more for your money?,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-02,"Car Sales September 2026: Maruti, Hyundai, Kia report strong growth, SUVs boom",Maruti,Positive,0.1779,unclassified,newsapi
+2026-10-02,Maruti Suzuki trials automobile rake movement through Vallarpadam rail siding,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-02,Suzuki asks India suppliers to halt production one day a week as Maruti eyes 4 million cars,Maruti,Negative,-0.9049455523490906,unclassified,gnews
+2026-10-02,"India’s EV sales nearly double in September. Tata leads as VinFast, Maruti gain ground",Maruti,Positive,0.7829825282096863,unclassified,gnews
+2026-10-02,Suzuki is said to ask India suppliers to shorten production week in push for quality,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-05,"Kia beats Maruti, Tesla overtakes Mercedes: How September 2026 changed India’s EV sales race",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-05,"Maruti Suzuki schedules investor meeting for October 8, 2026",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-07,"Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are ‘off the table’",Maruti,Negative,-0.5106,macro,newsapi
+2026-10-08,"Maruti Suzuki Q2 Results: Date, Time, Dividend News, Earnings Call Schedule And More",Maruti,Neutral,0.0,company_results,gnews
+2026-10-08,Deep Localisation Key To Sustainable Business In India: Maruti Chief,Maruti,Positive,0.5332276821136475,unclassified,gnews
+2026-10-08,Beyond EVs: Why Maruti Suzuki Thinks India Needs Its Own Green Mobility Path,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-12,"Top-Selling Cars in September 2026: Maruti Suzuki Baleno Leads, Followed by Tata Nexon And Punch",Maruti,Positive,0.4791828691959381,unclassified,gnews
+2026-10-12,"Top 10 best-selling cars in September 2026: Maruti Suzuki Baleno leads, Tata Nexon follows",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-13,Maruti Suzuki tanks 33% in calendar year 2026; stock hits 18-month low,Maruti,Negative,-0.2732,unclassified,newsapi
+2026-10-13,Bayon is Hyundai's answer to Maruti Suzuki Victoris in India,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-13,"Bought Rs 25.21 lakh Maruti Invicto, found repainted parts; consumer court orders Rs 3.6 lakh relief",Maruti,Positive,0.4767,unclassified,newsapi
+2026-10-14,"Mahindra takes on Tata, Maruti in CNG SUV race with XUV 3XO",Maruti,Neutral,0.0,unclassified,newsapi
+2026-10-14,Fire at Maruti service centre in Burhanpur damages several vehicles,Maruti,Negative,-0.6486,unclassified,newsapi
+2026-10-15,"Maruti Suzuki ITAT order reduces contingent liability by ₹63,000 million",Maruti,Positive,0.9152907729148864,unclassified,gnews
+2026-10-20,Best CNG Cars With Big Boot Space In India: Mahindra XUV 3XO ZNG To Maruti Suzuki Victoris,Maruti,Positive,0.6240350008010864,unclassified,gnews
+2026-10-23,Maruti Suzuki Ertiga gets a price hike in October: Check new prices of all 7 seater MPV variants,Maruti,Positive,0.910663902759552,unclassified,gnews
+2026-10-24,Maruti Suzuki Victoris Aurum Edition Launched In India; Celebrates 1 Year Sales,Maruti,Positive,0.7953906059265137,business_news,gnews
+2026-10-27,"Q2 Results Live: Bajaj Auto, Maruti Suzuki, L&T, Tata Steel to announce September-quarter earnings today",Maruti,Neutral,0.0,company_results,gnews
+2026-10-27,"Q2 results: L&T, Bajaj Auto, Maruti Suzuki, Cipla among 110 firms on Oct 27",Maruti,Neutral,0.0,company_results,gnews
+2026-10-27,"Maruti Suzuki Q2 Results: Profit falls 26% YoY to Rs 2,466 crore, but revenue rises 26%",Maruti,Negative,-0.7315395474433899,company_results,gnews
+2026-10-27,Maruti Suzuki flags West Asia-linked commodity costs as margins come under pressure,Maruti,Negative,-0.8789360523223877,unclassified,gnews
+2026-10-27,"Maruti Suzuki Q2 earnings preview: Stock near 52 week low, here's what brokerages expect",Maruti,Negative,-0.8452785015106201,company_results,gnews
+2026-10-27,"Maruti Suzuki India Q2 Results: Higher costs, MTM losses impact margins; revenue grows 26%",Maruti,Positive,0.9534077644348145,company_results,gnews
+2026-10-27,Hyundai Bayon vs Maruti Suzuki Victoris Spec Comparison: What's Different?,Maruti,Neutral,0.0,unclassified,gnews
+2026-10-27,"Small cars are far from dead, India isn't just an SUV market: Maruti Suzuki Chairman R C Bhargava",Maruti,Neutral,0.0,management,gnews
+2026-10-27,"Maruti Suzuki's Q2 Profit Dips 26% to ₹2,466 Crore, But Sales Soar",Maruti,Negative,-0.9479288458824158,company_results,gnews
+2026-10-27,"Earnings Central: L&T, Bajaj Auto, Maruti Suzuki, Cipla headline Tuesday’s Q2 results",Maruti,Neutral,0.0,company_results,gnews
+2026-10-28,"Maruti Suzuki Alto, Swift, Wagon R, Tata Punch: Best-Selling Cars In India Since 2011",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-28,"Buy Maruti Suzuki India; target of Rs 13,500: Choice Institutional Equities",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-29,"Maruti Suzuki achieves exports of 50,000 EVs since August 2025",Maruti,Positive,0.8365761041641235,unclassified,gnews
+2026-10-29,"Maruti Suzuki's EV exports cross 50,000 units since Aug 2025",Maruti,Positive,0.5082975029945374,unclassified,gnews
+2026-10-29,"Maruti Suzuki crosses 50,000 EV exports with e Vitara, accounts for 93% of India’s electric car shipments",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-29,"Maruti Suzuki crosses 50,000 EV exports, commands 93% share of EV exports",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-29,"Maruti Suzuki e-Vitara EV Exports Cross 50,000 Units In Over A Year",Maruti,Positive,0.7221294045448303,unclassified,gnews
+2026-10-29,"Maruti Suzuki EV Exports Surge Past 50,000 Units, Dominates Indian Market",Maruti,Positive,0.8942222595214844,unclassified,gnews
+2026-10-29,"Maruti Suzuki EV exports cross 50,000 units; Accounts for 93% of segment outbound shipments",Maruti,Neutral,0.0,unclassified,gnews
+2026-10-30,Hyundai vs Maruti Suzuki: Record Q2 sales but why are margins contracting? Check 5 factors,Maruti,Negative,-0.3987171351909637,unclassified,gnews
+2026-10-31,"Tata, Mahindra or Maruti? India's biggest electric car exporter may surprise you",Maruti,Neutral,0.0,unclassified,gnews
+2026-11-01,"Maruti Suzuki Dzire Hits 35 Lakh Production Milestone, Here's Why It Sells",Maruti,Neutral,0.0,unclassified,gnews
+2026-11-01,"Maruti Suzuki records highest-ever monthly sales at 2.76 lakh units in October, up 25% YoY",Maruti,Positive,0.9527446627616882,unclassified,gnews
+2026-11-01,"Maruti Suzuki Achieves Record Sales in October, Up 25% to 2.76 Lakh Units",Maruti,Positive,0.9536269307136536,unclassified,gnews
+2026-11-01,"Maruti Suzuki hits record monthly sales of 276,120 units in Oct 2026",Maruti,Positive,0.8216320872306824,unclassified,gnews
+2026-11-01,Maruti Suzuki records highest-ever monthly sales of 2.76 lakh units in October amid festive demand,Maruti,Positive,0.9342215657234192,unclassified,gnews
+2026-11-01,Maruti Suzuki posts record sales in October with 25 pc growth despite high base,Maruti,Positive,0.9433711171150208,unclassified,gnews
+2026-11-02,Maruti Suzuki records its highest-ever monthly sales in October 2026: Details,Maruti,Neutral,0.0,unclassified,gnews
+2026-11-04,₹2 lakh cheaper than Ertiga? Maruti's rumoured 7-seater has a big surprise,Maruti,Neutral,0.0,unclassified,gnews
+2026-11-05,"Maruti vs Mahindra vs Hyundai: Sales are booming, but only one grew profits",Maruti,Positive,0.9499220848083496,unclassified,gnews
+2026-11-06,"Dhanteras rush: Maruti expects 30,000 deliveries, Tata Motors over 12,000; Mahindra grapples with tight SUV stocks",Maruti,Positive,0.4940477013587951,unclassified,gnews
+2026-09-09,"5,000 crore ONGC order to develop offshore assets, boost production",ONGC,Positive,0.8860092759132385,unclassified,gnews
+2026-09-17,"Hormuz crisis lifts ONGC oil business, squeezes petrochemical unit as feedstock costs surge",ONGC,Negative,-0.6249,unclassified,newsapi
+2026-09-21,"ONGC strikes gas in deep waters of Mahanadi Basin, Hardeep Puri says major milestone for India’s offshore energy exploration",ONGC,Positive,0.6851230263710022,unclassified,gnews
+2026-09-21,ONGC strikes gas in deepwater well off Odisha coast,ONGC,Negative,-0.8064280152320862,unclassified,gnews
+2026-09-22,ONGC strikes gas in Mahanadi deepwater under Samudra Manthan,ONGC,Negative,-0.3612,unclassified,newsapi
+2026-09-22,"Gas found near Odisha coast: ONGC strikes Mahanadi deepwater well under Samudra Manthan, finds encouraging flow at 1,450 metres",ONGC,Positive,0.4588,unclassified,newsapi
+2026-09-22,ONGC finds natural gas in Mahanadi Basin off Odisha coast,ONGC,Positive,0.3612,unclassified,newsapi
+2026-09-22,"In major milestone for India’s offshore energy exploration, ONGC strikes gas in Mahanadi Basin, 43 km off Odisha coast; proximity could enable faster monetisation if commercially viable",ONGC,Positive,0.8564064502716064,unclassified,gnews
+2026-09-23,ONGC lauded for gas discovery in Mahanadi Basin,ONGC,Neutral,0.0,unclassified,newsapi
+2026-09-23,ONGC discovers natural gas reserve in Mahanadi basin,ONGC,Positive,0.3612,unclassified,newsapi
+2026-09-23,ONGC lags Oil India as mid-cap rally drives stock divergence: Kotak,ONGC,Negative,-0.3612,unclassified,newsapi
+2026-09-23,"Deep beneath Odisha’s waters, ONGC finds gas: How Mission Samudra Manthan’s latest discovery could open a new chapter for India’s energy hunt",ONGC,Neutral,0.0,unclassified,gnews
+2026-09-24,ONGC to continue drilling after gas discovery in Mahanadi basin; India to retain 20% ethanol blending: Hardeep Puri,ONGC,Positive,0.7640449404716492,unclassified,gnews
+2026-09-27,He failed Python once while working at ONGC; how Kaushal Prajapati earned an IIT Madras degree and switched to AI-ML,ONGC,Negative,-0.5106,unclassified,newsapi
+2026-09-29,E20 petrol can reduce India's dependence on imports: ONGC official,ONGC,Neutral,0.0,unclassified,newsapi
+2026-09-29,Five IIT (ISM) Dhanbad Alumni Part of ONGC Team Behind Mahanadi Gas Find,ONGC,Neutral,0.0,unclassified,newsapi
+2026-10-09,"MRPL, ONGC and OPaL form new petrochemicals marketing joint venture",ONGC,Neutral,0.0,corporate_action,newsapi
+2026-10-09,"ONGC, MRPL, OPaL incorporate petrochemicals marketing joint venture",ONGC,Neutral,0.0,corporate_action,newsapi
+2026-10-14,"ONGC weighs standalone, joint venture models for new greenfield refinery",ONGC,Neutral,0.0,corporate_action,newsapi
+2026-11-01,ONGC appoints IPS officer Deepali Masirkar as Executive Director,ONGC,Neutral,0.0,management,gnews
+2026-11-05,"Q2 Results 05th Nov Oct Live: Bharti Airtel, LIC, Titan, M&M, ONGC, Samvardhana, Britannia, LG Electronics, Bharat Forge, Prestige Estates, Fortis Healthcare, Abbott to announce Q2 results, BSE, Lensk",ONGC,Neutral,0.0,company_results,gnews
+2026-11-05,"Q2 Results 05th Nov Oct Highlights: M&M, NBCC, IPCA Lab, Bharat Forge, LG Electronics, Uno Minda & Amagi Media Q2 profit up, Samvardhana Motherson profit down q-o-q, Bharti Airtel, LIC, Titan, ONGC, B",ONGC,Positive,0.8247038722038269,company_results,gnews
+2026-09-08,Jio Platforms to begin investor outreach for IPO next week,Reliance,Neutral,0.0,corporate_action,gnews
+2026-09-10,"Stocks in news: Reliance Industries, Wipro, ICICI Bank, Coal India and Hindustan Zinc",Reliance,Neutral,0.0,unclassified,gnews
+2026-09-11,Reliance Industries to host investors at Jefferies India Forum on Sep 17,Reliance,Neutral,0.0,unclassified,gnews
+2026-09-16,"Reliance Industries to raise Rs 12,500 crore via five-year bonds",Reliance,Neutral,0.0,unclassified,newsapi
+2026-09-17,Reliance Industries shares in focus as govt slashes windfall tax on fuel exports; stock down 21% in 2026 so far,Reliance,Positive,0.1027,unclassified,newsapi
+2026-09-24,"Reliance Industries eyes ₹10,000 crore debt fundraise",Reliance,Negative,-0.3612,unclassified,newsapi
+2026-09-24,Reliance Industries said to eye $1 billion debt fundraise,Reliance,Negative,-0.3612,unclassified,newsapi
+2026-09-24,"Reliance to raise Rs 10,000 crore next week as companies rush to tap surplus bank liquidity",Reliance,Positive,0.8710450530052185,unclassified,gnews
+2026-09-24,"Billionaire Ambani's Reliance Industries eyes Rs 10,000 cr debt fundraise: Sources",Reliance,Negative,-0.3612,unclassified,newsapi
+2026-09-24,Reliance Industries buys duplex at Three Sixty West in Worli for ₹75.1 cr,Reliance,Neutral,0.0,unclassified,newsapi
+2026-09-24,"Reliance Industries down 2%, at 17-month low; what's making Street nervous?",Reliance,Negative,-0.4939,unclassified,newsapi
+2026-09-24,"Reliance Industries eyes ₹10,000 crore 10-year bond sale at 7.90%: Bankers",Reliance,Neutral,0.0,unclassified,newsapi
+2026-09-30,Reliance Industries fell 25% this year: Which mutual funds have the highest exposure — and should you be worried?,Reliance,Negative,-0.296,unclassified,newsapi
+2026-10-01,"Reliance Industries raises ₹13,000 crore through 10-year bonds at 7.90%",Reliance,Neutral,0.0,unclassified,newsapi
+2026-10-02,Jio Platforms IPO in final stages after concluding worldwide roadshows,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-03,"Jio Platforms IPO may open on October 21, issue estimated at $3.8 billion: Report",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-04,Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-04,Jio Platforms IPO likely by Oct end at enterprise valuation of $143-146 billion,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-04,"Jio Platforms IPO likely by October-end; $3.8 billion issue, $143-146 billion company valuation: Report",Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-04,India hikes deepwater gas price ceiling to $9.89 for difficult fields; Reliance-BP’s KG-D6 to benefit,Reliance,Positive,0.9235410094261168,unclassified,gnews
+2026-10-05,Mukesh Ambani’s Jio Platforms plans $3.8 billion IPO on October 21,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-05,"Jio Platforms likely to launch IPO on October 21, seeks to raise $3.8 bn",Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-05,Jio IPO roadshows draw strong global investor interest ahead of mega listing,Reliance,Positive,0.743,corporate_action,newsapi
+2026-10-06,Ambani’s Jio said to seek about Rs 11 lakh crore valuation in IPO,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-06,"Jio plans to launch IPO on October 21: Listing, face value and key details",Reliance,Positive,0.34,corporate_action,newsapi
+2026-10-06,"Jio Platforms targets $114 bn valuation for IPO, listing likely by Oct 30",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-06,Reliance Jio IPO clock ticking: Can you still buy RIL for shareholders quota amid October 21 launch buzz?,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-06,"Jio IPO to open on October 21: Expected price band, listing date and all you need to know",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-06,Reliance Industries gains 3% as Jio IPO plan fuels hopes of value unlocking,Reliance,Positive,0.765,corporate_action,newsapi
+2026-10-06,Ambani’s Jio said to seek about $114 billion valuation in IPO,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-06,"Jio Platforms IPO: Rs 37,700 crore issue likely to open on Oct 21",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-07,Reliance Industries shares gain 3% as JIO IPO inches closer; Jefferies increases weight in conglomerate,Reliance,Positive,0.6808,corporate_action,newsapi
+2026-10-07,"Jio IPO SWOT analysis: What the DRHP says about its growth story, moats and risks",Reliance,Positive,0.128,corporate_action,newsapi
+2026-10-07,"Ahead of Jio IPO, Airtel introduces new postpaid plans, hikes prices by 3-11%",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-08,"Jio Platforms aspires to deliver India’s biggest IPO, says Akash Ambani",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-09,"Jio IPO a 'great responsibility', says Akash Ambani; listing to share value with Indian citizens, including retail investors",Reliance,Positive,0.8271,corporate_action,newsapi
+2026-10-09,Jio IPO is ‘biggest move’ and ‘huge responsibility’ towards Indian shareholders: Akash Ambani,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-10,"Exclusive | Akash, Isha Ambani take Rs 30,000 crore Jio IPO pitch global; marquee investors seek bigger stake",Reliance,Positive,0.128,corporate_action,newsapi
+2026-10-10,Reliance Jio IPO: Likely price band range for India's biggest listing revealed. Check details,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-10,"Ambani’s Jio said to set IPO price band at ₹1,065-₹1,119",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-11,Musk vows affordable Starlink in India days before Ambani's record Jio IPO,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-11,"IPO rush continues: Jio Platforms, Zetwerk among dozen cos set to tap primary market in Oct",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-11,Elon Musk vows affordable Starlink in India ahead of record Jio IPO,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-12,Elon Musk Pitches SpaceX's Starlink As An Affordable Option To Bring Internet To Indians Ahead Of Ambani's Jio IPO,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-12,"Jio IPO may be valued at Rs 11 lakh crore: What it means for RIL, Bharti Airtel and telecom stocks",Reliance,Positive,0.4404,corporate_action,newsapi
+2026-10-12,"New OTT releases of the week (October 12 - October 18): 9 new movies and shows on Netflix, Prime Video, JioHotstar and more",Reliance,Neutral,0.0,unclassified,et
+2026-10-12,Supreme Court asks MMRDA to deposit Rs 646 crore in Reliance Industries BKC case,Reliance,Positive,0.5574,unclassified,newsapi
+2026-10-12,Reliance Industries hits 18-month low; stock down 28% from January low,Reliance,Negative,-0.4939,unclassified,newsapi
+2026-10-13,Reliance Jio IPO: GMP already seeing 'Ambani premium' ahead of record issue launch,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-13,"MOFSL sees telecom sector re-rating ahead of Jio IPO; RIL, Airtel in focus",Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-13,Jio IPO may trigger Reliance’s next big re-rating. Why Religare sees 47% upside,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-14,Jio Platforms attracts more than $20B in bids ahead of record India IPO,Reliance,Positive,0.4019,corporate_action,newsapi
+2026-10-14,"Aasha to The Traitors Telugu to Kappi Squad: Watch these latest Tamil, Malayalam, Telugu and Kannada OTT releases on Netflix, JioHotstar, Prime Video and more",Reliance,Neutral,0.0,unclassified,et
+2026-10-14,"Latest Malayalam OTT releases of the week: Kappi Squad to Aasha, new movies and shows on Netflix, JioHotstar, Prime Video, and more",Reliance,Neutral,0.0,unclassified,et
+2026-10-14,Reliance's JioHotstar and Peacock Hub in first-of-its-kind partnership in grand finale of Koffee with Karan,Reliance,Positive,0.4588,unclassified,et
+2026-10-14,A Jigsaw Puzzle: Why Reliance Jio's IPO buzz isn’t saving RIL stock from a painful year?,Reliance,Negative,-0.4404,corporate_action,et
+2026-10-14,Jio Platforms may draw more than $20 billion in bids for IPO,Reliance,Neutral,0.0,corporate_action,newsapi
+2026-10-14,"Exclusive | Countdown begins for the mother of all IPOs: Jio likely to file RHP today for record Rs 30,000 crore issue",Reliance,Positive,0.128,unclassified,et
+2026-10-15,"Jio IPO to open on October 21: 10 things to know about the Rs 30,000 crore mega issue",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,Jio IPO: 5 strengths that put the Reliance-backed digital giant in spotlight,Reliance,Positive,0.4019,corporate_action,et
+2026-10-15,"Jio announces price band for over Rs 30,000 crore IPO. Check key dates, GMP and other details",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,Reliance Industries shares rise 3% as Jio sets price band for possibly biggest-ever issue. What shareholders must know,Reliance,Positive,0.296,unclassified,et
+2026-10-15,"From Rs 1,000 in 1977 to Rs 52 lakh today: The Reliance wealth story behind Jio’s Rs 10.3 lakh crore valuation in mega IPO",Reliance,Positive,0.4939,corporate_action,et
+2026-10-15,Jio IPO Prospectus: Key takeaways for investors,Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,Jio’s 10-year timeline: How Ambani's Reliance transformed Indian telecom,Reliance,Neutral,0.0,unclassified,et
+2026-10-15,"Diwali offer for RIL shareholders! Reliance Jio sets aside Rs 2,500 crore shares in IPO reservation",Reliance,Positive,0.3595,corporate_action,et
+2026-10-15,"Akash, Isha Ambani's birthday to mark close of Reliance Jio's mega IPO",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,"Jio Platforms' grey market premium jumps to Rs 218 ahead of October 21 launch; price band set at Rs 1,065-1,119",Reliance,Positive,0.0516,unclassified,et
+2026-10-15,JIO IPO & Rs 10 lakh crore: Mukesh Ambani added 13 zeros to Dhirubhai’s dream,Reliance,Positive,0.25,corporate_action,et
+2026-10-15,"Jio IPO fever grips telecom stocks: Airtel, Vodafone Idea &amp; others rise up to 4%",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,The Jio IPO separate queue explained: How RIL investors can double their chances of allotment,Reliance,Positive,0.2023,corporate_action,et
+2026-10-15,"Race for Jio IPO bidding: Can you buy RIL shares now to access Rs 2,500 crore shareholder quota?",Reliance,Positive,0.296,corporate_action,et
+2026-10-15,"Jio Platforms IPO: How Reliance, Meta, Google and other investors’ stakes will change post the offer",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,"Jio IPO sparks investor buzz: GMP rises to 20% as Reliance’s telecom arm announces price band, dates",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,"Reliance Jio files RHP, announces IPO dates for India's biggest listing",Reliance,Neutral,0.0,corporate_action,et
+2026-10-15,Jio Platforms files red herring prospectus for India’s biggest public issue,Reliance,Neutral,0.0,unclassified,et
+2026-10-15,Fresh capital: How Jio’s market debut differs from recent mega-IPOs,Reliance,Positive,0.3182,corporate_action,et
+2026-10-15,Reliance Group to become India's largest conglomerate by listed market value after Jio IPO: Uday Kotak,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-15,Reliance Jio IPO at Rs 10 lakh crore valuation: What analysts see in the price band,Reliance,Neutral,0.0,corporate_action,et
+2026-10-16,Marine Drive was lit up for Reliance IPO: Uday Kotak recalls Dhirubhai Ambani’s market legacy amid Jio IPO,Reliance,Neutral,0.0,corporate_action,et
+2026-10-16,"Reliance Jio IPO: With tech muscle, Akash Ambani makes $1.4 trillion digital economy pitch to investors",Reliance,Neutral,0.0,corporate_action,et
+2026-10-16,October 13 or 14? What was the deadline to buy RIL shares for Jio IPO reservation?,Reliance,Positive,0.3736,corporate_action,et
+2026-10-16,Reliance Jio’s next big bet is beyond data,Reliance,Neutral,0.0,unclassified,et
+2026-10-17,India's largest IPO in the making: How Jio Platforms is set to reshape the stock market landscape,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-18,The Jio IPO factor for India's stock market this week,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-19,Jio Platforms to lead IPO parade this week,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-21,"'Can't tell you whether to apply for Jio IPO': Nitin Kamath on Jio's rise, Zerodha's growth & what changed India's stock market",Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-23,Mother of all IPOs! Jio Platforms shatters many existing records - Full list here,Reliance,Neutral,0.0,unclassified,gnews
+2026-10-25,"Jio Platforms IPO listing date and time, share price prediction, expected money gains basis GMP, expected m-cap; Details",Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-26,India's Biggest IPOs Have A Listing-Day Problem. Will Jio Be Different?,Reliance,Negative,-0.79986572265625,unclassified,gnews
+2026-10-27,"Jio Platforms to list on stock market tomorrow, becomes India's 4th largest company by market cap",Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-28,'India made Jio': Anant Ambani dedicates Jio's success to everyday Indian as Mukesh Ambani watches on emotionally,Reliance,Neutral,0.0,unclassified,gnews
+2026-10-28,JPL share price: Jio Platforms IPO listing gains explained - How much profit investors made on debut,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-28,Jio Platforms lists on NSE following India's fastest subscribed mega-issue,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-28,Jio Platforms' post-IPO playbook: What's ahead for No. 2 of Dalal Street?,Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-28,Jio Platforms Becomes India's Second Most Valuable Company on Listing Day,Reliance,Positive,0.8241405487060547,unclassified,gnews
+2026-10-28,"Jio Platforms Share Soars 27%, Becomes India's Second Most Valuable Company",Reliance,Positive,0.9352705478668212,unclassified,gnews
+2026-10-28,"Jio Platforms finishes 27% above IPO price: Buy, sell or hold India’s most valuable telco?",Reliance,Neutral,0.0,corporate_action,gnews
+2026-10-28,From 104 shareholders to nearly 80 lakh! Jio becomes India's most widely owned stock on listing day,Reliance,Positive,0.5083591341972351,unclassified,gnews
+2026-10-28,Anant Ambani dedicates Jio's massive enterprise value to everyday Indians in moving NSE speech,Reliance,Neutral,0.0,unclassified,gnews
+2026-10-29,"Jio Platforms makes blockbuster stock market debut, lifts Reliance past Tata Group - Telegraph India",Reliance,Positive,0.917726755142212,corporate_action,gnews
+2026-10-30,"Jio Platform shares: Investors borrowed Rs 2,228 crore to buy stock on listing day",Reliance,Neutral,0.0,unclassified,gnews
+2026-09-23,"SBI expects surplus from new UPI MDR as issuing, acquiring bank",SBI,Positive,0.8031541705131531,unclassified,gnews
+2026-09-23,"MDR to help SBI recoup costs, generate modest profits says senior official",SBI,Positive,0.8861687183380127,unclassified,gnews
+2026-09-24,FD-backed SBI Card: Advantage SBI Card launched; who can benefit from it?,SBI,Positive,0.6705,unclassified,newsapi
+2026-09-24,"PSUs in NSE IPO: How much did SBI, other government entities make in India’s second largest offer?",SBI,Neutral,0.0,corporate_action,newsapi
+2026-09-24,"UPI બાદ હવે ATM પર ચાર્જ,1 ઓક્ટોબરથી આ બેંકના ગ્રાહકો લાગશે ઝટકો | sbi atm cash withdrawal charges 1 october 2026 bsbd account new rules",SBI,Negative,-0.25,unclassified,newsapi
+2026-09-25,SBI ATM charges waived during proposed bank strike of September 28-30: What customers need to know,SBI,Negative,-0.3818,business_news,newsapi
+2026-09-25,"Bank strike from Sept 28-30: SBI waives ATM charges for 3 days, UPI, NEFT, RTGS to work",SBI,Neutral,0.0,unclassified,gnews
+2026-09-25,"State Bank of India offers free online courses on AI, Marketing, Personal Branding, Finance and more",SBI,Neutral,0.0,unclassified,gnews
+2026-09-25,K-POP＆J-POPのハイブリット音楽フェス『SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK -』を、2026年9月26日 午後2時よりABEMAにて国内独占・無料生中継決定,SBI,Neutral,0.0,unclassified,newsapi
+2026-09-25,Nationwide bank strike: SBI waives ATM charges for 3 days,SBI,Negative,-0.937188982963562,unclassified,gnews
+2026-09-25,"SBI Waives ATM Charges During Nationwide Bank Strike From Sep 28 To 30, Digital Services To Remain Operational",SBI,Neutral,0.0,unclassified,gnews
+2026-09-25,"SBI offers free online courses on AI, banking, finance, marketing and more: Check details",SBI,Neutral,0.0,unclassified,gnews
+2026-09-25,"Are banks working on Sunday, September 27, 2026 ahead of 28-30 strike? Here’s what SBI, RBI, bank unions say",SBI,Negative,-0.128,regulatory_legal,newsapi
+2026-09-26,autofs: fix sbi->pipe file reference leak in autofs_kill_sb(),SBI,Negative,-0.34,unclassified,newsapi
+2026-09-26,Credit card spends growth slows to 5.5% in August; SBI Cards share dips,SBI,Positive,0.7506,unclassified,newsapi
+2026-09-26,SBI hands over cheque worth ₹500 crore to Jeevika Didis in Patna,SBI,Positive,0.2263,unclassified,newsapi
+2026-09-27,SBI USMNT Man of the Match: Sebastian Berhalter,SBI,Neutral,0.0,unclassified,newsapi
+2026-09-27,"Digital first, customer first and nation always SBI's growth mantra, says Chairman",SBI,Neutral,0.0,management,gnews
+2026-09-28,"Bank Nifty Index Slips Below 55,000; Yes Bank, IDFC First, PNB, SBI Top Drags",SBI,Negative,-0.835118293762207,macro,gnews
+2026-09-28,"SBI developing GIFT City specific products for NRI customers, says Chairman Setty",SBI,Positive,0.5622,management,newsapi
+2026-09-28,株式会社 SBIスターミュージック・エンタテインメント、WHITEBOXと資本業務提携を締結,SBI,Neutral,0.0,unclassified,newsapi
+2026-09-28,"Tourism inks pact with SBI, ASI, kayaking body",SBI,Neutral,0.0,unclassified,newsapi
+2026-09-28,"Bank strike deferred: Will SBI, HDFC and cooperative banks across India stay open on Tuesday-Wednesday, 29-30 October?",SBI,Neutral,0.0,unclassified,gnews
+2026-09-28,"Govt vs private banks dividend comparison: SBI, HDFC, ICICI, PNB, BoB, Axis, Canara - Which bank tops the yield chart?",SBI,Neutral,0.0,company_results,gnews
+2026-09-29,"SBI seeks clarity on handling of bank accounts, deposits under FCRA bill",SBI,Neutral,0.0,unclassified,gnews
+2026-09-29,SBI seeks rules on funds of cancelled FCRA registered NGOs; law ministry explains bills,SBI,Neutral,0.0,unclassified,gnews
+2026-09-29,"IRDAI pushes LIC, SBI Life to seek further cost efficiency",SBI,Positive,0.3612,unclassified,newsapi
+2026-09-29,"5 rule changes from October 1: SBI ATM charges, MDR on UPI, bulk FD rates, KYC for LPG subsidy and more",SBI,Negative,-0.2732,sector_policy,newsapi
+2026-09-29,"New rules from October: SBI ATM charges, bulk FD rates, fee on UPI, Aadhaar verification for LPG subsidy, and more",SBI,Negative,-0.2732,sector_policy,newsapi
+2026-09-29,SBI seeks clarity on bank accounts under proposed FCRA rules,SBI,Neutral,0.0,unclassified,gnews
+2026-09-29,SBI seeks rules for managing NGO funds if FCRA registration cancelled,SBI,Neutral,0.0,unclassified,gnews
+2026-09-30,"SBI Funds Management: Centrum bets on strong franchise, growth runway; initiates Buy with 34% upside",SBI,Positive,0.7096,analyst_action,newsapi
+2026-09-30,SBI USMNT Man of the Match: Julian Hall,SBI,Neutral,0.0,unclassified,newsapi
+2026-09-30,"October 1 rule changes: LPG Aadhaar, UPI MDR, SBI ATM limits explained",SBI,Neutral,0.0,unclassified,newsapi
+2026-09-30,"New rules from October 2026: SBI ATM transactions, UPI MDR, bulk FD rates, NPS and LPG subsidy changes",SBI,Neutral,0.0,sector_policy,gnews
+2026-09-30,"Money changes in Oct: SBI ATM, LPG, FD, NPS and EPF rules to know",SBI,Neutral,0.0,unclassified,newsapi
+2026-10-01,"5 money rule changes from October 2026: Bulk FD rates, UPI MDR starts above Rs 2,000, SBI ATM free limit falls to 5, LPG Aadhaar-KYC & new NPS charges",SBI,Positive,0.296,unclassified,newsapi
+2026-10-01,"SBI buys nearly 40% of Reliance Industries’ ₹13,000 crore bond offering",SBI,Neutral,0.0,unclassified,newsapi
+2026-10-01,State Bank of India buys nearly 40% of Reliance's $1.35 billion debt sale,SBI,Negative,-0.3612,unclassified,newsapi
+2026-10-01,"Reliance’s ₹13,000 crore bond issue draws strong demand; SBI said to be largest investor",SBI,Positive,0.4215,unclassified,newsapi
+2026-10-01,NPS industry may double or triple in 5-6 years: SBI Pension Funds MD & CEO,SBI,Neutral,0.0,management,newsapi
+2026-10-01,"SBI Holdings, Mesh & Money Forward Form Japan Joint Venture For Stablecoin Payments",SBI,Neutral,0.0,corporate_action,newsapi
+2026-10-02,"SBI Research sees CPI inflation at 5.65% in Sept, above 6.5% in Oct-Nov",SBI,Neutral,0.0,macro,newsapi
+2026-10-02,MPC set to begin rate hike cycle with at least 25 bps repo hike: SBI Economists,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-02,"SBI-led Lenders say Mallya owes 8,752 crore More",SBI,Neutral,0.0,unclassified,gnews
+2026-10-02,"Banks, NPCI to ensure MDR not passed on: SBI",SBI,Positive,0.3818,unclassified,newsapi
+2026-10-03,"SBI leads demand, snaps up 40% of Reliance Industries’ ₹13,000 crore bond issue",SBI,Negative,-0.128,unclassified,newsapi
+2026-10-03,"SBI-led consortium tells Bombay HC Mallya owes over ₹8,700 crore; counters his claim of recovering more than dues",SBI,Neutral,0.0,unclassified,newsapi
+2026-10-03,"Vijay Mallya Owes ₹8,752 Crore To SBI-Led Consortium, Lenders Tell Bombay High Court",SBI,Neutral,0.0,unclassified,gnews
+2026-10-03,"SBI-led lenders say Vijay Mallya owes Rs 8,752 crore more",SBI,Neutral,0.0,unclassified,gnews
+2026-10-04,SBI USMNT Man of the Match: Malik Tillman,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-05,"SBI FD calculator: What Rs 1 lakh investment in fixed deposit can give you in 1, 3, 5 and 10 years?",SBI,Neutral,0.0,unclassified,gnews
+2026-10-05,SBI SO Recruitment 2026: Last date today to apply for 207 posts; check direct link here,SBI,Neutral,0.0,unclassified,gnews
+2026-10-05,Bondada Engineering subsidiary secures ₹911.25 crore SBI sanction for solar project,SBI,Positive,0.9314305782318116,unclassified,gnews
+2026-10-05,"SBI PO Mains Result 2026: When will SBI PO Mains result be declared? Check expected date, how to download and next steps",SBI,Negative,-0.8647,unclassified,newsapi
+2026-10-05,SBI PO Mains result 2026 expected to be released soon at sbi.co.in: Check complete details here,SBI,Neutral,0.0,unclassified,gnews
+2026-10-05,SBI appoints Deepak Kaushik as Chief General Manager of Bengaluru Circle,SBI,Neutral,0.0,management,newsapi
+2026-10-06,SBI to pay Rs5L with 9% interest for sitting on cyber fraud plaint,SBI,Negative,-0.296,regulatory_legal,newsapi
+2026-10-06,遊びながら学ぶ『親子のasobiとmanabiの教室』Supported by SBI証券 開催を拡充,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-07,Landmark Group raises Rs 330 crore SBI finance for Gurugram project,SBI,Positive,0.6826709508895874,unclassified,gnews
+2026-10-07,Arunachal Christian Forum alleges SBI software denies ST option to Christian users,SBI,Neutral,0.0,unclassified,gnews
+2026-10-07,Landmark Group raises ₹330 crore from SBI for Gurugram commercial project,SBI,Positive,0.868746280670166,unclassified,gnews
+2026-10-07,"RBI rate decision day drags Nifty lower; Titan, SBI Life lead declines",SBI,Negative,-0.0516,macro,newsapi
+2026-10-07,"SBI Holdings, Mesh and Money Forward plan joint venture for crypto transfers and payments",SBI,Neutral,0.0,corporate_action,newsapi
+2026-10-07,"SBI FD interest rates: How much will Rs 1 lakh become in 1, 3, 5, and 10 years?",SBI,Neutral,0.0,unclassified,gnews
+2026-10-07,"Sick leave approved, but SBI declared his job ‘voluntarily vacated’: Why Patna HC quashed its Rule 40(3) action",SBI,Negative,-0.09,unclassified,newsapi
+2026-10-07,SBI USMNT Man of the Match: Alex Freeman,SBI,Positive,0.4019,unclassified,newsapi
+2026-10-08,"Sharper, bigger RBI moves coming in December? SBI economists put things in perspective",SBI,Neutral,0.0,unclassified,newsapi
+2026-10-08,Deposit rate hikes unlikely for 3 months; RBI action to help NIMs: SBI chairman C S Setty,SBI,Neutral,0.0,management,gnews
+2026-10-08,Deposit rates unlikely to rise for upto 3 months: SBI chairman Setty,SBI,Neutral,0.0,management,newsapi
+2026-10-08,"RBI may deliver 50 bps ‘jumbo’ hike in December, repo rate seen at 6%: SBI Research",SBI,Neutral,0.0,macro,newsapi
+2026-10-08,"68-year-old used only cheques, never activated ATM, yet Rs 1.59 lakh was withdrawn through AePS without his knowledge; consumer court tells SBI to refund with 9% interest",SBI,Neutral,0.0,unclassified,gnews
+2026-10-08,SBI told to refund ₹1.6L deducted without account-holder’s knowledge,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-09,Fund Review: SBI Large & Midcap Fund,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-09,"RBI should keep all rate hike options open to support rupee, says SBI economist",SBI,Neutral,0.0,macro,gnews
+2026-10-09,Bank of Baroda becomes only PSU bank after SBI to enter pension fund business: What it means,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-10,RBI should widen LAF corridor to stabilise financial markets: SBI report,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-10,Rs 7 lakh investment in SCSS vs SBI senior citizen FD: How much quarterly amount can senior citizens get for 5 years in each scheme?,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-11,Kamareddy: Masked miscreants in nighties loot SBI ATM,SBI,Negative,-0.5158812403678894,unclassified,gnews
+2026-10-11,SBI warns of 'jumped deposit' scam: How to stay safe?,SBI,Neutral,0.0,regulatory_legal,gnews
+2026-10-11,"SBI refused to close higher fee credit card given to woman who asked for a cheaper one, charged Rs 2,999 instead of Rs 499, ordered to pay Rs 50,000",SBI,Negative,-0.2023,unclassified,newsapi
+2026-10-11,SBI warns of UPI fraud: How the ‘jumped deposit scam’ can drain your bank account,SBI,Negative,-0.6369,regulatory_legal,newsapi
+2026-10-12,"Bank customer spots huge unknown deposit in account, receives a call pressuring to return it immediately, ends up approving even higher amount; warns SBI",SBI,Neutral,0.0,unclassified,gnews
+2026-10-12,"Watch: Men in nighties, masks loot SBI ATM in Telangana; Rs 25 lakh suspected stolen",SBI,Negative,-0.6700765490531921,unclassified,gnews
+2026-10-12,"SBI warns customers of rise in Jumped Deposit Scam, here's what it is and his to stay safe",SBI,Neutral,0.0,regulatory_legal,gnews
+2026-10-12,SBI Jeevan Pramaan submission process: Different ways how SBI pensioner account holders can submit life certificate,SBI,Neutral,0.0,unclassified,gnews
+2026-10-12,"Abolish long-term capital gains tax for equity: SBI Research recommends, says ‘government must anchor hot money flows’",SBI,Neutral,0.0,unclassified,gnews
+2026-10-13,KB Kookmin Card and SBI Holdings separately explore AI identity checks and crypto payments,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-13,SBI Research calls for abolition of LTCG tax on equities to boost foreign capital inflows,SBI,Positive,0.5481622219085693,unclassified,gnews
+2026-10-13,Rs 7 lakh in SCSS vs SBI FD: Which gives senior citizens higher quarterly income? Compare interest rates and payouts,SBI,Positive,0.4588,unclassified,newsapi
+2026-10-13,Promised 30% monthly returns? SBI warns investors against fake investment schemes,SBI,Negative,-0.25,unclassified,newsapi
+2026-10-13,SBI economists call for scrapping LTCG tax on equities,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-13,SBI Research calls for scrapping LTCG tax on equities amid record FPI outflows,SBI,Neutral,0.0,unclassified,newsapi
+2026-10-13,UP tribunal awards Rs 2.4cr to kin of SBI manager killed in crash,SBI,Negative,-0.6369,unclassified,newsapi
+2026-10-13,"Amansa Investments, SBI Mutual Fund, others invest ₹413 cr in Tonbo Imaging ahead of IPO",SBI,Neutral,0.0,corporate_action,newsapi
+2026-10-13,'Earn 30% monthly': SBI warns how fraudsters can lure you with tempting offers and what you should do,SBI,Neutral,0.0,unclassified,gnews
+2026-10-14,SBI Funds Management appoints RS Srinivas Jain as Joint CEO,SBI,Neutral,0.0,management,newsapi
+2026-10-14,SBI warns of 30% monthly return scams: 4 red flags investors must watch for,SBI,Negative,-0.6369,unclassified,newsapi
+2026-10-14,SBI Research urges govt to scrap LTCG tax on equities to attract foreign investors,SBI,Positive,0.3612,unclassified,newsapi
+2026-10-14,RailTel share price jumps 2% on winning repeat order from SBI,SBI,Positive,0.6808,unclassified,newsapi
+2026-10-15,"Bank failed to pay Rs 100 for insurance renewal, family's Rs 2 lakh claim rejected after son's death; SBI ordered to pay Rs 2.1 lakh",SBI,Negative,-0.9062,unclassified,et
+2026-10-15,SBI PO Mains result 2026 declared at sbi.co.in; psychometric test on October 31: Check direct link to download scorecards here,SBI,Neutral,0.0,unclassified,gnews
+2026-10-15,"Higher EMIs ahead on SBI loans: State Bank of India revises lending interest rates; Check latest EBLR, RLLR and MCLR rates",SBI,Positive,0.4588,business_news,et
+2026-10-15,SBI raises MCLR from today: Check the latest lending rates across tenures,SBI,Neutral,0.0,business_news,gnews
+2026-10-15,"BlackRock, SBI MF lead Tonbo Imaging’s Rs 255 crore anchor round ahead of IPO",SBI,Neutral,0.0,corporate_action,et
+2026-10-15,State Bank of India PO Mains Result 2026 OUT: Download Stage 2 Merit List PDF,SBI,Neutral,0.0,unclassified,gnews
+2026-10-15,SBI RSETI trains rural youth in fast food entrepreneurship,SBI,Neutral,0.0,unclassified,gnews
+2026-10-16,SBI increases home loan rates: How your Rs 30 lakh to Rs 1 crore home loan EMIs can be impacted; see calculations,SBI,Neutral,0.0,unclassified,gnews
+2026-10-16,SBI ordered to pay retired scientist Rs 15 lakh with interest after failing to inform him of deposit maturity,SBI,Negative,-0.880851149559021,unclassified,gnews
+2026-10-16,SBI Funds Management receives request to reclassify IDPIC entity,SBI,Neutral,0.0,unclassified,gnews
+2026-10-18,"SBI Clerk Prelims Result 2026 released for 1,538 backlog vacancies",SBI,Neutral,0.0,unclassified,gnews
+2026-10-19,SBI Loan EMIs To Rise? State Bank of India Increases Lending Rates After RBI Repo Rate Hike,SBI,Positive,0.9087045788764954,macro,gnews
+2026-10-19,"SBI data breach reported, hacker claims sensitive info including KYC records of 3.75 lakh users at risk",SBI,Negative,-0.9533229470252992,unclassified,gnews
+2026-10-20,"SBI SCO recruitment 2026: Applications open for AI, analytics and technology posts; check age limits, qualifications and selection process",SBI,Neutral,0.0,unclassified,gnews
+2026-10-20,"SBI Clerk Mains Admit Card 2026 released for 1,538 backlog posts, exam on October 29",SBI,Neutral,0.0,unclassified,gnews
+2026-10-20,"SBI Invites Applications For AI, Data Analytics And Technology Posts",SBI,Neutral,0.0,unclassified,gnews
+2026-10-20,"SBI SCO Recruitment 2026: Applications Open for AI and Technology Posts, Check Eligibility",SBI,Neutral,0.0,unclassified,gnews
+2026-10-20,Hackers Claim Access To Confidential Data Of 3.75 Lakh SBI Accounts: Report,SBI,Neutral,0.0,unclassified,gnews
+2026-10-21,"Congress pulls up SBI over data breach, seeks accountability; experts call leak 'no ordinary incident'",SBI,Negative,-0.8243784308433533,unclassified,gnews
+2026-10-21,"SBI Investigates Potential Dark Web Data Leak Affecting 3,897 Customers; Assures Deposits Are Safe",SBI,Negative,-0.5058265328407288,unclassified,gnews
+2026-10-21,SBI data breach : Course correction must be guided by transparency,SBI,Neutral,0.0,unclassified,gnews
+2026-10-21,SBI cyber attack update: State Bank of India says customer balances are completely safe despite data leak,SBI,Positive,0.7845284342765808,unclassified,gnews
+2026-10-21,SBI Data Breach: Congress Demands Accountability for Leaked Customer Information,SBI,Negative,-0.8666830658912659,unclassified,gnews
+2026-10-21,SBI investigates dark web leak of 3.8 lakh records,SBI,Negative,-0.7554246783256531,unclassified,gnews
+2026-10-21,"SBI assures balances safe amid dark web data exposure, says very few customers impacted",SBI,Negative,-0.8077972531318665,unclassified,gnews
+2026-10-21,"3,897 customer details found on dark web: SBI flags data breach",SBI,Neutral,0.0,unclassified,gnews
+2026-10-23,"SBI Data Breach Alert As 3,897 Customer Records Found On Dark Web, Bank Assures Funds Are Safe",SBI,Negative,-0.9195989370346068,unclassified,gnews
+2026-10-23,Data leak incident: SBI says customer balances completely safe,SBI,Negative,-0.6782470941543579,unclassified,gnews
+2026-10-23,"SBI dark web data leak: Bank reassures account balances are safe after 3,897 customer records identified",SBI,Positive,0.5215513706207275,unclassified,gnews
+2026-10-23,"SBI data leak: This is what India's largest public sector bank told customers as 3,897 records flagged in cyber incident",SBI,Neutral,0.0,unclassified,gnews
+2026-10-23,Beware of fake helpline listings: SBI issues warning,SBI,Neutral,0.0,unclassified,gnews
+2026-10-23,SBI notifies customers impacted by cyber incident; says “account balances and funds are safe”,SBI,Neutral,0.0,unclassified,gnews
+2026-10-23,SBI assures customers of safety of funds amid probe into suspected data leak,SBI,Positive,0.6546016335487366,unclassified,gnews
+2026-10-23,"SBI informs 3,897 customers of dark web data leak, says funds are safe",SBI,Neutral,0.0,unclassified,gnews
+2026-10-23,"SBI Assures Customers: Funds Safe After Data Breach, Investigation Underway",SBI,Neutral,0.0,unclassified,gnews
+2026-10-25,SBI cracks down on dormant accounts to curb cyber frauds,SBI,Negative,-0.9385029673576356,unclassified,gnews
+2026-10-26,SBI sets up cybersecurity centre of excellence following dark web data leak,SBI,Neutral,0.0,unclassified,gnews
+2026-10-26,SBI chief expects 50 bps repo rate hike in MPC’s next meeting,SBI,Positive,0.5410366654396057,macro,gnews
+2026-10-26,"SBI's Setty sees 50 bps more rate hikes, says retail loan quality unlikely to suffer",SBI,Positive,0.5004194974899292,unclassified,gnews
+2026-10-26,"SBI Chairman Cautions: Interest Rate Hikes May Hit Consumption Loan Demand, Retail Asset Quality Stable",SBI,Negative,-0.9383846521377563,management,gnews
+2026-10-26,SBI working on launching exclusive ‘YONO Bharat’ mobile banking app for Jan Dhan customers,SBI,Neutral,0.0,unclassified,gnews
+2026-10-26,"CISF, SBI facilitate insurance and welfare benefits for families of 4 deceased personnel",SBI,Neutral,0.0,unclassified,gnews
+2026-10-26,"SBI chairman expects 50bps rate hike in Dec, to impact consumption credit",SBI,Negative,-0.8506484031677246,management,gnews
+2026-10-26,"UPI’s increasing volumes require investment, low MDR can facilitate this: SBI Chairman",SBI,Neutral,0.0,management,gnews
+2026-10-27,SBI Funds seeks exchange nod for reclassifying IDPIC to public category,SBI,Neutral,0.0,unclassified,gnews
+2026-10-27,Expect rates to increase by 50bps in Dec: SBI chief,SBI,Positive,0.8984860181808472,unclassified,gnews
+2026-10-28,"Jio Listing: Telco's Stellar Debut Knocks TCS Out Of India's Top Five, SBI Piles On",SBI,Positive,0.9352659583091736,unclassified,gnews
+2026-10-28,Arisinfra Solutions grants ₹3.90 crore corporate guarantee to SBI,SBI,Positive,0.8611313700675964,unclassified,gnews
+2026-10-29,"day FD: SBI, PNB, IOB or Central Bank",SBI,Neutral,0.0,unclassified,gnews
+2026-10-29,SBI SCO recruitment 2026: Registration deadline extended till October 31 for various posts; direct link to apply here,SBI,Neutral,0.0,unclassified,gnews
+2026-10-29,Autofurnish avails ₹10.10 crore cash credit facility from SBI,SBI,Positive,0.643597424030304,unclassified,gnews
+2026-10-30,45.6% Indian households use digital payments for at least one consumption item: SBI Report,SBI,Neutral,0.0,unclassified,gnews
+2026-11-02,"SBI Q2 Results Preview: PATmay rise up to 25% YoY; NII, margins, deposit growth in focus",SBI,Positive,0.9471532702445984,company_results,gnews
+2026-11-02,"Over 2 crore Digital Life Certificates targeted as DoPPW, SBI roll out nationwide DLC Campaign 5",SBI,Neutral,0.0,unclassified,gnews
+2026-11-04,SBI-led banking alliance comes together to mount a defence to AI threats,SBI,Positive,0.746982991695404,unclassified,gnews
+2026-11-04,"Strong loan growth, improving asset quality positive for SBI's outlook",SBI,Positive,0.9519725441932678,unclassified,gnews
+2026-11-04,"SBI share price target: Jefferies, Motilal, others see up to 34% upside in state lender. Buy, sell or hold?",SBI,Neutral,0.0,analyst_action,gnews
+2026-11-05,SBI Data Breach Raises Cybersecurity Concerns: 8 Steps To Protect Your Bank Account,SBI,Negative,-0.6284732222557068,unclassified,gnews
+2026-11-05,Four ways in which government can look to abolish LTCG tax for all class of investors; what SBI report says,SBI,Neutral,0.0,unclassified,gnews
+2026-11-05,"SBI SO recruitment 2026: Registration window open for 77 Specialist Officer posts, apply by November 25",SBI,Neutral,0.0,unclassified,gnews
+2026-11-06,IFC extends $150 million credit line to SBI in first investment in an Indian state-owned bank,SBI,Positive,0.8489384055137634,unclassified,gnews
+2026-11-06,CBI books Kishore Biyani and FRL in ₹904 crore SBI fraud case,SBI,Negative,-0.7126275300979614,regulatory_legal,gnews
+2026-11-06,NCLT declares Videocon promoter Venugopal Dhoot bankrupt on SBI plea; appoints bankruptcy trustee,SBI,Negative,-0.855197012424469,regulatory_legal,gnews
+2026-11-07,State Bank of India expands US footprint with new branch in Texas,SBI,Positive,0.8412466049194336,unclassified,gnews
+2026-11-07,"SBI expands international presence, opens new branch in Texas",SBI,Positive,0.9048988819122314,unclassified,gnews
+2026-08-31,Trump announces drug pricing deals with India's Sun Pharma and 8 more drug companies,Sun Pharma,Neutral,0.0,unclassified,gnews
+2026-09-01,Sun Pharma Agrees to MFN Drug Pricing In US To Delay Tariffs On Innovative Medicines,Sun Pharma,Positive,0.569897472858429,unclassified,gnews
+2026-09-22,Broker’s Call: Sun Pharma (Buy),Sun Pharma,Neutral,0.0,unclassified,newsapi
+2026-09-28,"Sun Pharma signs major deal with LIB Therapeutics of US, gains access to $3.7-bn global market for bad cholesterol inhibitor PCSK9",Sun Pharma,Negative,-0.34,unclassified,newsapi
+2026-09-28,Sun Pharma signs exclusive licensing agreement with LIB Therapeutics Inc.,Sun Pharma,Positive,0.5719,unclassified,newsapi
+2026-09-28,Sun Pharma inks global licensing pact with LIB Therapeutics for cholesterol drug Lerodalcibep,Sun Pharma,Neutral,0.0,unclassified,newsapi
+2026-09-28,Sun Pharma bags rights to $3.7 billion cholesterol drug market globally,Sun Pharma,Neutral,0.0,unclassified,newsapi
+2026-09-30,"Sun Pharma plans ₹10,000 crore bond sale to refinance Organon acquisition loan: Report",Sun Pharma,Neutral,0.0,corporate_action,newsapi
+2026-09-30,Expanding innovative portfolio may drive gains for Sun Pharma stock,Sun Pharma,Positive,0.6486,unclassified,newsapi
+2026-09-30,India's Sun Pharma plans $1 billion local debt sale for loan takeout,Sun Pharma,Negative,-0.3612,unclassified,newsapi
+2026-09-30,"Sun Pharma plans $1 billion local debt sale for loan takeout, sources say",Sun Pharma,Negative,-0.3612,unclassified,newsapi
+2026-10-07,Sun Pharma Establishes Endowed Professorship at Mount Sinai to Advance Dermatologic Care,Sun Pharma,Positive,0.4939,unclassified,newsapi
+2026-10-13,"Sun Pharma board approves plan to raise up to ₹10,000 cr via NCDs",Sun Pharma,Positive,0.4019,management,newsapi
+2026-10-14,"Sun Pharma down 2%, stock hits over 5-month low",Sun Pharma,Negative,-0.2732,unclassified,newsapi
+2026-10-30,"Sun Pharma Q2 results: Net profit falls 36% to Rs 1,989 cr on one-time hit, revenue up 12%; stock jumps",Sun Pharma,Negative,-0.8759223222732544,company_results,gnews
+2026-10-31,Sun Pharma Q2 profit takes a hit on exceptional items,Sun Pharma,Negative,-0.8392557501792908,company_results,gnews
+2026-10-31,Regulator orders Sun Pharma to shut Assam plant over eye drop quality lapses; what you should know,Sun Pharma,Negative,-0.8289614915847778,unclassified,gnews
+2026-11-02,"Sun Pharma’s specialty portfolio, Organon deal to drive growth",Sun Pharma,Positive,0.8680702447891235,unclassified,gnews
+2026-11-02,Sun Pharma Gets Approval For Semaglutide Pill In India: How Will This Impact Diabetes Treatment?,Sun Pharma,Neutral,0.0,unclassified,gnews
+2026-09-09,TCS launches fully automated facility in Pune to advance AI-led manufacturing,TCS,Positive,0.6493467688560486,unclassified,gnews
+2026-09-15,TCS partners with Dubai Gold & Commodities Exchange to upgrade derivatives market infrastructure,TCS,Positive,0.8456726670265198,unclassified,gnews
+2026-09-15,Tata Consultancy Services signs deal with DGCX to upgrade derivatives infrastructure,TCS,Positive,0.837898313999176,unclassified,gnews
+2026-09-15,Tata Consultancy Services signs AI transformation deal with Aareal Bank,TCS,Positive,0.6985814571380615,unclassified,gnews
+2026-09-15,TCS shares jumps 5% as DGCX partnership lift stocks,TCS,Positive,0.9278797507286072,unclassified,gnews
+2026-09-15,"TCS, Infosys, HCLTech, Tech Mahindra, Wipro shares jump; Nifty IT rises 5% in early trade. Here's why",TCS,Neutral,0.0,unclassified,gnews
+2026-09-17,TCS expands semiconductor push: Enters custom chip design services for next-gen auto OEMs,TCS,Neutral,0.0,unclassified,gnews
+2026-09-17,"TCS rolls out custom chip design services for automotive, semiconductor sectors",TCS,Neutral,0.0,unclassified,gnews
+2026-09-18,"Tata Consultancy Services Ltd Slides 2.85%, BSE Information Technology index Shed 1.34%",TCS,Neutral,0.0,unclassified,newsapi
+2026-09-18,"Sensex, Nifty post sixth weekly loss; TCS, Titan among top laggards, slip up to 4%",TCS,Negative,-0.9668902158737184,unclassified,gnews
+2026-09-29,"Stocks to buy: JM Financial expects soft Q2 season for IT majors; check target prices for Infosys, TCS, others",TCS,Neutral,0.0,unclassified,newsapi
+2026-09-29,"TCS, IEM Kolkata Join Hands to set up AI Centre of Excellence",TCS,Neutral,0.0,unclassified,gnews
+2026-09-30,"IT stocks rally: Coforge, Mphasis, TCS, Persistent Systems gain up to 5%, Kotak sees muted Q2 growth",TCS,Positive,0.7184,unclassified,newsapi
+2026-09-30,Tata stocks drop amid listing concerns; Titan and TCS lead decline,TCS,Negative,-0.2732,unclassified,newsapi
+2026-09-30,"TCS, Wipro, other IT stocks rebound up to 6%, snapping 8-day losing streak. Why is Jefferies cautious?",TCS,Negative,-0.4588,unclassified,newsapi
+2026-09-30,"Parents funding NRI child's home abroad? Know LRS limit, TCS, tax rules",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-01,"Who At EC Ordered TCS To Make 'Illegal' Change In Form 6, Asks Rahul",TCS,Neutral,0.0,unclassified,gnews
+2026-10-01,"Rahul Gandhi asks who ordered TCS to change Form 6, whether firm was pressured",TCS,Neutral,0.0,unclassified,gnews
+2026-10-01,"Jefferies is bearish TCS, Wipro, 6 other IT stocks ahead of Q2 results. How many do you own?",TCS,Neutral,0.0,company_results,newsapi
+2026-10-01,"Rahul Questions EC, TCS Over Form 6",TCS,Neutral,0.0,unclassified,gnews
+2026-10-01,"‘Who ordered change in Form 6’: Rahul seeks answers from EC, TCS",TCS,Neutral,0.0,unclassified,gnews
+2026-10-01,TCS to take over Best Buy's India GCC under multiyear deal,TCS,Neutral,0.0,unclassified,gnews
+2026-10-01,"Who at EC ordered TCS to make 'illegal' change in Form 6, asks Rahul Gandhi",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-01,"Nifty IT defies market weakness, rises 2%; Mphasis, Coforge, TCS lead",TCS,Neutral,-0.0258,unclassified,newsapi
+2026-10-02,TCS to transition Best Buy’s India GCC under multi-year deal,TCS,Positive,0.6837207078933716,unclassified,gnews
+2026-10-02,TCS To Transition Best Buy's India Global Capability Center Into An AI-Native Hub,TCS,Neutral,0.0,unclassified,gnews
+2026-10-02,TAG Heuer Returns as TCS New York City Marathon Official Timekeeper With the Connected Caliber E5 Running Edition,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-02,"TCS to buy US retailer Best Buy's India GCC, develop an AI-native centre",TCS,Positive,0.6369,unclassified,newsapi
+2026-10-02,TCS buys Best Buy’s India GCCs to transform into AI Capability Centres,TCS,Positive,0.6369,unclassified,newsapi
+2026-10-03,"F&O Talk: 22,600 is a key Nifty support; Sudeep Shah discusses PB Fintech, Infosys, TCS strategy ahead of Q2",TCS,Positive,0.6597,unclassified,newsapi
+2026-10-03,Husband of TCS harassment-conversion case accused files divorce plea,TCS,Negative,-0.6913997530937195,unclassified,gnews
+2026-10-04,"RBI policy, TCS earnings, crude prices to steer markets this week",TCS,Negative,-0.5719,company_results,newsapi
+2026-10-04,"Will Nifty, Sensex plunge for 9th straight week? TCS Q2, 4 factors to drive Dalal Street from Monday",TCS,Positive,0.5574,macro,newsapi
+2026-10-05,"TCS dividend 2026 record date, Q2 FY 2027 results announcement date and time, schedule, dividend history - Details",TCS,Neutral,0.0,company_results,gnews
+2026-10-06,"TCS Q2 preview, dividend: Analysts see modest growth; PAT may rise by 13%",TCS,Positive,0.3818,company_results,newsapi
+2026-10-07,TCS Q2 earnings: Five things to watch as Tata boardroom fight adds to scrutiny,TCS,Negative,-0.3818,company_results,newsapi
+2026-10-07,"TCS Q2 results 2026: Expectations, date and time, dividend announcement schedule, quarterly earnings preview",TCS,Neutral,0.0,company_results,gnews
+2026-10-07,"TCS Q2FY27 preview: AI, margins to rupee impact, among 5 key factors to watch",TCS,Neutral,0.0,unclassified,gnews
+2026-10-07,TCS Q2 preview: Brokerages see healthy margins expansion despite modest revenue growth,TCS,Positive,0.1321,unclassified,newsapi
+2026-10-07,TCS Q2 Results Preview: Can the IT bellwether show enough growth to calm investors?,TCS,Positive,0.6237661838531494,company_results,gnews
+2026-10-07,UGI Naini students secure jobs at TCS in campus drive,TCS,Positive,0.34,unclassified,newsapi
+2026-10-08,"Stocks in news: TCS, Adani Enterprises, Ola Electric, HCL Tech, Tata Power and Varun Beverages",TCS,Neutral,0.0,unclassified,gnews
+2026-10-08,"Top stocks to watch today: TCS, Tata Steel, Reliance, Sun Pharma shares in focus on Thursday, 8 October",TCS,Neutral,0.0,unclassified,gnews
+2026-10-08,Calm or chaos? TCS shares in focus ahead of Q2 results. 5 things investors should watch out for,TCS,Negative,-0.0516,company_results,newsapi
+2026-10-08,"TCS Q2 Results LIVE: Analysts see margin expansion despite modest growth, shares in focus",TCS,Negative,-0.4717,company_results,newsapi
+2026-10-08,"TCS, Infosys, HCL Tech, other IT stocks jump up to 3% despite weak market sentiment. What to expect as Q2 earnings season begins?",TCS,Positive,0.3412,company_results,newsapi
+2026-10-08,"TCS Q2 results today: Dividend announcement, record date, key expectations, factors to watch",TCS,Neutral,0.0,company_results,gnews
+2026-10-08,TCS New York City Marathon's 50th anniversary medal honors race's history,TCS,Positive,0.7506,unclassified,newsapi
+2026-10-08,"Q2 results today: TCS, Indian Bank, 4 others set to announce earnings",TCS,Neutral,0.0,company_results,newsapi
+2026-10-08,TCS Q2 Results Live Updates: Tata Consultancy Services may open the September-quarter earnings season on a cautious note,TCS,Negative,-0.1027,company_results,newsapi
+2026-10-08,TCS Results Q2FY27 Live Updates: Will IT major deliver growth amid continuing AI fears? Dividend in focus,TCS,Positive,0.6627589464187622,company_results,gnews
+2026-10-08,HC refuses relief to 12 students issued TCs after school violence,TCS,Negative,-0.25,unclassified,newsapi
+2026-10-08,TCS Q2 results: Ready for the big move? Here's how to trade the IT stock on results day,TCS,Positive,0.3612,company_results,newsapi
+2026-10-08,TCS shares jump 3% ahead of Q2 results; what to expect & how to trade?,TCS,Positive,0.296,company_results,newsapi
+2026-10-09,"TCS Q2 profit rises 15% to Rs 13,884 crore as AI revenue doubles; growth remains subdued",TCS,Positive,0.6705,company_results,newsapi
+2026-10-09,"TCS shares jump over 5 pc; market valuation surges Rs 36,452 cr post Q2 earnings",TCS,Positive,0.908705234527588,company_results,gnews
+2026-10-09,"TCS Q2 results 2026: Important announcements from IT giant on Porsche AG partnership, AI Capability Center from Best Buy",TCS,Positive,0.7184,company_results,newsapi
+2026-10-09,TCS Q2 Results: Net profit up 11% as AI deal flow slowly picks up,TCS,Positive,0.4404,company_results,newsapi
+2026-10-09,"TCS says Trump's PERM suspension won't affect US plans, targets 15,000 new hires",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-09,"Cognizant, Infosys, TCS, Wipro and HCL among IT firms suspended from US green card programme",TCS,Negative,-0.4767,unclassified,newsapi
+2026-10-09,TCS Sees No Material Hit From US PERM Freeze As Its Filings Stayed In Single Digits,TCS,Negative,-0.863024115562439,unclassified,gnews
+2026-10-09,"TCS stock jumps nearly 4% after Q2 results, IT stocks rally up to 3.8% despite US visa curbs",TCS,Neutral,0.0,company_results,newsapi
+2026-10-09,Indian IT stocks rally despite US PERM suspension as TCS Q2 results lift sentiment,TCS,Neutral,0.0,company_results,newsapi
+2026-10-09,"TCS shares jump 4% after Q2 results. What are Goldman Sachs, Nomura, others saying?",TCS,Positive,0.296,company_results,newsapi
+2026-10-09,"Infosys, Wipro ADRs fall nearly 3% after TCS earnings, US crackdown on H-1B-linked green card programme",TCS,Neutral,0.0,company_results,newsapi
+2026-10-09,"Why US has suspended Cognizant, TCS, Wipro, HCL from Green Card filings?",TCS,Negative,-0.9021971821784972,unclassified,gnews
+2026-10-09,"TCS, Wipro, other IT stocks will be in focus on Friday: Here are 3 important triggers to watch",TCS,Positive,0.2023,unclassified,newsapi
+2026-10-09,TCS says US green card programme suspension won't hit hiring plans; H1B visa applications in 'single digits',TCS,Neutral,0.0,unclassified,newsapi
+2026-10-09,TCS dividend! IT giant declares second interim dividend of Rs 12 per share for FY27,TCS,Positive,0.3595,company_results,newsapi
+2026-10-09,"TCS Q2 results 2026: Top 13 highlights from Sept quarter - Google Gemini, Honeywell Tech, Aareal Bank, Vodafone and more",TCS,Positive,0.2023,company_results,newsapi
+2026-10-09,"TCS trumps Q2 estimates on global, AI-led growth; Net profit jumps 15% to ₹13,884 crore",TCS,Positive,0.6705,company_results,newsapi
+2026-10-09,"TCS Q2 results: Net profit rises 15% to ₹13,884 crore, revenue up 11.2%",TCS,Positive,0.4404,company_results,newsapi
+2026-10-09,"TCS trumps Q2 estimates: Net profit grows 15% to ₹13,884 crore",TCS,Positive,0.4404,company_results,newsapi
+2026-10-09,"US government has suspended PERMS for Infosys, TCS, Wipro and Cognizant employees: What this means for Green Card applicants, older and others",TCS,Negative,-0.947040557861328,unclassified,gnews
+2026-10-09,"TCS onboards 10,000 freshers in Q2 FY27; plans to hire on demand",TCS,Negative,-0.128,unclassified,newsapi
+2026-10-09,"8 IT firms including TCS, Infosys suspended from US green card programme: How does it hit Indian professionals?",TCS,Negative,-0.4767,unclassified,newsapi
+2026-10-09,TCS growth recovery gradual as deal wins moderate,TCS,Positive,0.9465617537498474,unclassified,gnews
+2026-10-09,TCS Q2 review: Analysts flag weak margins amid steady growth; stock up 4%,TCS,Negative,-0.0772,unclassified,newsapi
+2026-10-09,TCS shares rise as investors cheer Q2 growth,TCS,Positive,0.7964,unclassified,newsapi
+2026-10-09,"TCS to hire 15,000 people in US despite green-card curbs",TCS,Positive,0.7874845862388611,unclassified,gnews
+2026-10-09,Analysts caution TCS pullback may be short-lived; flag key levels to track,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-09,Investors cheer TCS Q2 report card despite slowest growth in three years,TCS,Positive,0.2769,unclassified,newsapi
+2026-10-09,"TCS share price gains 6% post comment on US green card programme action, Q2 earnings",TCS,Neutral,0.0,company_results,gnews
+2026-10-09,"PERM suspension won't affect workforce strategy, customer engagements: TCS",TCS,Positive,0.1531,unclassified,newsapi
+2026-10-09,"TCS, Infosys, Wipro shares jump; Nifty IT rises 2%; what analysts say",TCS,Positive,0.8354363441467285,unclassified,gnews
+2026-10-09,TCS posts slowest quarterly growth in three years as demand stays muted,TCS,Positive,0.2732,unclassified,newsapi
+2026-10-09,"TCS Q2 results: Profit rises 15% YoY to Rs 13,884 crore; co declares Rs 12 dividend",TCS,Positive,0.4404,company_results,newsapi
+2026-10-09,"TCS, Infosys, Wipro jump up to 5% despite US green-card curbs: Why IT stocks are rising today",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-09,No impact on workforce strategy due to US ban: TCS,TCS,Negative,-0.7003,unclassified,newsapi
+2026-10-09,TCS sees no impact from US green-card programme suspension on workforce strategy,TCS,Negative,-0.296,unclassified,newsapi
+2026-10-09,TCS shares surge 4% post Q2 results; analysts split on outlook,TCS,Positive,0.8411944508552551,company_results,gnews
+2026-10-10,"India's TCS senior staff will miss out on variable pay for September quarter, memo shows",TCS,Negative,-0.9523077011108398,unclassified,gnews
+2026-10-10,Why TCS is withholding quarterly bonuses of senior employees,TCS,Neutral,0.0,unclassified,gnews
+2026-10-10,TCS earnings lift IT stocks as demand recovery hopes boost market mood,TCS,Positive,0.6124,company_results,newsapi
+2026-10-10,"US green card suspension: TCS, Infosys, Wipro, other IT firms' PERM applications already on decline",TCS,Negative,-0.8652700781822205,unclassified,gnews
+2026-10-10,TCS senior employees miss quarterly variable pay as AI revenue rises nearly 20%; juniors get full payouts,TCS,Negative,-0.9499124884605408,unclassified,gnews
+2026-10-10,TCS withholds quarterly bonuses for senior staff after missing performance targets,TCS,Positive,0.34,unclassified,newsapi
+2026-10-10,TCS lifts Dalal Street out of its eight-week rut,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-11,"Special dividend stocks: TCS, JSW Dulux, Premco Global, Honda India Power in 6 firms offering extra payout",TCS,Positive,0.628173291683197,company_results,gnews
+2026-10-11,"Bonus, dividends, rights issues and stock splits: TCS, Vedanta, Ola Electric among 14 stocks turning ex-record date this week",TCS,Positive,0.5423,company_results,newsapi
+2026-10-11,tcs-garr 0.27.0,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-12,"TCS to hire 80% of workforce with digital, AI skills; AI work to expand profitability",TCS,Positive,0.5267,unclassified,newsapi
+2026-10-12,Short-term impact of AI investments will be cushioned by margin: TCS CEO K Krithivasan,TCS,Neutral,0.0,management,gnews
+2026-10-12,"‘We expect industrial demand to recover’: TCS MD, CEO Krithivasan",TCS,Positive,0.5258877873420715,management,gnews
+2026-10-12,"AI is a growth driver, not cannibalising existing revenues: TCS",TCS,Positive,0.3818,unclassified,newsapi
+2026-10-12,"TCS to hire 80% of workforce with digital, AI skills; expects margin gains",TCS,Positive,0.34,unclassified,newsapi
+2026-10-12,TCS shares after 6% rally in 2 sessions after Q2 results. What are technical’s indicating for the IT major?,TCS,Positive,0.296,company_results,newsapi
+2026-10-12,Traditional IT growth to taper as AI takes centre stage: TCS CEO,TCS,Positive,0.3818,management,newsapi
+2026-10-12,Green cards not key to workforce strategy: TCS,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-12,Don't see US acting against tech companies based on their domicile: TCS,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-12,No impact of Tata Sons board tussle on TCS: COO Aarthi Subramanian,TCS,Negative,-0.296,management,newsapi
+2026-10-13,tcs-garr 0.28.2,TCS,Neutral,0.0,unclassified,newsapi
+2026-10-13,TCS partners with Zoho’s ManageEngine to bundle IT management with its sovereign cloud offering,TCS,Neutral,0.0,business_news,newsapi
+2026-10-13,"HCLTech jumps over 5%, TCS up 4%: Why are IT stocks rallying",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-13,TCS dividend alert! Last day to buy IT major's shares for Rs 12 dividend,TCS,Positive,0.5707,company_results,newsapi
+2026-10-13,"Rs 26,340 crore added in minutes! Why HCL Tech, TCS and other IT stocks rallied up to 7%",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-13,"Nifty IT shines, up 3%; HCL Tech, TCS, LTM, Tech Mahindra surge up to 5%",TCS,Positive,0.4019,unclassified,newsapi
+2026-10-13,"TCS says 80% of new hires will have digital, AI skills; AI revenue to lift margins",TCS,Neutral,0.0,unclassified,newsapi
+2026-10-14,"Wipro Q2 Results Preview: After TCS & HCL Tech, will this IT major exceed expectations?",TCS,Neutral,0.0,company_results,newsapi
+2026-10-14,"TCS, HCL Tech, Infosys shares surge up to 11% in 2 days; Nifty IT soars 2,000 points. More steam left for rally?",TCS,Positive,0.5994,unclassified,newsapi
+2026-10-15,TCS completes acquisition of BBY Services India LLP,TCS,Neutral,0.0,corporate_action,gnews
+2026-10-15,"Rs 82,500 crore rally in 3 days: Why TCS, HCL Tech, other IT stocks jumped up to 12% in 3 days and will the boom last?",TCS,Neutral,0.0,unclassified,et
+2026-10-16,TCS schedules US non-deal roadshow for late October 2026,TCS,Neutral,0.0,unclassified,gnews
+2026-10-19,TCS BaNCS For Treasury Enters Sri Lanka Market With Indian Bank Deal,TCS,Neutral,0.0,unclassified,gnews
+2026-10-19,TCS to deploy treasury platform at Indian Bank's Sri Lanka branch,TCS,Neutral,0.0,business_news,gnews
+2026-10-20,"Reliance, TCS Executives Feature in Provoke Media's Influencer List",TCS,Neutral,0.0,unclassified,gnews
+2026-10-23,"TCS, Infosys, Wipro, HCL Tech, Mphasis, Coforge shares rallied up to 5% today; here's why",TCS,Positive,0.943225622177124,unclassified,gnews
+2026-10-27,"IT Stocks In Red: Nifty IT Index Drops Nearly 2% As Infosys, TCS, Mphasis Shares Lead Losses",TCS,Negative,-0.967709481716156,unclassified,gnews
+2026-10-27,"Infosys, TCS, Coforge shares: IT stocks fall after Anthropic IPO filing; here's why",TCS,Negative,-0.9594669342041016,corporate_action,gnews
+2026-11-09,TCS completes 50 Tech Days across campuses to strengthen industry-academia skills,TCS,Positive,0.8082722425460815,unclassified,gnews
+2026-08-28,"Tata Motors launches Tata.Cars brand for passenger vehicles, Tata.ev to continue for EVs",Tata Motors,Neutral,0.0,unclassified,gnews
+2026-09-04,"Tata Curvv launched in India: Check on-road price for EV, petrol variants, mileage, and all you need to know",Tata Motors,Neutral,0.0,unclassified,gnews
+2026-09-14,Tata Punch becomes more expensive: Here’s by how much,Tata Motors,Neutral,0.0,unclassified,gnews
+2026-09-15,"Tata Group stocks: TCS, Tata Motors, Tata Steel, Titan among others in focus as RBI rejects Tata Sons’ CoR surrender; Tata Sons IPO back in spotlight",Tata Motors,Negative,-0.4939,corporate_action,newsapi
+2026-09-17,Tata Motors rises on proposal to raise prices of commercial vehicles,Tata Motors,Neutral,0.0,business_news,newsapi
+2026-09-17,Tata Motors to hike commercial vehicle prices by up to 1% from Oct 1,Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-09-18,"Tata Sons IPO: Why Tata Chemicals may be the biggest beneficiary although Tata Motors, Tata Steel own bigger stake",Tata Motors,Positive,0.4767,corporate_action,newsapi
+2026-09-22,Tata Motors Passenger Vehicles allots 1 lakh equity shares under ESOP,Tata Motors,Positive,0.296,corporate_action,newsapi
+2026-09-25,One fourth of cars sold by Tata Motors Passenger Vehicles are now EVs,Tata Motors,Neutral,0.0,unclassified,gnews
+2026-09-25,Another price hike inevitable due to higher input costs: Tata Motors PV MD Shailesh Chandra,Tata Motors,Neutral,0.0,management,newsapi
+2026-09-26,Tata Motors focuses on sedan amid mounting cost pressures,Tata Motors,Negative,-0.3182,unclassified,newsapi
+2026-09-26,Tata Motors weighs further car price hikes as commodity costs bite; increases to be gradual,Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-09-27,"Tata Motors PV eyes 15% market share soon, targets 20% by FY31: MD",Tata Motors,Positive,0.296,company_results,newsapi
+2026-09-27,"Tata Motors PV expects 15% market share ‘very soon’, eyes 20% by FY31: MD Shailesh Chandra",Tata Motors,Positive,0.296,company_results,newsapi
+2026-09-29,"Tata Chemicals, Tata Motors PV, other Tata stocks slide up to 4% as Tata Sons rejig clouds listing prospects",Tata Motors,Positive,0.296,unclassified,newsapi
+2026-09-29,Tata Motors Passenger Vehicles Ltd Slides 1.91%,Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-09-29,Tata Motors: Pay Fair Value | Petrus Publishes Its View on the Offer for Iveco,Tata Motors,Positive,0.5106,unclassified,newsapi
+2026-10-01,Tata Motors passenger vehicles sales jump 40% in Q2,Tata Motors,Neutral,0.0,company_results,newsapi
+2026-10-01,Tata Motors PV shares fall over 3% despite 40% Q2 sales growth; Nifty Auto index down over 4%,Tata Motors,Positive,0.7579,unclassified,newsapi
+2026-10-02,"Kiska BaaS is the best? Tata Motors, Mahindra, MG and Maruti EV offers put to the test",Tata Motors,Neutral,0.0,unclassified,gnews
+2026-10-05,September 2026 Electric Car Sales Nearly Double: Tata Motors Leads With 42% Share,Tata Motors,Positive,0.9336191415786744,unclassified,gnews
+2026-10-07,"Tata Motors asks suppliers to ramp up capacity for 100,000 passenger vehicles a month from FY28",Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-10-07,"Tata Motors' Jaguar rolls out £130,000 Type 01 luxury EV as British brand begins electric reboot",Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-10-10,Tata Motors raises Iveco takeover offer to 14.4 euro per share amid delays,Tata Motors,Positive,0.296,corporate_action,newsapi
+2026-10-12,Tata Motors sweetens Iveco offer as key investors hold out,Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-10-13,No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key,Tata Motors,Negative,-0.296,unclassified,newsapi
+2026-10-13,"Stellantis, Tata Motors PV join hands for vehicle tech, product development",Tata Motors,Positive,0.296,unclassified,newsapi
+2026-10-13,"Tata Motors, Stellantis to develop vehicles in India for 50-plus global markets",Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-10-13,Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune,Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-10-13,"Stellantis, Tata Motors ink passenger vehicle manufacturing pact for global markets",Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-10-13,"Tata Motors, Stellantis expand partnership: New deal details explained",Tata Motors,Positive,0.3182,unclassified,newsapi
+2026-10-13,"Tata Motors PV, Stellantis expand tie-up for global vehicle development",Tata Motors,Positive,0.3182,unclassified,newsapi
+2026-10-14,Stellantis and Tata Motors to Build India-Made Vehicles for Over 50 Global Markets,Tata Motors,Neutral,0.0,unclassified,newsapi
+2026-09-18,"Steel price rally likely to lift earnings; MOFSL favours JSW, Tata Steel",Tata Steel,Positive,0.4215,company_results,newsapi
+2026-09-19,Tata Steel seeks fresh UK government funding as Port Talbot EAF project faces delays: Report,Tata Steel,Positive,0.3182,unclassified,newsapi
+2026-09-21,"World interest in India at all-time high, but competitiveness key to capitalise: Tata Steel CEO",Tata Steel,Positive,0.25,management,newsapi
+2026-09-21,Tata Steel shaped Naveen Jindal’s idea of business beyond steel. He reveals how,Tata Steel,Neutral,0.0,unclassified,newsapi
+2026-09-22,Tata Steel Foundation secures full residential school admission for 12 deaf students,Tata Steel,Positive,0.3182,unclassified,newsapi
+2026-09-22,Tata Steel wants discussion with UK govt over delayed EAF project: CEO,Tata Steel,Negative,-0.2263,management,newsapi
+2026-09-23,PyroGenesis Receives Project Certification from Tata Steel for Major Steel Plant Project,Tata Steel,Neutral,0.0,unclassified,newsapi
+2026-09-26,"Tata Steel, Dutch government extend green steel project deadline by 5 months",Tata Steel,Positive,0.1779,unclassified,newsapi
+2026-09-26,Tata Steel extends Dutch green steel pact by five months to March 2027,Tata Steel,Positive,0.128,unclassified,newsapi
+2026-09-26,"Tata Steel, Dutch govt extend JLoI for green steel project to 2027",Tata Steel,Positive,0.1779,unclassified,newsapi
+2026-09-30,"Tata Steel Wins ₹427 Crore Tax Relief, Exposure Drops To ₹1,259 Crore",Tata Steel,Positive,0.7783,unclassified,newsapi
+2026-10-05,"India’s steel consumption to grow 7-8% in coming years, says Tata Steel CEO",Tata Steel,Neutral,0.0,management,newsapi
+2026-10-06,Tata Steel develops fire-resistant structural steel for safer buildings,Tata Steel,Positive,0.4215,unclassified,newsapi
+2026-10-06,Tata Steel expanding NINL capacity to 5 MT per annum: CEO TV Narendran,Tata Steel,Neutral,0.0,management,newsapi
+2026-10-06,Domestic steel demand to grow 8-10% in H2 FY27: Tata Steel CEO,Tata Steel,Negative,-0.128,management,newsapi
+2026-10-06,Domestic steel demand to rise; in talks with the Netherlands government over steel production: Tata Steel CEO,Tata Steel,Negative,-0.128,management,newsapi
+2026-10-06,"Netherlands wants Tata Steel to stay, but demands cleaner steelmaking",Tata Steel,Positive,0.2617,unclassified,newsapi
+2026-10-08,"RBA, Black Box, Tata Steel: Jatin Gedia shares 3 stock ideas for today",Tata Steel,Positive,0.296,unclassified,newsapi
+2026-10-11,Tata Steel launches pre-painted steel Colorcoat in India,Tata Steel,Neutral,0.0,unclassified,newsapi
+2026-10-12,Tata Steel slips marginally as draft steel policy 2047 puts sector in focus,Tata Steel,Neutral,0.0,unclassified,newsapi
+2026-10-13,"Tata Steel, Royal Academy of Engineering join hands for recycled materials research",Tata Steel,Positive,0.296,unclassified,newsapi
+2026-09-18,Wipro launches STO360 solution to streamline outage management,Wipro,Positive,0.3182,business_news,newsapi
+2026-09-18,Wipro collaborates with Aramco and SAP to launch Wipro STO360,Wipro,Neutral,0.0,business_news,newsapi
+2026-09-22,Why 400 Wipro trainees are agitated over a decades-old fresher programme,Wipro,Negative,-0.4588,unclassified,newsapi
+2026-09-23,400 Wipro trainees face over 5-yr wait for full-time roles after hiring,Wipro,Neutral,0.0,unclassified,newsapi
+2026-09-24,Wipro Consumer Care Acquires Dermatouch,Wipro,Positive,0.4939,corporate_action,newsapi
+2026-09-29,"BSE shares rise 1.6%, stock to replace Wipro in Nifty 50 reshuffle",Wipro,Positive,0.5994,unclassified,newsapi
+2026-09-29,"BSE set to enter Nifty 50 from tomorrow, IT major Wipro to exit. What shareholders must know?",Wipro,Positive,0.4019,unclassified,newsapi
+2026-09-30,Nifty rejig kicks in: BSE joins as Wipro exits; what investors need to know,Wipro,Positive,0.4019,unclassified,newsapi
+2026-09-30,"BSE, Wipro shares in focus as stock exchange replaces IT major on Nifty 50 today. How much inflows, outflows to expect?",Wipro,Positive,0.5994,unclassified,newsapi
+2026-10-01,Ex-Wipro employee moves labour dept over unpaid extended bench policy,Wipro,Neutral,0.0,unclassified,newsapi
+2026-10-01,Wipro gives benchwarmers a 6-month paid breather,Wipro,Neutral,0.0,unclassified,newsapi
+2026-10-02,"Accenture shares surge 20%; Infy, Wipro ADRs rise on strong AI-led growth",Wipro,Positive,0.7964,unclassified,newsapi
+2026-10-03,"IT Q2 Results Dates: When TCS, Infosys, Wipro, HCLTech, Tech Mahindra Will Report FY27 Earnings",Wipro,Neutral,0.0,company_results,gnews
+2026-10-08,"Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026",Wipro,Negative,-0.2263,unclassified,newsapi
+2026-10-09,"US visa chaos: Tata, Wipro among IT firms suspended from PERM scheme; what it means",Wipro,Negative,-0.7783,unclassified,newsapi
+2026-10-12,"Wipro Q2 preview: Brokerages expect weak revenue growth, margin recovery",Wipro,Negative,-0.0772,unclassified,newsapi
+2026-10-14,US PERM suspension unlikely to have material business impact: Wipro,Wipro,Neutral,0.0,unclassified,newsapi
+2026-10-14,'80% workforce locally hired': Wipro sees no material business impact from US suspension of PERM applications,Wipro,Negative,-0.296,unclassified,newsapi
+2026-10-14,"Wipro Q2 results preview: Revenue growth likely over 8%, margins in focus",Wipro,Positive,0.3818,company_results,newsapi
+2026-10-16,"Wipro Q2 Results: Net profit declines marginally to Rs 3,201 crore, but revenue rises 9% YoY",Wipro,Positive,0.2382,company_results,et

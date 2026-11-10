@@ -42,3 +42,19 @@ results/
 
 # NLTK data (downloaded at runtime)
 nltk_data/
+
+# Backfill working files (review before merging, don't commit intermediate)
+data/news_backfill.csv
+data/news_backfill_et.csv
+data/stocks_combined.csv
+backfill_log.txt
+
+# Raw page cache (large, regeneratable)
+data/raw_cache/
+
+# One-off patch scripts (dev tools, not part of the project)
+tools/
+
+# Compiled Python bytecode
+*.pyc
+src/__pycache__/

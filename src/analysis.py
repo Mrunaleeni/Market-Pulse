@@ -310,6 +310,23 @@ def analyze_data(ticker: str | None = None,
             news_df = _analyze_sentiment()
     news_df["Date"] = pd.to_datetime(news_df["Date"], errors="coerce")
 
+    # --- Event tagging (on-the-fly fallback) ---
+    # fetch_news.py saves Event_Type at collection time; this block handles
+    # older news.csv files or rows that were added before the tagger existed.
+    if "Event_Type" not in news_df.columns or news_df["Event_Type"].isna().any():
+        try:
+            from src.events import tag_events_batch
+            if "Event_Type" not in news_df.columns:
+                news_df["Event_Type"] = None
+            mask = news_df["Event_Type"].isna() | (news_df["Event_Type"] == "")
+            if mask.any():
+                log.debug("Tagging %d untagged headlines with event types.", mask.sum())
+                news_df.loc[mask, "Event_Type"] = tag_events_batch(
+                    news_df.loc[mask, "Headline"].tolist()
+                )
+        except ImportError:
+            log.debug("events.py not available — Event_Type column will be absent.")
+
     # --- Stock prices ---
     stock_df = load_stock_data()
 
@@ -354,17 +371,24 @@ def analyze_data(ticker: str | None = None,
     # If 4 HUL headlines land on the same day, average their sentiment scores
     # into one number before merging. Otherwise one busy news day gets 4x the
     # weight of a quiet day in the correlation, which is not meaningful.
+
+    # Build aggregation dict — include Event_Type only when the column exists
+    _agg_dict = {
+        "Sentiment_Score": ("Sentiment_Score", "mean"),
+        "Headline":        ("Headline", lambda x: " | ".join(x)),
+        "Sentiment":       ("Sentiment", lambda x: x.mode()[0]),
+        "n_headlines":     ("Headline", "count"),
+    }
+    if "Event_Type" in filtered_news.columns:
+        # Use the most common event type for the day; tie-break = first value
+        _agg_dict["Event_Type"] = ("Event_Type", lambda x: x.mode()[0] if not x.mode().empty else "unclassified")
+
     agg_news = (
         filtered_news
         .groupby("Merge_Date", as_index=False)
-        .agg(
-            Sentiment_Score=("Sentiment_Score", "mean"),
-            Headline=("Headline", lambda x: " | ".join(x)),   # join for display
-            Sentiment=("Sentiment", lambda x: x.mode()[0]),   # most common label
-            n_headlines=("Headline", "count"),
-        )
+        .agg(**_agg_dict)
     )
-    # Preserve Company column if present
+    # Preserve Company and Event_Type columns if present
     if "Company" in filtered_news.columns:
         company_per_date = (
             filtered_news.groupby("Merge_Date")["Company"].first().reset_index()
